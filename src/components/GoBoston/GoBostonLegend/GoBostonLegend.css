@@ -1,0 +1,82 @@
+.go-boston-legend {
+  background-color: #f8f8f8;
+  color: black;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 12px;
+  border-radius: 4px;
+  width: 240px;
+  padding-bottom: 12px;
+
+  /* display: grid; */
+}
+
+.go-boston-grid-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.go-boston-legend-header {
+  grid-column: 1 / span 3;
+  display: grid;
+  justify-content: center;
+}
+
+.go-boston-legend-header-default {
+  grid-column: 1;
+  grid-row: 1 / span 4;
+}
+
+.go-boston-legend-header-hover {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.go-boston-legend-row {
+  border: 5px solid;
+  border-radius: 16px;
+  grid-column: 1 / span 3;
+  display: grid;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.go-boston-legend-checkbox {
+  grid-column: 1 / span 2;
+  display: grid;
+  align-items: left;
+  justify-content: start;
+}
+
+.go-boston-legend-label {
+  grid-column: 2 / span 2;
+  display: grid;
+}
+
+.go-boston-legend-icon {
+  grid-column: 1;
+}
+
+.go-boston-legend-text {
+  grid-column: 2;
+}
+
+.go-boston-legend .go-boston-default-image,
+.go-boston-legend:hover .go-boston-hover-image {
+  display: block;
+  height: 50px;
+}
+
+.go-boston-legend .go-boston-hover-image,
+.go-boston-legend:hover .go-boston-default-image {
+  display: none;
+  height: 110px;
+}
+
+.go-boston-rotate-image {
+  transform: rotate(-90deg);
+}
