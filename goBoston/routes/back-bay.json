@@ -1,0 +1,124 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "name": "Dartmouth Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8650297,
+      "toId": 801835116
+    },
+    {
+      "type": "ways",
+      "notes": "Dartmouth Street",
+      "props": { "goBoston": "future" },
+      "ids": [87075316, 40017578]
+    },
+    {
+      "type": "way_range",
+      "name": "Berkeley Street",
+      "props": { "goBoston": "existing", "project": "Berkeley St" },
+      "fromId": 579272019,
+      "toId": 806281875
+    },
+    {
+      "type": "way_range",
+      "name": "Stuart Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8643650,
+      "toId": 916811162
+    },
+    {
+      "type": "way_range",
+      "name": "Saint James Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8647152,
+      "toId": 426477501
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8647527,
+      "toId": 8650196
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 911000646,
+      "toId": 8649412
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8649840,
+      "toId": 531920581,
+      "noGoes": [8647128]
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 531920582,
+      "toId": 806281874,
+      "noGoes": [426643811]
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "props": { "goBoston": "future" },
+      "fromId": 591284906,
+      "toId": 825263838,
+      "noGoes": [826552819]
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1343631698,
+      "toId": 1239006679
+    },
+    {
+      "type": "ways",
+      "notes": "Boylston Street",
+      "props": { "goBoston": "future" },
+      "ids": [170661024, 1333332901]
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 1317061163,
+      "toId": 826552799
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 1217456937,
+      "toId": 1337630472,
+      "noGoes": [91998191]
+    },
+    {
+      "type": "way",
+      "notes": "Massachusetts Avenue Southbound",
+      "props": { "goBoston": "existing" },
+      "id": 1242122827
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 1317061163,
+      "toId": 29328400
+    },
+    {
+      "type": "way_range",
+      "name": "Beacon Street",
+      "props": { "goBoston": "priority", "project": "Beacon St" },
+      "fromId": 806431512,
+      "toId": 485271439
+    }
+  ]
+}

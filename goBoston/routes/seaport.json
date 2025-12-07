@@ -1,0 +1,119 @@
+{
+  "ways": [
+    {
+      "type": "way",
+      "notes": "South Bay Harbor Trail Connector - Necco",
+      "props": { "goBoston": "future" },
+      "id": 8649461
+    },
+    {
+      "type": "way",
+      "notes": "South Bay Harbor Trail Connector - Necco",
+      "props": { "goBoston": "future" },
+      "id": 85310729,
+      "excludeNodes": [61515223, 7647644228]
+    },
+    {
+      "type": "way",
+      "notes": "South Bay Harbor Trail Connector - Necco",
+      "props": { "goBoston": "future" },
+      "id": 293227068,
+      "nodesSubset": [61489649, 2968168432, 61517039]
+    },
+    {
+      "type": "way",
+      "notes": "South Bay Harbor Trail Connector - Necco",
+      "props": { "goBoston": "future" },
+      "id": 990899889
+    },
+    {
+      "type": "way_fill",
+      "notes": "Summer Street Cycleway",
+      "props": { "goBoston": "priority", "project": "Summer St" },
+      "highway": "cycleway",
+      "startId": 1281809772
+    },
+    {
+      "type": "way_fill",
+      "notes": "Summer Street Cycleway",
+      "props": { "goBoston": "priority", "project": "Summer St" },
+      "highway": "cycleway",
+      "startId": 1281809774
+    },
+    {
+      "type": "way_range",
+      "name": "Summer Street",
+      "props": { "goBoston": "priority", "project": "Summer St" },
+      "fromId": 217382371,
+      "toId": 1000834781
+    },
+    {
+      "type": "way_fill",
+      "notes": "Seaport Blvd Cycleway",
+      "props": { "goBoston": "existing" },
+      "highway": "cycleway",
+      "startId": 1332914789
+    },
+    {
+      "type": "way_fill",
+      "notes": "Seaport Blvd Cycleway",
+      "props": { "goBoston": "existing" },
+      "highway": "cycleway",
+      "startId": 1281809754
+    },
+    {
+      "type": "way_range",
+      "name": "Seaport Boulevard",
+      "props": { "goBoston": "priority", "project": "Seaport Blvd" },
+      "fromId": 426659557,
+      "toId": 426659552,
+      "noGoes": [426659553]
+    },
+    {
+      "type": "way_fill",
+      "name": "Northern Avenue",
+      "props": { "goBoston": "priority", "project": "Seaport Blvd" },
+      "startId": 8638021,
+      "noGoes": [8636200, 8646935]
+    },
+    {
+      "type": "way_fill",
+      "notes": "Northern Avenue Cycleway",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1332906303
+    },
+    {
+      "type": "way_fill",
+      "name": "Drydock Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 217387627
+    },
+    {
+      "type": "way",
+      "notes": "Pappas Way Cycleway",
+      "props": { "goBoston": "existing" },
+      "id": 485261371
+    },
+    {
+      "type": "ways",
+      "notes": "Sleeper Street",
+      "props": { "goBoston": "future" },
+      "ids": [292807009, 1120509015]
+    },
+    {
+      "type": "way_range",
+      "name": "Northern Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 1089085521,
+      "toId": 633904936
+    },
+    {
+      "type": "way_range",
+      "name": "Pier Four Boulevard",
+      "props": { "goBoston": "future" },
+      "fromId": 633904939,
+      "toId": 292809271
+    }
+  ]
+}

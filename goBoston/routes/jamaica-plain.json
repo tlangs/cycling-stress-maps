@@ -1,0 +1,402 @@
+{
+  "ways": [
+    {
+      "type": "ways",
+      "notes": "Willow Pond Road",
+      "props": { "goBoston": "existing" },
+      "ids": [8642536, 1072865252],
+      "excludeNodes": [12981568595, 63552496]
+    },
+    {
+      "type": "way_fill",
+      "name": "Perkins Street",
+      "props": { "goBoston": "existing" },
+      "startId": 262440554
+    },
+    {
+      "type": "way_fill",
+      "name": "Centre Street",
+      "props": { "goBoston": "existing" },
+      "startId": 262440553,
+      "noGoes": [426489281]
+    },
+    {
+      "type": "way_range",
+      "name": "Centre Street",
+      "props": { "goBoston": "future" },
+      "fromId": 426489281,
+      "toId": 426489278
+    },
+    {
+      "type": "way_fill",
+      "name": "South Street",
+      "props": { "goBoston": "existing" },
+      "startId": 507849818,
+      "noGoes": [8638955],
+      "excludeNodes": [61359520, 7816490860, 8980965554]
+    },
+    {
+      "type": "way",
+      "notes": "Eliot Street Contraflow Lane",
+      "props": { "goBoston": "existing" },
+      "id": 8651962,
+      "excludeNodes": [61341128, 4876799532, 4876799527]
+    },
+    {
+      "type": "way_fill",
+      "name": "Green Street",
+      "props": { "goBoston": "future" },
+      "startId": 8638466
+    },
+
+    {
+      "type": "way_fill",
+      "name": "Glen Road",
+      "props": { "goBoston": "future" },
+      "startId": 8647960
+    },
+    {
+      "type": "way_range",
+      "name": "Glen Lane",
+      "props": { "goBoston": "future" },
+      "fromId": 8649691,
+      "toId": 8645304
+    },
+    {
+      "type": "ways",
+      "notes": "Connecting Glen Lane to Circuit",
+      "props": { "goBoston": "future" },
+      "ids": [485257987, 1290332344],
+      "excludeNodes": [
+        4780368093, 4780368094, 4780368095, 9951774004, 4780368096, 10188393038,
+        4780368097
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Jewish War Veterans Drive",
+      "props": { "goBoston": "future" },
+      "fromId": 1088844250,
+      "toId": 1382208911,
+      "excludeNodes": [9975207175, 61481688, 13113456442]
+    },
+    {
+      "type": "way_fill",
+      "name": "Franklin Park Road",
+      "props": { "goBoston": "future" },
+      "startId": 8651321
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1113468261
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 127441122
+    },
+    {
+      "type": "way",
+      "notes": "Circuit Drive",
+      "props": { "goBoston": "existing" },
+      "id": 8647120
+    },
+    {
+      "type": "way",
+      "notes": "Franklin Park Path",
+      "props": { "goBoston": "existing" },
+      "id": 354670504
+    },
+    {
+      "type": "way_range",
+      "name": "Jewish War Veterans Drive",
+      "props": { "goBoston": "existing" },
+      "fromId": 1088844250,
+      "toId": 1088844254
+    },
+    {
+      "type": "way_range",
+      "name": "Circuit Drive",
+      "props": { "goBoston": "existing" },
+      "fromId": 1420101356,
+      "toId": 1088844257
+    },
+
+    {
+      "type": "way",
+      "notes": "Seaverns Avenue",
+      "props": { "goBoston": "future" },
+      "id": 8646829
+    },
+    {
+      "type": "ways",
+      "notes": "Gordon Street",
+      "props": { "goBoston": "future" },
+      "ids": [8648152, 8644690],
+      "excludeNodes": [61341942]
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 133112918,
+      "toId": 8645297
+    },
+    {
+      "type": "ways",
+      "notes": "Pond Street",
+      "props": { "goBoston": "future" },
+      "ids": [8647881, 507862820]
+    },
+    {
+      "type": "way",
+      "notes": "Myrtle Street",
+      "props": { "goBoston": "future" },
+      "id": 8647980
+    },
+    {
+      "type": "way_range",
+      "name": "Arborway",
+      "props": { "goBoston": "future" },
+      "fromId": 1164090596,
+      "toId": 367214447,
+      "noGoes": [1288212517]
+    },
+    {
+      "type": "way",
+      "notes": "Francis Parkman Dr. Slip",
+      "props": { "goBoston": "future" },
+      "id": 8651219
+    },
+    {
+      "type": "way",
+      "notes": "Arborway Southbound",
+      "props": { "goBoston": "future" },
+      "id": 495554429
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 970452856
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 1092483707
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 1287902966
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 1329992061
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 1299581348
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Casey Arborway" },
+      "startId": 1329969254
+    },
+    {
+      "type": "way_fill",
+      "name": "Meadow Road",
+      "props": { "goBoston": "existing" },
+      "startId": 495559622
+    },
+    {
+      "type": "ways",
+      "notes": "Arboretum Roads",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        8646965, 8647117, 75919352, 8643655, 75919348, 1113376903, 75919353,
+        139333571, 1113153810, 1114737991, 1113376310, 8644539, 8644885,
+        1113153812, 8638333, 1113153811, 139333632, 1113383248, 1423399242
+      ]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Lieutenant Edward J. Murray Memorial Circle",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "way_range",
+      "name": "Arborway",
+      "props": { "goBoston": "future" },
+      "fromId": 1414001639,
+      "toId": 8646119,
+      "noGoes": [42701330]
+    },
+    {
+      "type": "way_range",
+      "name": "Arborway",
+      "props": { "goBoston": "future" },
+      "fromId": 1413405984,
+      "toId": 1414001635,
+      "excludeNodes": [61359520, 12988976966, 4045163186]
+    },
+    {
+      "type": "ways",
+      "notes": "Pond Street on Arborway",
+      "props": { "goBoston": "future" },
+      "ids": [8649912, 1414001650]
+    },
+    {
+      "type": "way_range",
+      "name": "Morton Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 422445959,
+      "toId": 1413405974,
+      "excludeNodes": [4867412480, 12988977001, 12988977000, 4867412481],
+      "noGoes": [426499593]
+    },
+    {
+      "type": "way_range",
+      "name": "Morton Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1413413192,
+      "toId": 494969947,
+      "noGoes": [1413182114]
+    },
+    {
+      "type": "way_range",
+      "name": "Walk Hill Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8646896,
+      "toId": 8651250
+    },
+    {
+      "type": "way_range",
+      "name": "Centre Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1425789343,
+      "toId": 48919790,
+      "noGoes": [1417994675, 1414628456]
+    },
+    {
+      "type": "way_range",
+      "name": "Centre Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1417994668,
+      "toId": 923319848,
+      "noGoes": [1417994669, 1417994664]
+    },
+    {
+      "type": "way",
+      "notes": "Blackwell Footpath",
+      "props": { "goBoston": "priority", "project": "Arboretum Paths" },
+      "id": 102710233
+    },
+    {
+      "type": "way",
+      "notes": "Tupelo Footpath",
+      "props": { "goBoston": "priority", "project": "Arboretum Paths" },
+      "id": 1382159918
+    },
+    {
+      "type": "way_geometry",
+      "notes": "Future Arboretum Path",
+      "project": "Arboretum Paths",
+      "geometries": [
+        { "latitude": 42.296158, "longitude": -71.1202517 },
+        { "latitude": 42.295449, "longitude": -71.121449 },
+        { "latitude": 42.2956, "longitude": -71.1221854 }
+      ],
+      "props": {
+        "osmId": null,
+        "goBoston": "priority",
+        "highway": "construction"
+      }
+    },
+    {
+      "type": "way",
+      "notes": "Future Arboretum Path",
+      "props": { "goBoston": "priority", "project": "Arboretum Paths" },
+      "id": 8652118
+    },
+    {
+      "type": "way",
+      "notes": "Future Arboretum Path",
+      "props": { "goBoston": "priority", "project": "Arboretum Paths" },
+      "id": 1171016972
+    },
+    {
+      "type": "way",
+      "notes": "Future Arboretum Path",
+      "props": { "goBoston": "priority", "project": "Arboretum Paths" },
+      "id": 139333642,
+      "nodesSubset": [
+        10882101910, 1527823780, 1527823756, 1527823739, 1527823718, 1527823681,
+        1527823621, 1527823566, 1527823548, 1527823541, 1527823540
+      ]
+    },
+    {
+      "type": "way_geometry",
+      "notes": "Future Arboretum Path",
+      "geometries": [
+        { "latitude": 42.290373, "longitude": -71.1262878 },
+        { "latitude": 42.2875602, "longitude": -71.130238 }
+      ],
+      "props": {
+        "osmId": null,
+        "highway": "construction",
+        "goBoston": "priority",
+        "project": "Arboretum Paths"
+      }
+    },
+    {
+      "type": "way",
+      "notes": "Flora Way",
+      "props": { "goBoston": "future" },
+      "id": 8648399
+    },
+    {
+      "type": "way",
+      "notes": "Walter Street Cycle Paths",
+      "props": { "goBoston": "future" },
+      "id": 1418836047
+    },
+    {
+      "type": "way_range",
+      "notes": "Walter Street Cycle Paths",
+      "highway": "cycleway",
+      "props": { "goBoston": "future" },
+      "fromId": 1418836086,
+      "toId": 1418836048
+    },
+    {
+      "type": "way",
+      "notes": "Walter Street",
+      "props": { "goBoston": "future" },
+      "id": 1418836050
+    },
+    {
+      "type": "way_range",
+      "name": "Walter Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 591277994,
+      "toId": 139333587
+    },
+    {
+      "type": "way",
+      "notes": "Weld Street",
+      "props": { "goBoston": "future" },
+      "id": 8647168
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "name": "North Beacon Street",
+      "props": { "goBoston": "existing" },
+      "startId": 50284887,
+      "noGoes": [1375141698, 1375141699]
+    },
+    {
+      "type": "way_fill",
+      "name": "Cambridge Street",
+      "props": { "goBoston": "existing" },
+      "startId": 1323812791,
+      "noGoes": [1082211479]
+    },
+    {
+      "type": "way_fill",
+      "name": "Washington Street",
+      "props": { "goBoston": "existing" },
+      "startId": 1088539395
+    },
+    {
+      "type": "way_fill",
+      "name": "Faneuil Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8645379
+    },
+    {
+      "type": "ways",
+      "notes": "Oak Square",
+      "props": { "goBoston": "existing" },
+      "ids": [8639117, 543586856, 543586855, 8646924, 543586857]
+    },
+    {
+      "type": "way_fill",
+      "name": "Market Street",
+      "props": { "goBoston": "existing" },
+      "startId": 508202025
+    },
+    {
+      "type": "way",
+      "notes": "Market Street Slip Lane",
+      "props": { "goBoston": "existing" },
+      "id": 8647550
+    },
+    {
+      "type": "way_fill",
+      "name": "Chestnut Hill Avenue",
+      "props": { "goBoston": "existing" },
+      "startId": 426445337,
+      "noGoes": [8648000, 323905073]
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 709876929,
+      "toId": 8639453
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 1389220364,
+      "toId": 426588101
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 426588109,
+      "toId": 426458997
+    },
+    {
+      "type": "ways",
+      "notes": "Commonwealth Avenue",
+      "props": { "goBoston": "existing" },
+      "ids": [8641472, 571187864]
+    },
+    {
+      "type": "way_fill",
+      "name": "Lake Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8644753
+    },
+    {
+      "type": "way_fill",
+      "name": "Beacon Street",
+      "props": { "goBoston": "existing" },
+      "startId": 426655724,
+      "noGoes": [8650997, 8641460]
+    }
+  ]
+}

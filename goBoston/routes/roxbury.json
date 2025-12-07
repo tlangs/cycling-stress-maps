@@ -1,0 +1,350 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "startId": 1241146461,
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      }
+    },
+    {
+      "type": "way_range",
+      "name": "Ruggles Street",
+      "fromId": 1281321443,
+      "toId": 1120697989,
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      },
+      "excludeNodes": [
+        3097496492, 11902324105, 11902324103, 11902324106, 11902324102,
+        11902324107, 11902324104
+      ]
+    },
+    {
+      "type": "way",
+      "id": 8648996,
+      "notes": "Connecting Ruggles to Southwest Corridor",
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      },
+      "excludeNodes": [
+        61547115, 11902324099, 11902324101, 11902324100, 1029125638
+      ]
+    },
+    {
+      "type": "way",
+      "id": 213162448,
+      "notes": "Connecting Ruggles to Southwest Corridor",
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      }
+    },
+    {
+      "type": "way",
+      "id": 830564412,
+      "notes": "Connecting Ruggles to Southwest Corridor",
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      },
+      "excludeNodes": [7755051430]
+    },
+    {
+      "type": "way",
+      "name": "Nubian Square Cycletrack",
+      "props": {
+        "goBoston": "priority",
+        "project": "Nubian to Southwest Corridor"
+      },
+      "id": 1035858701
+    },
+    {
+      "type": "way_range",
+      "name": "Warren Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8651092,
+      "toId": 278429357
+    },
+    {
+      "type": "ways",
+      "notes": "Warren Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8650228, 508841762]
+    },
+    {
+      "type": "way_range",
+      "name": "Warren Street",
+      "props": { "goBoston": "future" },
+      "fromId": 508841761,
+      "toId": 8648449,
+      "noGoes": [1255056305]
+    },
+    {
+      "type": "way_range",
+      "name": "Warren Street",
+      "props": { "goBoston": "future" },
+      "fromId": 426490101,
+      "toId": 426461144,
+      "noGoes": [1092366269]
+    },
+    {
+      "type": "way_range",
+      "name": "Malcolm X Boulevard",
+      "props": { "goBoston": "priority" },
+      "fromId": 8650531,
+      "toId": 591252066,
+      "noGoes": [661905441]
+    },
+    {
+      "type": "way_range",
+      "name": "Malcolm X Boulevard",
+      "props": { "goBoston": "priority" },
+      "fromId": 661905441,
+      "toId": 924361905,
+      "noGoes": [591252066]
+    },
+    {
+      "type": "way_range",
+      "name": "Hampden Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 426469523,
+      "toId": 301848114
+    },
+    {
+      "type": "ways",
+      "notes": "Massachusetts Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "Massachusetts Ave",
+        "name": "Massachusetts Avenue Cycletrack"
+      },
+      "ids": [1354335631, 1354481141, 1354481142, 1202220115]
+    },
+    {
+      "type": "way_range",
+      "name": "Walnut Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8650824,
+      "toId": 591278014
+    },
+    {
+      "type": "way_range",
+      "name": "Humboldt Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 845357869,
+      "toId": 8647299
+    },
+    {
+      "type": "way_range",
+      "name": "Martin Luther King Jr Boulevard",
+      "props": { "goBoston": "future" },
+      "fromId": 1088849832,
+      "toId": 1342417939
+    },
+    {
+      "type": "way_range",
+      "name": "Martin Luther King Jr Boulevard",
+      "props": { "goBoston": "future" },
+      "fromId": 1342417941,
+      "toId": 426490098
+    },
+    {
+      "type": "ways",
+      "notes": "Washington to Centre",
+      "props": { "goBoston": "existing" },
+      "ids": [8636502, 485257982, 8649456, 8646073, 485257984]
+    },
+    {
+      "type": "way_relation",
+      "name": "Melnea Cass Bike Path",
+      "props": {
+        "goBoston": "priority",
+        "project": "Melnea Cass Blvd",
+        "name": "Melnea Cass Bike Path"
+      }
+    },
+    {
+      "type": "way_range",
+      "name": "Shirley Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "fromId": 435202582,
+      "toId": 8648716,
+      "excludeNodes": [61408396]
+    },
+    {
+      "type": "way",
+      "notes": "Shetland Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8650792
+    },
+    {
+      "type": "way",
+      "notes": "Norfolk Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8650247,
+      "nodesSubset": [61346639, 11142653013, 61366416]
+    },
+    {
+      "type": "way",
+      "notes": "Clifton Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8636545
+    },
+    {
+      "type": "way",
+      "notes": "East Cottage Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8651902,
+      "nodesSubset": [61347489, 61468647, 11142617218, 61346990]
+    },
+    {
+      "type": "way",
+      "notes": "Leyland Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8650476
+    },
+    {
+      "type": "ways",
+      "notes": "Clifton Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "ids": [689434351, 8652094]
+    },
+    {
+      "type": "way",
+      "notes": "Dudley Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 570158272,
+      "nodesSubset": [1499514398, 9627758618]
+    },
+    {
+      "type": "ways",
+      "notes": "Magnolia Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "ids": [8652565, 435346796],
+      "excludeNodes": [
+        61339269, 11142617015, 61339507, 11142617043, 61339453, 11142617045
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Quincy Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8647750
+    },
+    {
+      "type": "way",
+      "notes": "Quincy Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8646027,
+      "nodesSubset": [
+        61341058, 10974127838, 61501580, 61501575, 12122561106, 61502297,
+        12122561104, 61567571
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Alexander Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "id": 8648411
+    },
+    {
+      "type": "ways",
+      "notes": "Ceylon Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "ids": [8640771, 8650937]
+    },
+    {
+      "type": "ways",
+      "notes": "Burgess and Folsom",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall-Newmarket Neighborways"
+      },
+      "ids": [8642478, 8651536]
+    },
+    {
+      "type": "way",
+      "notes": "Robin Hood Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Grove Hall—Newmarket Neighborways"
+      },
+      "id": 8643861,
+      "excludeNodes": [61339577, 61339644, 61339645, 61339640, 7668805874]
+    },
+    {
+      "type": "way_range",
+      "notes": "Seaver Street Cycleway",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "fromId": 1329910568,
+      "toId": 1290371143
+    },
+    {
+      "type": "way_range",
+      "name": "Seaver Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 508802029,
+      "toId": 1109913053,
+      "noGoes": [8646279]
+    },
+    {
+      "type": "ways",
+      "notes": "Seaver Street Slip Lanes",
+      "props": { "goBoston": "existing" },
+      "ids": [426675165, 1290371140]
+    },
+    {
+      "type": "way_range",
+      "name": "Blue Hill Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 93124326,
+      "toId": 426454659,
+      "noGoes": [426454634]
+    }
+  ]
+}

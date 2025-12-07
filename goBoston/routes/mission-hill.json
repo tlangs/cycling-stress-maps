@@ -1,0 +1,87 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "name": "Tremont Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1020427638,
+      "toId": 8647792
+    },
+    {
+      "type": "way",
+      "notes": "Tremont Street and Southwest Corridor",
+      "props": { "goBoston": "future" },
+      "id": 661905440,
+      "excludeNodes": [61348296]
+    },
+    {
+      "type": "way_range",
+      "name": "Saint Alphonsus Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 284698577,
+      "toId": 8640131
+    },
+    {
+      "type": "way",
+      "notes": "St Alphonsus Street Slip Road",
+      "props": { "goBoston": "existing" },
+      "id": 89535468
+    },
+    {
+      "type": "ways",
+      "notes": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "ids": [815584969, 422510003, 815584972, 301210910, 420516877, 420516880]
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 485257977,
+      "toId": 420516879,
+      "noGoes": [420516877]
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 92003067,
+      "toId": 8649129
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8647376,
+      "toId": 1388624395,
+      "excludeNodes": [6030965737, 11010762660]
+    },
+    {
+      "type": "way_range",
+      "name": "Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 1346312672,
+      "toId": 8644989,
+      "excludeNodes": [12854015969]
+    },
+    {
+      "type": "way",
+      "notes": "Huntington Avenue Cycleway",
+      "props": { "goBoston": "existing" },
+      "id": 1315458788
+    },
+    {
+      "type": "way",
+      "notes": "Huntington Avenue Cycleway",
+      "props": { "goBoston": "existing" },
+      "id": 1315458789
+    },
+    {
+      "type": "way_range",
+      "name": "South Huntington Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 426490036,
+      "toId": 8651790
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "ways": [
+    {
+      "type": "ways_with_name",
+      "name": "Pierre Lallement Bike Path",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "way",
+      "notes": "Southwest Corridor Roundabout",
+      "props": { "goBoston": "existing" },
+      "id": 970452858
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Heath Street",
+      "props": { "goBoston": "existing" },
+      "id": 727902004
+    }
+  ]
+}

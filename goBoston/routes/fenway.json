@@ -1,0 +1,213 @@
+{
+  "ways": [
+    {
+      "type": "ways",
+      "notes": "Fenway Emerald Necklace",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        1087259250, 87484519, 485282202, 35600257, 33200522, 1312858966,
+        35600258, 1116635898, 1119063430, 1115530980, 1188202313, 49666854,
+        383943282, 1280346740, 35600252, 1115530979, 1117262074, 383943286,
+        383943283, 1115530978, 831595607, 1115530971, 822646989, 822646988,
+        485282201, 825973790, 1381858899, 835388327, 835388325, 816310904,
+        1299665043, 1299665041, 1299665042, 1299665040, 1117149298, 1115530983,
+        816310899, 835388341, 1115530984, 1299665038, 1299665039, 825285418,
+        1117149300, 835388342, 1291151678, 1366032450, 825973796, 825973784,
+        1381858900
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Westland Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 672327411,
+      "toId": 1088867214
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "props": { "goBoston": "priority", "project": "Boylston St" },
+      "fromId": 335668581,
+      "toId": 426493444
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Fenway Multi-Use Path",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 822646968,
+      "toId": 521561072
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 521561073,
+      "toId": 822646987
+    },
+    {
+      "type": "way_range",
+      "name": "Beacon Street",
+      "props": { "goBoston": "priority", "project": "Beacon St" },
+      "fromId": 822078635,
+      "toId": 1413368792
+    },
+    {
+      "type": "way_range",
+      "name": "Beacon Street",
+      "props": { "goBoston": "priority", "project": "Beacon St" },
+      "fromId": 325811606,
+      "toId": 1364675670,
+      "noGoes": [240745553, 1364675671]
+    },
+    {
+      "type": "ways",
+      "name": "Beacon Street",
+      "props": { "goBoston": "priority", "project": "Beacon St" },
+      "ids": [240745553, 1364675671]
+    },
+    {
+      "type": "way",
+      "name": "Beacon/Comm Ave Cycletrack",
+      "props": { "goBoston": "priority" },
+      "id": 1389671759
+    },
+    {
+      "type": "ways",
+      "notes": "Beacon Street",
+      "props": { "goBoston": "future" },
+      "ids": [43100847, 1365066789, 1317316050, 924355646]
+    },
+    {
+      "type": "way_range",
+      "name": "Bay State Road",
+      "props": { "goBoston": "existing" },
+      "fromId": 1080978265,
+      "toId": 8647111
+    },
+    {
+      "type": "ways",
+      "notes": "Granby Street",
+      "props": { "goBoston": "existing" },
+      "ids": [1280702434, 8646700]
+    },
+    {
+      "type": "way_range",
+      "name": "Mountfort Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 815133959,
+      "toId": 48917526
+    },
+    {
+      "type": "way_range",
+      "name": "Park Drive",
+      "props": { "goBoston": "existing" },
+      "fromId": 91996461,
+      "toId": 1088901291
+    },
+    {
+      "type": "way",
+      "notes": "Overland Street",
+      "props": { "goBoston": "future" },
+      "id": 327660233
+    },
+    {
+      "type": "way",
+      "notes": "Maitland Street",
+      "props": { "goBoston": "future" },
+      "id": 815133957
+    },
+    {
+      "type": "way_range",
+      "name": "Brookline Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 240745678,
+      "toId": 337846436
+    },
+    {
+      "type": "way_range",
+      "name": "Forsyth Way",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "fromId": 8649818,
+      "toId": 426595823,
+      "noGoes": [426843743, 1395095216]
+    },
+    {
+      "type": "ways",
+      "notes": "Forsyth Way",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "ids": [426843743, 1395095216]
+    },
+    {
+      "type": "way",
+      "notes": "Parker Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "id": 8644213,
+      "nodesSubset": [
+        61343528, 5622818397, 5622818381, 9509531086, 3035474531, 61374381
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Ruggles Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "fromId": 426493700,
+      "toId": 301814872
+    },
+    {
+      "type": "way",
+      "notes": "Ruggles Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "id": 1377357119,
+      "excludeNodes": [12753537590, 11892311318]
+    },
+    {
+      "type": "way",
+      "id": 570815191,
+      "notes": "Connecting Ruggles to Southwest Corridor",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "excludeNodes": [
+        7755051353, 11137305729, 11351455040, 11351455044, 3058388349,
+        1029168298, 3058388341
+      ]
+    },
+    {
+      "type": "way",
+      "id": 668284028,
+      "notes": "Connecting Ruggles to Southwest Corridor",
+      "props": {
+        "goBoston": "priority",
+        "project": "Roxbury-Fenway Connector"
+      },
+      "excludeNodes": [9930557332, 1037989334]
+    },
+    {
+      "type": "way_fill",
+      "name": "Hemenway Street",
+      "startId": 42825653,
+      "props": { "goBoston": "future" }
+    }
+  ]
+}

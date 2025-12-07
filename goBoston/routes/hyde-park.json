@@ -1,0 +1,128 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "name": "Cummins Highway",
+      "props": { "goBoston": "future" },
+      "startId": 1088529936,
+      "noGoes": [508807134]
+    },
+    {
+      "type": "way",
+      "notes": "Cummins Highway Roundabout",
+      "props": { "goBoston": "future" },
+      "id": 1385133555
+    },
+    {
+      "type": "way_fill",
+      "name": "Cummins Highway",
+      "props": { "goBoston": "future" },
+      "startId": 1280217161
+    },
+    {
+      "type": "way_fill",
+      "name": "American Legion Highway",
+      "props": { "goBoston": "future" },
+      "startId": 8636788,
+      "noGoes": [8647069, 426602275]
+    },
+    {
+      "type": "way_fill",
+      "notes": "Stonybrook Reservation Path",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 75920531
+    },
+    {
+      "type": "ways",
+      "notes": "Stonybrook Reservation Path",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        75920563, 75920550, 75920555, 701128993, 802065892, 701128994,
+        211836494, 211836493, 8637956
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Enneking Parkway",
+      "props": { "goBoston": "existing" },
+      "fromId": 1308543262,
+      "toId": 961722171
+    },
+    {
+      "type": "way_fill",
+      "name": "River Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8645600,
+      "noGoes": [34729476, 8642245]
+    },
+    {
+      "type": "ways",
+      "notes": "Edgewater Drive",
+      "props": { "goBoston": "future" },
+      "ids": [8649091, 8643632, 660250306]
+    },
+    {
+      "type": "way",
+      "notes": "Osceola Street",
+      "props": { "goBoston": "future" },
+      "id": 8648176
+    },
+    {
+      "type": "way",
+      "notes": "River Street",
+      "props": { "goBoston": "future" },
+      "id": 8642245,
+      "nodesSubset": [
+        61354618, 6179682519, 6179682512, 61354619, 61354616, 6179680349,
+        6179680345, 6179680348, 61348068, 6179680344, 6179680351, 61354620
+      ]
+    },
+    {
+      "type": "way_fill",
+      "name": "River Street",
+      "props": { "goBoston": "future" },
+      "startId": 34729476,
+      "noGoes": [8645600, 8642245]
+    },
+    {
+      "type": "way_range",
+      "name": "Fairmount Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 8646791,
+      "toId": 8638999
+    },
+    {
+      "type": "way_range",
+      "name": "Truman Parkway",
+      "props": { "goBoston": "future" },
+      "fromId": 503099012,
+      "toId": 213190126
+    },
+    {
+      "type": "way",
+      "notes": "Truman Parkway",
+      "props": { "goBoston": "existing" },
+      "id": 503094206
+    },
+    {
+      "type": "way_fill",
+      "notes": "Truman Parkway",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1385897221
+    },
+    {
+      "type": "ways",
+      "notes": "River Street",
+      "props": { "goBoston": "existing" },
+      "ids": [505041712, 505041711]
+    },
+    {
+      "type": "ways",
+      "notes": "Bridge over train",
+      "props": { "goBoston": "existing" },
+      "ids": [543773210, 1330314391, 1330314392, 1330314390]
+    }
+  ]
+}

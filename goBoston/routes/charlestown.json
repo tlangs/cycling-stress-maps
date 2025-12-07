@@ -1,0 +1,190 @@
+{
+  "ways": [
+    {
+      "type": "ways",
+      "notes": "Constitution Road Cycleway",
+      "props": {
+        "goBoston": "priority",
+        "project": "North Washington St Bridge"
+      },
+      "ids": [833428577, 833702307, 833702308, 833702309, 833702310]
+    },
+    {
+      "type": "ways",
+      "notes": "Warren Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "North Washington St Bridge"
+      },
+      "ids": [94670764, 1320781790]
+    },
+    {
+      "type": "way_range",
+      "name": "Constitution Road",
+      "props": {
+        "goBoston": "priority",
+        "project": "North Washington St Bridge"
+      },
+      "fromId": 94670765,
+      "toId": 217801048
+    },
+    {
+      "type": "way",
+      "notes": "Constitution Road, Southbound",
+      "props": {
+        "goBoston": "priority",
+        "project": "North Washington St Bridge"
+      },
+      "id": 94841500
+    },
+    {
+      "type": "ways",
+      "notes": "First Avenue Cycle Path",
+      "props": { "goBoston": "existing" },
+      "ids": [825298125, 1263414142, 1263414141]
+    },
+    {
+      "type": "ways",
+      "name": "First Avenue",
+      "props": { "goBoston": "future" },
+      "ids": [8646752, 980643131, 8651989, 8645734]
+    },
+    {
+      "type": "way",
+      "notes": "Thirteenth Street",
+      "props": { "goBoston": "future" },
+      "id": 8651866
+    },
+    {
+      "type": "way",
+      "notes": "Chelsea Street",
+      "props": { "goBoston": "future" },
+      "id": 980643132
+    },
+    {
+      "type": "way",
+      "notes": "Medford Street to Boston Harborwalk",
+      "props": { "goBoston": "future" },
+      "id": 980643133,
+      "nodesSubset": [61488012, 7872032724]
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Medford Street to Boston Harborwalk",
+      "props": { "goBoston": "future" },
+      "id": 1086815234
+    },
+    {
+      "type": "way_range",
+      "name": "Boston HarborWalk",
+      "props": { "goBoston": "existing" },
+      "fromId": 845068654,
+      "toId": 216638772
+    },
+    {
+      "type": "ways",
+      "notes": "Boston HarborWalk: Charlestown",
+      "props": { "goBoston": "existing" },
+      "ids": [815070381, 207358513, 82576630]
+    },
+    {
+      "type": "way_range",
+      "name": "Medford Street",
+      "props": { "goBoston": "future" },
+      "fromId": 980643136,
+      "toId": 8645108
+    },
+    {
+      "type": "ways",
+      "notes": "Medford Street",
+      "props": { "goBoston": "future" },
+      "ids": [82576274, 1092770565]
+    },
+    {
+      "type": "way_range",
+      "name": "Main Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 924081814,
+      "toId": 295037245
+    },
+    {
+      "type": "ways",
+      "notes": "City Square",
+      "props": { "goBoston": "existing" },
+      "ids": [8650269, 217801044]
+    },
+    {
+      "type": "way_range",
+      "name": "Warren Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8641412,
+      "toId": 8646107
+    },
+    {
+      "type": "way",
+      "notes": "Dexter Row",
+      "props": { "goBoston": "existing" },
+      "id": 690296523
+    },
+    {
+      "type": "ways_with_name",
+      "name": "New Rutherford Avenue",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Rutherford Avenue",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "way_range",
+      "name": "Main Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1086801843,
+      "toId": 779842026,
+      "highway": "primary"
+    },
+    {
+      "type": "way",
+      "notes": "Main Street from Sullivan Square",
+      "props": { "goBoston": "future" },
+      "id": 8647620,
+      "excludeNodes": [61344475]
+    },
+    {
+      "type": "ways",
+      "notes": "Main Street Cycletrack",
+      "props": { "goBoston": "future" },
+      "ids": [460046716, 460046715, 845589522, 436052151]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Maffa Way",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "ways",
+      "name": "Sullivan Square",
+      "props": { "goBoston": "future" },
+      "ids": [
+        779842026, 966194884, 966194885, 1387582363, 460665568, 460665570,
+        592158061, 1186115901, 426638828, 426638829, 980643128, 132174849,
+        8640386, 1338748627, 1338748628, 1338748626, 1340146854, 1340146853,
+        1318451331, 1318451330, 778940109
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Cambridge Street Cycletrack",
+      "props": { "goBoston": "future" },
+      "ids": [1387582364, 1387582365, 1387582367, 1387582368, 1387582366]
+    },
+    {
+      "type": "way_range",
+      "name": "Cambridge Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1196171462,
+      "toId": 1086801839
+    }
+  ]
+}

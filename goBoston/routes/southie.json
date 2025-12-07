@@ -1,0 +1,231 @@
+{
+  "ways": [
+    {
+      "type": "way",
+      "notes": "Joe Moakley Park",
+      "props": { "goBoston": "existing" },
+      "id": 1076718177
+    },
+    {
+      "type": "way_fill",
+      "highway": "cycleway",
+      "name": "Boston HarborWalk",
+      "props": { "goBoston": "existing" },
+      "startId": 1205081801,
+      "noGoes": [5916656, 75916620, 75916656, 75916621]
+    },
+    {
+      "type": "ways",
+      "notes": "Shore Road",
+      "props": { "goBoston": "future" },
+      "ids": [8641989, 632654621]
+    },
+    {
+      "type": "way",
+      "notes": "Thomas J Butler Memorial Park",
+      "props": { "goBoston": "existing" },
+      "id": 638005167
+    },
+    {
+      "type": "way_range",
+      "name": "East First Street",
+      "props": { "goBoston": "future" },
+      "fromId": 591217312,
+      "toId": 8647498
+    },
+    {
+      "type": "ways",
+      "notes": "I Street",
+      "props": { "goBoston": "future" },
+      "ids": [217381795, 29018127]
+    },
+    {
+      "type": "way_fill",
+      "notes": "Boston HarborWalk",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 990899883,
+      "noGoes": [831226162]
+    },
+    {
+      "type": "way_fill",
+      "notes": "West Fourth Street",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "South Bay Harbor Trail" },
+      "startId": 1290383166
+    },
+    {
+      "type": "way_fill",
+      "notes": "Traveler Street",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "South Bay Harbor Trail" },
+      "startId": 1290383170
+    },
+    {
+      "type": "way_fill",
+      "notes": "Foundry Street",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "South Bay Harbor Trail" },
+      "startId": 991248730
+    },
+    {
+      "type": "way_fill",
+      "name": "Dorchester Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 1086987647,
+      "noGoes": [1212684352, 28640493]
+    },
+    {
+      "type": "way_fill",
+      "name": "Dorchester Avenue",
+      "props": { "goBoston": "existing" },
+      "startId": 28640493,
+      "noGoes": [591235986, 8645065, 8651427]
+    },
+    {
+      "type": "way_range",
+      "notes": "New Cypher Cycleway",
+      "highway": "cycleway",
+      "props": { "goBoston": "future" },
+      "fromId": 1298855968,
+      "toId": 1329969691
+    },
+    {
+      "type": "way_fill",
+      "notes": "A Street Cycleway",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1297816225
+    },
+    {
+      "type": "way_range",
+      "name": "A Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 426497569,
+      "toId": 1086987638
+    },
+    {
+      "type": "way_fill",
+      "name": "A Street",
+      "props": { "goBoston": "existing" },
+      "startId": 591235968,
+      "noGoes": [1086987643]
+    },
+    {
+      "type": "way_fill",
+      "name": "Old Colony Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 533516596
+    },
+    {
+      "type": "way_fill",
+      "name": "Old Colony Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 296968945
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Pacuska Circle",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "way_fill",
+      "name": "D Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8644715
+    },
+    {
+      "type": "way_range",
+      "name": "Southampton Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8639309,
+      "toId": 8647648
+    },
+    {
+      "type": "way_range",
+      "name": "Southampton Street",
+      "props": { "goBoston": "priority" },
+      "fromId": 426469558,
+      "toId": 591236228
+    },
+    {
+      "type": "ways",
+      "notes": "Theodore A. Glynn Way",
+      "props": { "goBoston": "priority" },
+      "ids": [354897248, 8644466, 8652147, 1413841065, 354897247, 294591218]
+    },
+    {
+      "type": "way_fill",
+      "name": "Mount Vernon Street",
+      "props": { "goBoston": "existing" },
+      "startId": 1087024116,
+      "noGoes": [1087024119, 1087024120]
+    },
+    {
+      "type": "way_fill",
+      "name": "University Drive North",
+      "props": { "goBoston": "existing" },
+      "startId": 8650826
+    },
+    {
+      "type": "way",
+      "notes": "Service Road",
+      "props": { "goBoston": "existing" },
+      "id": 623468254
+    },
+    {
+      "type": "way",
+      "notes": "Beacon's Walk",
+      "props": { "goBoston": "existing" },
+      "id": 1089136975
+    },
+    {
+      "type": "ways",
+      "notes": "To Boston HarborWalk",
+      "props": { "goBoston": "existing" },
+      "ids": [818682939, 1076718171, 1087024130, 1070105604, 924512818],
+      "excludeNodes": [7671135318]
+    },
+    {
+      "type": "way_range",
+      "name": "University Drive West",
+      "props": { "goBoston": "existing" },
+      "fromId": 8650634,
+      "toId": 1087024108
+    },
+    {
+      "type": "way_fill",
+      "notes": "University Drive Roundabout",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1087024109
+    },
+    {
+      "type": "way_fill",
+      "notes": "University Drive Roundabout",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1087024110
+    },
+    {
+      "type": "way_fill",
+      "notes": "University Drive Roundabout",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1087024111
+    },
+    {
+      "type": "way_range",
+      "name": "University Drive South",
+      "props": { "goBoston": "existing" },
+      "fromId": 1087024113,
+      "toId": 591236283
+    },
+    {
+      "type": "ways",
+      "notes": "University Drive East",
+      "props": { "goBoston": "existing" },
+      "ids": [216538346, 818642251]
+    }
+  ]
+}

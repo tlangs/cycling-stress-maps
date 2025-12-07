@@ -1,0 +1,220 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "name": "Milton Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 8644503
+    },
+    {
+      "type": "way_fill",
+      "name": "Edson Street",
+      "props": { "goBoston": "future" },
+      "startId": 8649405
+    },
+    {
+      "type": "ways",
+      "notes": "Milton Ave and Edson St roundabout",
+      "props": { "goBoston": "future" },
+      "ids": [1181793161, 1181793162]
+    },
+    {
+      "type": "way",
+      "notes": "Oakridge Street",
+      "props": { "goBoston": "future" },
+      "id": 8646552
+    },
+    {
+      "type": "way_range",
+      "name": "Morton Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8639600,
+      "toId": 277957942,
+      "noGoes": [34729465]
+    },
+    {
+      "type": "way",
+      "notes": "Morton Street",
+      "props": { "goBoston": "future" },
+      "id": 1052345012
+    },
+    {
+      "type": "way_fill",
+      "name": "Washington Street",
+      "props": { "goBoston": "future" },
+      "startId": 426485769,
+      "noGoes": [8644630]
+    },
+    {
+      "type": "way_fill",
+      "name": "Adams Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8645561,
+      "noGoes": [76611316]
+    },
+    {
+      "type": "way",
+      "notes": "Adams Street Slip Lane",
+      "props": { "goBoston": "existing" },
+      "id": 526440075
+    },
+    {
+      "type": "way",
+      "name": "Ashmont Street",
+      "props": { "goBoston": "existing" },
+      "id": 8645990
+    },
+    {
+      "type": "way",
+      "notes": "Freemont Street",
+      "props": { "goBoston": "future" },
+      "id": 8642557,
+      "excludeNodes": [4969442997, 4969442994, 4969442988, 61355026]
+    },
+    {
+      "type": "way",
+      "notes": "Faunce Road",
+      "props": { "goBoston": "future" },
+      "id": 8652435
+    },
+    {
+      "type": "way",
+      "notes": "West Seldon Street",
+      "props": { "goBoston": "future" },
+      "id": 8651151
+    },
+    {
+      "type": "way",
+      "notes": "Morton Street",
+      "props": { "goBoston": "future" },
+      "id": 1412813708
+    },
+    {
+      "type": "way",
+      "notes": "Seldon Street",
+      "props": { "goBoston": "future" },
+      "id": 8646737
+    },
+    {
+      "type": "way",
+      "notes": "Capen Street",
+      "props": { "goBoston": "future" },
+      "id": 8643645,
+      "nodesSubset": [61353988, 61554711, 9463420540, 12989833885, 61354193]
+    },
+    {
+      "type": "ways",
+      "notes": "Fuller Street",
+      "props": { "goBoston": "future" },
+      "ids": [8651563, 1181845817],
+      "excludeNodes": [
+        12989821808, 61373068, 61373094, 61373096, 6260992283, 6260992286,
+        11823699287, 6260992285, 61517332
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Mora Street",
+      "props": { "goBoston": "future" },
+      "id": 8650177
+    },
+    {
+      "type": "way",
+      "notes": "Washington Street",
+      "props": { "goBoston": "future" },
+      "id": 8640106,
+      "nodesSubset": [61404727, 10289251850, 61404733, 10289251847, 11994746514]
+    },
+    {
+      "type": "way",
+      "notes": "Bailey Street",
+      "props": { "goBoston": "future" },
+      "id": 8642468
+    },
+    {
+      "type": "way_range",
+      "name": "Dorchester Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 301814883,
+      "toId": 1189751549
+    },
+    {
+      "type": "way",
+      "notes": "Ashmont Street",
+      "props": { "goBoston": "future" },
+      "id": 426678900
+    },
+    {
+      "type": "way",
+      "notes": "Bushnell Street",
+      "props": { "goBoston": "future" },
+      "id": 8650942,
+      "excludeNodes": [61349504, 61516589]
+    },
+    {
+      "type": "way",
+      "notes": "Lombard Street",
+      "props": { "goBoston": "future" },
+      "id": 8648468
+    },
+    {
+      "type": "way",
+      "notes": "Carruth Street",
+      "props": { "goBoston": "future" },
+      "id": 8651645,
+      "nodesSubset": [61584602, 61514475]
+    },
+    {
+      "type": "way",
+      "notes": "Elmer Road",
+      "props": { "goBoston": "future" },
+      "id": 8646806
+    },
+    {
+      "type": "way",
+      "notes": "Adams Street",
+      "props": { "goBoston": "future" },
+      "id": 213617919,
+      "nodesSubset": [61347764, 5792756473]
+    },
+    {
+      "type": "way",
+      "notes": "Nahant Avenue",
+      "props": { "goBoston": "future" },
+      "id": 8640420
+    },
+    {
+      "type": "way",
+      "notes": "Nahant Avenue",
+      "props": { "goBoston": "future" },
+      "id": 8648912,
+      "nodesSubset": [61348128, 61373551]
+    },
+    {
+      "type": "way",
+      "notes": "Coffey Street",
+      "props": { "goBoston": "future" },
+      "id": 8637992
+    },
+    {
+      "type": "way",
+      "notes": "Neponset Avenue",
+      "props": { "goBoston": "future" },
+      "id": 508840883,
+      "nodesSubset": [61355165, 61367170]
+    },
+    {
+      "type": "way",
+      "notes": "Tolman Street",
+      "props": { "goBoston": "future" },
+      "id": 8643740
+    },
+    {
+      "type": "way_fill",
+      "name": "Victory Road",
+      "props": { "goBoston": "future" },
+      "startId": 426489199,
+      "noGoes": [8646149]
+    }
+  ]
+}

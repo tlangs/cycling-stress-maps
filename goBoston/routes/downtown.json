@@ -1,0 +1,620 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "highway": "cycleway",
+      "notes": "North End Cycletrack",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "fromId": 970425324,
+      "toId": 561666398
+    },
+    {
+      "type": "ways",
+      "notes": "North End Harbor Walk",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "ids": [
+        833702303, 1086976096, 1290383176, 765444362, 1391984224, 1292205150,
+        671635115, 1302402609
+      ]
+    },
+
+    {
+      "type": "way",
+      "notes": "Lovejoy wharf",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "id": 817715570,
+      "excludeNodes": [7636734844]
+    },
+    {
+      "type": "way",
+      "notes": "Lovejoy wharf",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "id": 8648170,
+      "excludeNodes": [11762744990]
+    },
+    {
+      "type": "way_range",
+      "name": "Connect Historic Boston Bicycle Trail",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "fromId": 1302402609,
+      "toId": 1302402606
+    },
+    {
+      "type": "way",
+      "notes": "Connect Historic Boston Bicycle Trail",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" },
+      "id": 1302402607,
+      "excludeNodes": [8733023057, 7616280415]
+    },
+    {
+      "type": "way",
+      "notes": "Connect Historic Boston Bicycle Trail",
+      "props": { "goBoston": "existing" },
+      "id": 1302402607,
+      "nodesSubset": [8733023057, 7616280415, 4978288334]
+    },
+    {
+      "type": "way_range",
+      "name": "Connect Historic Boston Bicycle Trail",
+      "props": { "goBoston": "existing" },
+      "fromId": 508533578,
+      "toId": 1302402604
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Lomasney Way",
+      "props": { "goBoston": "priority", "project": "Connect Historic Boston" }
+    },
+    {
+      "type": "ways",
+      "notes": "Staniford St intersecting with Merrimack and Lomasney",
+      "props": { "goBoston": "priority" },
+      "ids": [1362773908, 1120344171, 1396466816]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Nashua Street",
+      "props": { "goBoston": "future" },
+      "excludeWays": [325067312, 325067313, 9429624]
+    },
+    {
+      "type": "ways",
+      "notes": "Nashua Street",
+      "props": { "goBoston": "existing" },
+      "ids": [325067312, 325067313]
+    },
+    {
+      "type": "ways",
+      "notes": "No Name Nashua",
+      "props": { "goBoston": "existing" },
+      "ids": [970407067, 829909270, 8694869, 1278626674]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Charles River Dam Road",
+      "props": { "goBoston": "existing" },
+      "excludeWays": [
+        8614591, 1334313844, 288994035, 1119606129, 8647133, 1317053891,
+        1295949068, 1109214276, 1395873268, 1389917225, 1366690784, 837681805
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Martha Road",
+      "props": { "goBoston": "existing" },
+      "id": 8645721
+    },
+    {
+      "type": "ways_with_name",
+      "name": "North Washington Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "North Washington St Bridge"
+      },
+      "highway": "cycleway"
+    },
+
+    {
+      "type": "ways",
+      "notes": "Salem Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8648769, 63107745]
+    },
+    {
+      "type": "way_range",
+      "name": "Atlantic Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 1188182969,
+      "toId": 426488102
+    },
+    {
+      "type": "ways",
+      "notes": "Cross Street",
+      "props": { "goBoston": "future" },
+      "ids": [8641399, 972626709, 591310041]
+    },
+    {
+      "type": "way_range",
+      "name": "North Washington Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8643638,
+      "toId": 426481851
+    },
+    {
+      "type": "ways",
+      "name": "North Washington Street",
+      "props": { "goBoston": "future" },
+      "ids": [8640785, 426481847]
+    },
+    {
+      "type": "way_range",
+      "name": "John F. Fitzgerald Surface Road",
+      "props": { "goBoston": "future" },
+      "fromId": 8641575,
+      "toId": 485292836
+    },
+    {
+      "type": "way_range",
+      "name": "Atlantic Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 426490574,
+      "toId": 290074778
+    },
+    {
+      "type": "way",
+      "notes": "John F. Fitzgerald Surface Road",
+      "props": { "goBoston": "existing" },
+      "id": 420774507
+    },
+    {
+      "type": "way_range",
+      "name": "John F. Fitzgerald Surface Road",
+      "props": { "goBoston": "existing" },
+      "fromId": 426491162,
+      "toId": 8646607
+    },
+    {
+      "type": "way_range",
+      "name": "Purchase Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8641806,
+      "toId": 8638390
+    },
+    {
+      "type": "way_range",
+      "name": "Essex Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 591235979,
+      "toId": 48941978
+    },
+    {
+      "type": "way_range",
+      "highway": "cycleway",
+      "notes": "Cycletrack along Albany",
+      "props": { "goBoston": "existing" },
+      "fromId": 767990682,
+      "toId": 1288168760
+    },
+    {
+      "type": "way_range",
+      "name": "Milk Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8642149,
+      "toId": 426488104
+    },
+    {
+      "type": "way_range",
+      "name": "Franklin Street",
+      "props": { "goBoston": "future" },
+      "fromId": 555263073,
+      "toId": 8640309
+    },
+    {
+      "type": "way",
+      "notes": "India Street, Crossing Rose Kennedy Greenway",
+      "props": { "goBoston": "future" },
+      "id": 427635743
+    },
+    {
+      "type": "way",
+      "notes": "India Street",
+      "props": { "goBoston": "future" },
+      "id": 241180702,
+      "nodesSubset": [
+        515465224, 2930111905, 2930111919, 2930111912, 7634061657, 61431178
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Broad Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1351234387,
+      "toId": 289456617
+    },
+    {
+      "type": "way_range",
+      "name": "Kilby Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8649075,
+      "toId": 103553906,
+      "noGoes": [8649873]
+    },
+    {
+      "type": "way_range",
+      "name": "Oliver Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8642454,
+      "toId": 8651566
+    },
+    {
+      "type": "way_range",
+      "name": "Seaport Boulevard",
+      "props": { "goBoston": "future" },
+      "fromId": 8642027,
+      "toId": 85890979
+    },
+    {
+      "type": "way",
+      "notes": "Seaport Boulevard",
+      "props": { "goBoston": "future" },
+      "id": 1013953519
+    },
+    {
+      "type": "way_range",
+      "name": "High Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 426491215,
+      "toId": 426488941
+    },
+    {
+      "type": "way_range",
+      "name": "Congress Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8650619,
+      "toId": 485269334
+    },
+    {
+      "type": "way_range",
+      "name": "Congress Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1000832623,
+      "toId": 1121694527
+    },
+    {
+      "type": "way_range",
+      "name": "Dorchester Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 8647521,
+      "toId": 592009793
+    },
+    {
+      "type": "way",
+      "notes": "Post Office Square",
+      "props": { "goBoston": "existing" },
+      "id": 8648451
+    },
+    {
+      "type": "way_range",
+      "name": "Pearl Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 620770779,
+      "toId": 8646770
+    },
+    {
+      "type": "ways",
+      "notes": "Boston Harbor Walk",
+      "props": { "goBoston": "existing" },
+      "ids": [94482787, 1087035552]
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Congress Street",
+      "props": { "goBoston": "existing" },
+      "id": 817790606,
+      "excludeNodes": [7637468443]
+    },
+    {
+      "type": "way_range",
+      "name": "Congress Street",
+      "props": { "goBoston": "future" },
+      "fromId": 944109700,
+      "toId": 1395631288,
+      "noGoes": [426487613]
+    },
+    {
+      "type": "way",
+      "notes": "Congress Street",
+      "props": { "goBoston": "future" },
+      "id": 1319663435
+    },
+    {
+      "type": "way_range",
+      "name": "Congress Street",
+      "notes": "Soutbound",
+      "props": { "goBoston": "future" },
+      "fromId": 1223509838,
+      "toId": 426487613,
+      "noGoes": [1160123819]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Merrimac Street",
+      "props": { "goBoston": "future" }
+    },
+
+    {
+      "type": "way_range",
+      "name": "Devonshire Street",
+      "props": { "goBoston": "future" },
+      "fromId": 747090068,
+      "toId": 8640813
+    },
+    {
+      "type": "way",
+      "notes": "Devonshire Street",
+      "props": { "goBoston": "existing" },
+      "id": 8648270
+    },
+    {
+      "type": "way",
+      "notes": "Otis Street",
+      "props": { "goBoston": "future" },
+      "id": 289631068
+    },
+    {
+      "type": "ways",
+      "notes": "Kingston Street",
+      "props": { "goBoston": "future" },
+      "ids": [8647158, 747090066, 591235976]
+    },
+    {
+      "type": "ways",
+      "notes": "Bedford Street",
+      "props": { "goBoston": "future" },
+      "ids": [747090067, 103680391]
+    },
+    {
+      "type": "way_range",
+      "name": "Chauncy Street",
+      "props": { "goBoston": "future" },
+      "fromId": 8646690,
+      "toId": 591217296
+    },
+    {
+      "type": "ways",
+      "notes": "Arch Street",
+      "props": { "goBoston": "future" },
+      "ids": [8648507, 747090065, 747090064]
+    },
+    {
+      "type": "ways",
+      "notes": "Washington Street, Pedestrian Zone",
+      "props": { "goBoston": "existing" },
+      "ids": [1160071606, 8644586, 8640674]
+    },
+    {
+      "type": "way",
+      "notes": "Winter Street",
+      "props": { "goBoston": "existing" },
+      "id": 8650993
+    },
+    {
+      "type": "way",
+      "notes": "Summer Street",
+      "props": { "goBoston": "existing" },
+      "id": 8650917
+    },
+    {
+      "type": "way_range",
+      "name": "Tremont Street",
+      "props": { "goBoston": "priority", "project": "Tremont Street" },
+      "fromId": 426472927,
+      "toId": 1126768950
+    },
+    {
+      "type": "way_range",
+      "name": "Cambridge Street",
+      "props": { "goBoston": "priority", "project": "Cambridge Street" },
+      "fromId": 138798811,
+      "toId": 426659496
+    },
+    {
+      "type": "way_range",
+      "name": "Cambridge Street",
+      "props": { "goBoston": "priority", "project": "Cambridge Street" },
+      "fromId": 91996567,
+      "toId": 879039476
+    },
+    {
+      "type": "way_range",
+      "name": "Beacon Street",
+      "props": { "goBoston": "future" },
+      "fromId": 89641252,
+      "toId": 8647432
+    },
+    {
+      "type": "ways",
+      "notes": "Beacon Street and Charles Street",
+      "props": { "goBoston": "future" },
+      "ids": [1348578796, 1348578794]
+    },
+    {
+      "type": "way",
+      "notes": "Park Street",
+      "props": { "goBoston": "future" },
+      "id": 63104587
+    },
+    {
+      "type": "ways",
+      "notes": "Charles Street South",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "ids": [242652626, 533515521]
+    },
+    {
+      "type": "way_range",
+      "name": "Charles Street",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "fromId": 8651355,
+      "toId": 89691955
+    },
+    {
+      "type": "way_range",
+      "name": "Charles Street",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "fromId": 825494615,
+      "toId": 761030414
+    },
+    {
+      "type": "ways",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "ids": [139069159, 816366952, 817406998]
+    },
+    {
+      "type": "way_range",
+      "name": "Columbus Avenue",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "fromId": 426831017,
+      "toId": 383058045
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Sudbury Street",
+      "props": { "goBoston": "future" }
+    },
+    {
+      "type": "way",
+      "notes": "New Sudbury Street",
+      "props": { "goBoston": "future" },
+      "id": 426456763
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "props": { "goBoston": "priority" },
+      "fromId": 8648229,
+      "toId": 1096242209,
+      "noGoes": [8649126, 671208885]
+    },
+    {
+      "type": "way_range",
+      "name": "Washington Street",
+      "props": { "goBoston": "priority" },
+      "fromId": 1154673770,
+      "toId": 201667420
+    },
+    {
+      "type": "way",
+      "notes": "Park Plaza",
+      "props": { "goBoston": "priority", "project": "Connect Downtown" },
+      "id": 8651073
+    },
+    {
+      "type": "ways",
+      "notes": "Harrison Ave, Northbound",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "ids": [294582916, 426488471, 426501666]
+    },
+    {
+      "type": "way",
+      "notes": "Herald Street connecting Harrison Ave",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "id": 8644901,
+      "nodesSubset": [61342912, 2981747661]
+    },
+    {
+      "type": "way_range",
+      "name": "Harrison Avenue",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "fromId": 8651437,
+      "toId": 448441075
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Harrison Avenue Extension",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" }
+    },
+    {
+      "type": "way",
+      "notes": "Avenue de Lafayette",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "id": 8638403
+    },
+    {
+      "type": "way",
+      "notes": "Oak Street",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "id": 8646120
+    },
+    {
+      "type": "ways",
+      "notes": "Tyler Street",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "ids": [8646528, 533473492, 1185620974]
+    },
+    {
+      "type": "way",
+      "notes": "Beach Street",
+      "props": { "goBoston": "priority", "project": "Harrison Ave Corridor" },
+      "id": 172093621,
+      "nodesSubset": [61580134, 1830331122, 1830331123, 61341258]
+    },
+    {
+      "type": "way",
+      "notes": "Avenue de Lafayette",
+      "props": { "goBoston": "future" },
+      "id": 851480300
+    },
+    {
+      "type": "way_range",
+      "name": "Arlington Street",
+      "props": { "goBoston": "future" },
+      "fromId": 92028174,
+      "toId": 87109179
+    },
+    {
+      "type": "way_range",
+      "name": "Herald Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1283036468,
+      "toId": 426501669
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Longfellow Bridge",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "props": { "goBoston": "existing" },
+      "ids": [1301398968, 833402109, 132174894]
+    },
+    {
+      "type": "way_range",
+      "name": "Kneeland Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 426492008,
+      "toId": 242632754,
+      "noGoes": [947114313, 8651676]
+    },
+    {
+      "type": "ways",
+      "notes": "Kneeland Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8651676, 947114313]
+    },
+    {
+      "type": "way_range",
+      "name": "Stuart Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8646035,
+      "toId": 1285819769
+    },
+    {
+      "type": "way_range",
+      "name": "Charles Street South",
+      "fromId": 8642483,
+      "toId": 1290373444,
+      "props": { "goBoston": "priority", "project": "Tremont St" }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "name": "Veterans of Foreign Wars Parkway",
+      "props": { "goBoston": "existing" },
+      "startId": 1414373616
+    },
+    {
+      "type": "way_fill",
+      "name": "Veterans of Foreign Wars Parkway",
+      "props": { "goBoston": "existing" },
+      "startId": 8646395
+    },
+    {
+      "type": "way_fill",
+      "name": "Veterans of Foreign Wars Parkway",
+      "props": { "goBoston": "existing" },
+      "startId": 8652056,
+      "noGoes": [8648397]
+    },
+    {
+      "type": "way_fill",
+      "name": "Veterans of Foreign Wars Parkway",
+      "props": { "goBoston": "existing" },
+      "startId": 8649749,
+      "noGoes": [426624641]
+    },
+    {
+      "type": "ways",
+      "notes": "Veterans of Foreign Wars Parkway Slip Lanes",
+      "props": { "goBoston": "existing" },
+      "ids": [8648079, 8648403]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "West Roxbury VFW Parkway Rotary",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "way_range",
+      "name": "Baker Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 630213533,
+      "toId": 34921170
+    }
+  ]
+}

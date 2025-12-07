@@ -1,0 +1,389 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "name": "Columbia Road",
+      "props": { "goBoston": "priority", "project": "Columbia Road" },
+      "startId": 1088844248
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Kosciuszko Circle",
+      "props": { "goBoston": "priority", "project": "Columbia Road" }
+    },
+    {
+      "type": "way_fill",
+      "name": "Dorchester Avenue",
+      "props": { "goBoston": "existing" },
+      "startId": 1212684352,
+      "noGoes": [296968662, 591217305]
+    },
+    {
+      "type": "way_range",
+      "name": "Geneva Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 426447683,
+      "toId": 591252055
+    },
+    {
+      "type": "way_range",
+      "name": "Adams Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1174365218,
+      "toId": 591691960
+    },
+    {
+      "type": "way_range",
+      "name": "Neponset Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 8650140,
+      "toId": 215339075
+    },
+    {
+      "type": "ways",
+      "notes": "Freeport Street",
+      "props": { "goBoston": "existing" },
+      "ids": [1323825259, 8647504],
+      "excludeNodes": [
+        11335110446, 61352104, 11335110445, 61352106, 11335110447, 61352100,
+        61352102, 11335110448, 7259845475, 11335110450, 61352111, 61352113,
+        986004575, 61352107, 11335154592, 11335154593, 61506587, 986004620,
+        5458436593, 5458436591, 61506589, 11335154590, 2251856980, 11335154591,
+        2251856978
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Freeport Street",
+      "props": { "goBoston": "future" },
+      "id": 8647504,
+      "nodesSubset": [
+        11335110446, 61352104, 11335110445, 61352106, 11335110447, 61352100,
+        61352102, 11335110448, 7259845475, 11335110450, 61352111, 61352113,
+        986004575, 61352107, 11335154592, 11335154593, 61506587, 986004620,
+        5458436593, 5458436591, 61506589, 11335154590, 2251856980, 11335154591,
+        2251856978
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Freeport Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1086987653,
+      "toId": 215726054
+    },
+    {
+      "type": "way_range",
+      "name": "Freeport Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1247300935,
+      "toId": 504639456
+    },
+    {
+      "type": "way",
+      "notes": "Clayton Street",
+      "props": { "goBoston": "future" },
+      "id": 8647529
+    },
+    {
+      "type": "way_range",
+      "name": "Park Street",
+      "props": { "goBoston": "future" },
+      "fromId": 1308802222,
+      "toId": 8647819
+    },
+    {
+      "type": "way_range",
+      "name": "Washington Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "fromId": 591252038,
+      "toId": 1031881782
+    },
+    {
+      "type": "way",
+      "notes": "Washington Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "id": 1379025787,
+      "nodesSubset": [61355229, 61355233, 61355236, 61355235, 61355234]
+    },
+    {
+      "type": "way_range",
+      "name": "Norwell Street",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "fromId": 435355312,
+      "toId": 535076065
+    },
+    {
+      "type": "ways",
+      "notes": "New England Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "ids": [8652145, 8651201]
+    },
+    {
+      "type": "ways",
+      "notes": "Woodrow Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "ids": [1416775484, 1416775485]
+    },
+    {
+      "type": "way",
+      "notes": "Woodrow Avenue",
+      "props": {
+        "goBoston": "priority",
+        "project": "Codman Sq-Four Corners Neighborways"
+      },
+      "id": 8646958,
+      "nodesSubset": [
+        61404813, 3313298338, 61404808, 61349047, 61349049, 61349045,
+        9627784414, 61377689
+      ]
+    },
+    {
+      "type": "way_fill",
+      "name": "Norfolk Street",
+      "props": { "goBoston": "existing" },
+      "startId": 1088522761
+    },
+    {
+      "type": "way_fill",
+      "name": "Talbot Avenue",
+      "props": { "goBoston": "existing" },
+      "startId": 1088522762
+    },
+    {
+      "type": "ways",
+      "notes": "Ballou Avenue",
+      "props": { "goBoston": "existing" },
+      "ids": [1147782243, 8642540]
+    },
+    {
+      "type": "way",
+      "notes": "Willowwood Street",
+      "props": { "goBoston": "existing" },
+      "id": 8644290,
+      "nodesSubset": [9518277259, 12121090989, 61351770]
+    },
+    {
+      "type": "way_range",
+      "notes": "American Legion Hwy Cycleway",
+      "props": {
+        "goBoston": "priority",
+        "project": "American Legion",
+        "name": "American Legion Highway Cycleway"
+      },
+      "highway": "cycleway",
+      "fromId": 1288106344,
+      "toId": 1288106339
+    },
+    {
+      "type": "way_range",
+      "notes": "American Legion Hwy Cycleway",
+      "props": {
+        "goBoston": "priority",
+        "project": "American Legion",
+        "name": "American Legion Highway Cycleway"
+      },
+      "highway": "cycleway",
+      "fromId": 1288106340,
+      "toId": 1288106343
+    },
+    {
+      "type": "way_range",
+      "name": "American Legion Highway",
+      "props": { "goBoston": "priority", "project": "American Legion" },
+      "fromId": 485257990,
+      "toId": 426459439
+    },
+    {
+      "type": "way_range",
+      "name": "Blue Hill Avenue",
+      "props": { "goBoston": "priority" },
+      "fromId": 426454655,
+      "toId": 591252080
+    },
+    {
+      "type": "way_range",
+      "name": "Blue Hill Avenue",
+      "props": { "goBoston": "priority" },
+      "fromId": 426459497,
+      "toId": 426454634
+    },
+    {
+      "type": "way_range",
+      "name": "Blue Hill Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 426459485,
+      "toId": 211852995
+    },
+    {
+      "type": "way_range",
+      "name": "Blue Hill Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 693598214,
+      "toId": 426459499
+    },
+    {
+      "type": "way_fill",
+      "name": "William T. Morrissey Boulevard",
+      "props": { "goBoston": "future" },
+      "startId": 8646516,
+      "noGoes": [955897888]
+    },
+    {
+      "type": "way_fill",
+      "name": "William T. Morrissey Boulevard",
+      "props": { "goBoston": "future" },
+      "startId": 215895491,
+      "noGoes": [956943578, 8646802]
+    },
+    {
+      "type": "ways",
+      "notes": "William T. Morrissey Boulevard Side Road",
+      "props": { "goBoston": "future" },
+      "ids": [8650570, 504638684]
+    },
+    {
+      "type": "way_fill",
+      "name": "William T. Morrissey Boulevard",
+      "props": { "goBoston": "future" },
+      "startId": 591691956,
+      "noGoes": [8646802]
+    },
+    {
+      "type": "ways",
+      "notes": "Conley Street",
+      "props": { "goBoston": "existing" },
+      "ids": [1046988420, 1046988421]
+    },
+    {
+      "type": "way",
+      "notes": "Conley Street",
+      "props": { "goBoston": "existing" },
+      "id": 8648634,
+      "nodesSubset": [
+        9627709051, 12125203321, 61511446, 2249818846, 61511453, 61511459,
+        61511464, 5459249152, 61511466
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Tenean Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8638336, 1323054017],
+      "excludeNodes": [61366701, 10136513180, 12125203320]
+    },
+    {
+      "type": "way",
+      "notes": "Welles Avenue",
+      "props": { "goBoston": "future" },
+      "id": 8648407
+    },
+    {
+      "type": "way",
+      "notes": "Dorchester Avenue",
+      "props": { "goBoston": "future" },
+      "id": 301814880,
+      "nodesSubset": [
+        11310601264, 11310601261, 12121025615, 11310601267, 61373564
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Lonsdale Street",
+      "props": { "goBoston": "future" },
+      "id": 8644606,
+      "nodesSubset": [11310601261, 12121025616, 11310601266, 61365537]
+    },
+    {
+      "type": "way",
+      "notes": "Shepton Street",
+      "props": { "goBoston": "future" },
+      "id": 8651901
+    },
+    {
+      "type": "way",
+      "notes": "Florida Street",
+      "props": { "goBoston": "future" },
+      "id": 8645204,
+      "nodesSubset": [61365444, 61365537]
+    },
+    {
+      "type": "ways",
+      "notes": "Florida Street",
+      "props": { "goBoston": "future" },
+      "ids": [1339752939, 1339752938]
+    },
+    {
+      "type": "ways",
+      "notes": "King Street",
+      "props": { "goBoston": "future" },
+      "ids": [8652260, 8645329],
+      "excludeNodes": [61518939, 61518941]
+    },
+    {
+      "type": "ways",
+      "notes": "Saint Marks Road",
+      "props": { "goBoston": "future" },
+      "ids": [102470955, 8646407],
+      "excludeNodes": [61481190]
+    },
+    {
+      "type": "way",
+      "notes": "Adams Street",
+      "props": { "goBoston": "future" },
+      "id": 213617919,
+      "nodesSubset": [1183416188, 1183416187]
+    },
+    {
+      "type": "way",
+      "notes": "Rosemont Street",
+      "props": { "goBoston": "future" },
+      "id": 8652558
+    },
+    {
+      "type": "way",
+      "notes": "Train Street",
+      "props": { "goBoston": "future" },
+      "id": 8646015,
+      "nodesSubset": [61364135, 61364133]
+    },
+    {
+      "type": "way",
+      "notes": "Train Street",
+      "props": { "goBoston": "future" },
+      "id": 215667393,
+      "nodesSubset": [61364135, 61460579]
+    },
+    {
+      "type": "way",
+      "notes": "Thelma Road",
+      "props": { "goBoston": "future" },
+      "id": 8649794
+    },
+    {
+      "type": "way",
+      "notes": "Neponset Avenue",
+      "props": { "goBoston": "future" },
+      "id": 8650140,
+      "nodesSubset": [
+        11352885810, 9522966414, 11352893954, 11352893960, 11345636534,
+        11352886245, 61358580
+      ]
+    }
+  ]
+}

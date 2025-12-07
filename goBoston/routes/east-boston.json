@@ -1,0 +1,339 @@
+{
+  "ways": [
+    {
+      "type": "ways_with_name",
+      "name": "Mary Ellen Welch Greenway",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "notes": "Mary Ellen Welch Greenway Crossings",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        768161562, 765980916, 812876292, 1226254427, 1383799436, 812876295,
+        1086789307
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Service road to East Boston Greenway",
+      "props": { "goBoston": "existing" },
+      "id": 49515026,
+      "nodesSubset": [
+        61347665, 6905954054, 61583225, 9407517742, 2068027323, 2950259924,
+        2950260038, 2068027311, 2068027315, 2068027300, 629111728, 629111729,
+        2068027320
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Service road to East Boston Greenway",
+      "props": { "goBoston": "existing" },
+      "id": 767983540
+    },
+    {
+      "type": "ways",
+      "notes": "Mary Ellen Welch Greenway Connectors",
+      "props": { "goBoston": "existing" },
+      "ids": [767983542, 291292889, 1086789306]
+    },
+    {
+      "type": "way_range",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "notes": "East Boston Greenway to Constitution Beach",
+      "fromId": 453563181,
+      "toId": 505869385
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Anthony and Dee Dee Marmo Pedestrian Overpass",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "notes": "Anthony and Dee Dee Marmo Pedestrian Overpass Connectors",
+      "props": { "goBoston": "existing" },
+      "ids": [75801514, 75801548]
+    },
+
+    {
+      "type": "way",
+      "notes": "Main Street Bridge to Winthrop",
+      "props": { "goBoston": "existing" },
+      "id": 9577576
+    },
+    {
+      "type": "way_range",
+      "name": "Saratoga Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1086789314,
+      "toId": 8652527
+    },
+    {
+      "type": "ways",
+      "notes": "Saratoga Street",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        8648728, 426638925, 426638926, 630834251, 937933138, 8636852,
+        1086789308, 1086789309, 579180063
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Bennington Street",
+      "notes": "Eastbound",
+      "props": { "goBoston": "existing" },
+      "fromId": 533642964,
+      "toId": 533481332,
+      "excludeNodes": [61352714]
+    },
+    {
+      "type": "way_range",
+      "name": "Bennington Street",
+      "notes": "Westbound",
+      "props": { "goBoston": "existing" },
+      "fromId": 448610065,
+      "toId": 533642966
+    },
+    {
+      "type": "way",
+      "notes": "Neptune Road, Northbound",
+      "props": { "goBoston": "future" },
+      "id": 924349472
+    },
+    {
+      "type": "way",
+      "notes": "Neptune Road, Northbound",
+      "props": { "goBoston": "future" },
+      "id": 291407295,
+      "nodesSubset": [5427855072, 61345795]
+    },
+    {
+      "type": "ways",
+      "notes": "Neptune Road, Southbound",
+      "props": { "goBoston": "future" },
+      "ids": [591493104, 1226254426]
+    },
+    {
+      "type": "way",
+      "notes": "Neptune Road, Southbound",
+      "props": { "goBoston": "future" },
+      "id": 291407291,
+      "nodesSubset": [10867523635, 61353442, 270154817, 1512990467]
+    },
+    {
+      "type": "ways",
+      "notes": "Neptune through East Eagle",
+      "props": { "goBoston": "future" },
+      "ids": [
+        8642155, 196017483, 196017487, 591493105, 924107775, 8652496, 924107776,
+        591493019, 8644432
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Condor Street",
+      "props": { "goBoston": "future" },
+      "ids": [8652290, 8648540]
+    },
+    {
+      "type": "way",
+      "notes": "Border Street, future improvements",
+      "props": { "goBoston": "future" },
+      "id": "8644565",
+      "nodesSubset": [
+        8689011303, 7138712946, 1479721890, 8689079470, 8689011300, 12949689771,
+        61593603, 8689079472, 1479721873, 8689025045, 61554269, 8689025046,
+        8689025047, 61554480, 61554488, 61364852
+      ]
+    },
+
+    {
+      "type": "way",
+      "notes": "Border Street, existing",
+      "props": { "goBoston": "existing" },
+      "id": "8644565",
+      "excludeNodes": [
+        7138712946, 1479721890, 8689079470, 8689011300, 12949689771, 61593603,
+        8689079472, 1479721873, 8689025045, 61554269, 8689025046, 8689025047,
+        61554480, 61554488, 61364852
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Central Square",
+      "props": { "goBoston": "future" },
+      "ids": [
+        575422180, 8648329, 817579891, 1346548991, 591493027, 1086799598,
+        1086799596, 1086799597, 8643845
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Border Street, Central Square",
+      "props": { "goBoston": "future" },
+      "id": 8652159,
+      "nodesSubset": [
+        8685686925, 8685686929, 8685686924, 8685686937, 8772901540
+      ]
+    },
+
+    {
+      "type": "way_range",
+      "name": "Meridian Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8648440,
+      "toId": 8648485
+    },
+
+    {
+      "type": "way_range",
+      "name": "Maverick Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8649765,
+      "toId": 290765573
+    },
+    {
+      "type": "ways",
+      "notes": "Gove Street Path",
+      "props": { "goBoston": "existing" },
+      "ids": [8649851, 749544866, 749544865]
+    },
+    {
+      "type": "ways",
+      "notes": "Connecting Maverick to Boston Harbor Walk",
+      "props": { "goBoston": "existing" },
+      "ids": [292005492, 836176145, 383029755]
+    },
+
+    {
+      "type": "way_range",
+      "name": "Boston HarborWalk",
+      "props": { "goBoston": "existing" },
+      "fromId": 838645502,
+      "toId": 111767486
+    },
+    {
+      "type": "way",
+      "notes": "Boston HarborWalk",
+      "props": { "goBoston": "existing" },
+      "id": 838645504
+    },
+
+    {
+      "type": "way_range",
+      "name": "Marginal Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 8647272,
+      "toId": 290287162
+    },
+    {
+      "type": "way",
+      "notes": "John E. Pfeifer Way",
+      "props": { "goBoston": "existing" },
+      "id": 290286611
+    },
+    {
+      "type": "way",
+      "notes": "Sumner Street",
+      "props": { "goBoston": "existing" },
+      "id": 838645506
+    },
+    {
+      "type": "way_range",
+      "name": "Chelsea Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 291408608,
+      "toId": 799519920
+    },
+
+    {
+      "type": "way_geometry",
+      "notes": "Sidewalk to Henry Selvitella Overpass",
+      "geometries": [
+        { "latitude": 42.3733934, "longitude": -71.0365862 },
+        { "latitude": 42.3734493, "longitude": -71.0366718 }
+      ],
+      "props": {
+        "osmId": 839091363,
+        "goBoston": "future",
+        "highway": "footway",
+        "footway": "sidewalk",
+        "surface": "concrete"
+      }
+    },
+
+    {
+      "type": "ways",
+      "notes": "Henry Selvitella Overpass",
+      "props": { "goBoston": "future" },
+      "ids": [4790735, 935703051, 93211412, 935703052, 93211410]
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Paris Street",
+      "props": { "goBoston": "future" },
+      "id": 839095615,
+      "nodesSubset": [7830235385, 7830264433]
+    },
+    {
+      "type": "way",
+      "notes": "Paris Street",
+      "props": { "goBoston": "future" },
+      "id": 290292468,
+      "nodesSubset": [61357077, 7830264433]
+    },
+    {
+      "type": "ways",
+      "notes": "Porter Street",
+      "props": { "goBoston": "future" },
+      "ids": [
+        8652310, 1119840926, 8648017, 196470771, 196470774, 196470772,
+        933747310, 8639377, 1124201030, 933754813
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Bremen",
+      "props": { "goBoston": "future" },
+      "id": 937879180,
+      "nodesSubset": [8688995110, 7003018967]
+    },
+    {
+      "type": "way",
+      "notes": "Bremen Street",
+      "props": { "goBoston": "future" },
+      "id": 975014954,
+      "nodesSubset": [61350327, 8688995110]
+    },
+
+    {
+      "type": "way",
+      "notes": "Havre Street",
+      "props": { "goBoston": "future" },
+      "id": 182080645,
+      "nodesSubset": [61346721, 8654388396, 8654388395, 8654388394, 61676169]
+    },
+    {
+      "type": "way",
+      "notes": "Crossing Havre Street",
+      "props": { "goBoston": "future" },
+      "id": 807855418,
+      "nodesSubset": [1404985352, 61676169]
+    },
+    {
+      "type": "way_range",
+      "name": "George R. Visconti Road",
+      "props": { "goBoston": "future" },
+      "fromId": 591677134,
+      "toId": 762142668
+    },
+    {
+      "type": "ways",
+      "notes": "Havre Street",
+      "props": { "goBoston": "future" },
+      "ids": [178913902, 846287697]
+    }
+  ]
+}

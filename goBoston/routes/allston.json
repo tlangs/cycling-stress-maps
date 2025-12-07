@@ -1,0 +1,157 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "notes": "Comm Ave",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Comm Ave Phase 2/2A" },
+      "startId": 815133962
+    },
+    {
+      "type": "way_fill",
+      "notes": "Comm Ave",
+      "highway": "cycleway",
+      "props": { "goBoston": "priority", "project": "Comm Ave Phase 2/2A" },
+      "startId": 1335857956
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 627755984,
+      "toId": 1055101268,
+      "noGoes": [1192462675]
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 326399426,
+      "toId": 8651803
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 1292265426,
+      "toId": 1281866156
+    },
+    {
+      "type": "way",
+      "notes": "Commonwealth Avenue",
+      "props": { "goBoston": "future" },
+      "id": 1192462675
+    },
+    {
+      "type": "way_fill",
+      "name": "Brighton Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 533472081
+    },
+    {
+      "type": "way_fill",
+      "name": "Brighton Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 426490112
+    },
+    {
+      "type": "way_fill",
+      "name": "Cambridge Street",
+      "props": { "goBoston": "future" },
+      "startId": 1082211479,
+      "noGoes": [1323812791]
+    },
+    {
+      "type": "way_fill",
+      "name": "Harvard Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 290701544
+    },
+    {
+      "type": "way_fill",
+      "name": "North Harvard Street",
+      "props": { "goBoston": "existing" },
+      "startId": 426490867
+    },
+    {
+      "type": "way_fill",
+      "name": "Franklin Street",
+      "props": { "goBoston": "existing" },
+      "startId": 8652233
+    },
+    {
+      "type": "way_fill",
+      "notes": "Franklin Street Bridge",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 383952551
+    },
+    {
+      "type": "way_range",
+      "name": "Western Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 1154666978,
+      "toId": 328012571
+    },
+    {
+      "type": "way_range",
+      "name": "Western Avenue",
+      "props": { "goBoston": "existing" },
+      "fromId": 406227995,
+      "toId": 426484634
+    },
+    {
+      "type": "way",
+      "notes": "Western Ave Cycleway",
+      "props": { "goBoston": "existing" },
+      "id": 1355984612
+    },
+    {
+      "type": "way_fill",
+      "name": "Western Avenue",
+      "props": { "goBoston": "future" },
+      "startId": 563435946,
+      "noGoes": [261121618, 8646738, 426484634],
+      "excludeNodes": [9506672564, 1166105406, 2667442370]
+    },
+    {
+      "type": "way_fill",
+      "notes": "Leo M. Birmingham Parkway Cycleway",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 1255772261
+    },
+    {
+      "type": "way_fill",
+      "name": "Leo M. Birmingham Parkway",
+      "props": { "goBoston": "future" },
+      "startId": 41826175,
+      "noGoes": [8642193]
+    },
+    {
+      "type": "way_range",
+      "name": "Everett Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1088852925,
+      "toId": 1086100238
+    },
+    {
+      "type": "ways",
+      "notes": "Telford Street Extension",
+      "props": { "goBoston": "existing" },
+      "ids": [345143765, 345143766]
+    },
+    {
+      "type": "way",
+      "notes": "Antwerp Street Extension",
+      "props": { "goBoston": "existing" },
+      "id": 345144318
+    },
+    {
+      "type": "way",
+      "notes": "Telford Street",
+      "props": { "goBoston": "future" },
+      "id": 8644847
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "ways": [
+    {
+      "type": "ways_with_name",
+      "name": "Dr. Paul Dudley White Path",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "notes": "Crossing Charles River Dam Road",
+      "props": { "goBoston": "existing" },
+      "ids": [8842513, 1384786632, 1301639966]
+    },
+    {
+      "type": "way",
+      "name": "Crossing Charles River Dam Road",
+      "props": { "goBoston": "existing" },
+      "id": 1301398968,
+      "excludeNodes": [1047240149, 12056295849]
+    },
+    {
+      "type": "way_fill",
+      "notes": "Connecting to Telford Street Bridge",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 908137489
+    },
+
+    {
+      "type": "ways_with_name",
+      "name": "Telford Street Pedestrian Bridge",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "notes": "Telford Street Pedestrian Bridge",
+      "props": { "goBoston": "existing" },
+      "ids": [1293123366, 8842573]
+    },
+    {
+      "type": "way_fill",
+      "notes": "By the parking lot",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "startId": 118534638,
+      "noGoes": [487075584, 1084268183]
+    }
+  ]
+}

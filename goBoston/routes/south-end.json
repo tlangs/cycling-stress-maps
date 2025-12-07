@@ -1,0 +1,122 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "name": "Shawmut Avenue",
+      "props": { "goBoston": "priority", "project": "Shawmut Ave" },
+      "fromId": 1089092080,
+      "toId": 1130552408
+    },
+    {
+      "type": "way_range",
+      "name": "Washington Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 1121201358,
+      "toId": 279666415,
+      "noGoes": [116884908]
+    },
+    {
+      "type": "ways",
+      "notes": "Washington Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8651997, 426462329, 116884908]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "East Berkeley Street",
+      "props": { "goBoston": "priority", "project": "Berkeley St" }
+    },
+    {
+      "type": "way_range",
+      "name": "Berkeley Street",
+      "props": { "goBoston": "priority", "project": "Berkeley St" },
+      "fromId": 8691837,
+      "toId": 383058041
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 426497265,
+      "toId": 426470886,
+      "excludeNodes": [1173894782, 1410174358]
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 8651567,
+      "toId": 201664548,
+      "excludeNodes": [61568594]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "South Bay Harbor Trail",
+      "props": { "goBoston": "priority" },
+      "excludeWays": [823307725, 990899881]
+    },
+    {
+      "type": "ways",
+      "notes": "South Bay Harbor Trail gaps",
+      "props": { "goBoston": "priority" },
+      "ids": [1210319902, 830631260, 991248725, 991248722]
+    },
+    {
+      "type": "way_range",
+      "name": "Albany Street",
+      "props": { "goBoston": "existing" },
+      "fromId": 116884898,
+      "toId": 102521064,
+      "noGoes": [495926484, 294582917],
+      "excludeNodes": [61371226, 61348055, 11803468680]
+    },
+    {
+      "type": "ways",
+      "notes": "Albany Street",
+      "props": { "goBoston": "existing" },
+      "ids": [495926484, 294582917],
+      "excludeNodes": [
+        1184043369, 1184043365, 2981775044, 61477862, 7807143379, 2981747107
+      ]
+    },
+    {
+      "type": "way",
+      "notes": "Dartmouth Street",
+      "props": { "goBoston": "existing" },
+      "id": 8641685
+    },
+    {
+      "type": "ways",
+      "notes": "West Dedham Street",
+      "props": { "goBoston": "existing" },
+      "ids": [8640321, 927012511]
+    },
+    {
+      "type": "way_range",
+      "name": "Monsignor Reynolds Way",
+      "props": { "goBoston": "existing" },
+      "fromId": 1124155780,
+      "toId": 1426804718
+    },
+    {
+      "type": "way",
+      "notes": "Malden Street",
+      "props": { "goBoston": "existing" },
+      "id": 8652311
+    },
+    {
+      "type": "way_range",
+      "name": "Tremont Street",
+      "fromId": 426462292,
+      "toId": 43100855,
+      "props": { "goBoston": "priority", "project": "Tremont St" }
+    },
+    {
+      "type": "way_range",
+      "fromId": 301736990,
+      "toId": 426462215,
+      "name": "Columbus Avenue",
+      "props": { "goBoston": "priority", "project": "Columbus Ave" }
+    }
+  ]
+}

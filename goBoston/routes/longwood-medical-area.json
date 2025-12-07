@@ -1,0 +1,51 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "name": "Brookline Avenue",
+      "props": { "goBoston": "priority", "project": "Brookline Ave" },
+      "fromId": 1088867223,
+      "toId": 426645902,
+      "noGoes": [307333284]
+    },
+    {
+      "type": "ways",
+      "notes": "Brookline Avenue",
+      "props": { "goBoston": "priority", "project": "Brookline Ave" },
+      "ids": [307333284, 1120343820]
+    },
+    {
+      "type": "way",
+      "notes": "Brookline Avenue to Riverway Paths",
+      "props": { "goBoston": "priority", "project": "Brookline Ave" },
+      "id": 307333282,
+      "nodesSubset": [12724508446, 61343572]
+    },
+    {
+      "type": "way_range",
+      "name": "Longwood Avenue",
+      "props": { "goBoston": "future" },
+      "fromId": 1377307075,
+      "toId": 420513735
+    },
+    {
+      "type": "way",
+      "notes": "Palace Road",
+      "props": { "goBoston": "existing" },
+      "id": 8640507
+    },
+    {
+      "type": "way_range",
+      "name": "Avenue Louis Pasteur",
+      "props": { "goBoston": "future" },
+      "fromId": 1395698720,
+      "toId": 8647981
+    },
+    {
+      "type": "ways",
+      "notes": "Avenue Louis Pasteur",
+      "props": { "goBoston": "future" },
+      "ids": [8650908, 87325872]
+    }
+  ]
+}

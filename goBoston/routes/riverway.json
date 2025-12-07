@@ -1,0 +1,66 @@
+{
+  "ways": [
+    {
+      "type": "ways",
+      "notes": "Muddy River Bike Path",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        59034231, 1200828623, 1248729204, 1248729202, 1200828622, 1248729201,
+        1381577374
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Muddy River Trail",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        1115530985, 1087259242, 383948067, 307333290, 383943593, 1291155037,
+        1106688097, 1106688098, 383943595, 383943601, 1377669409
+      ]
+    },
+    {
+      "type": "ways",
+      "notes": "Brookline Ave Cycletrack",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        383943600, 307333288, 489694452, 1374308396, 1377860556, 1188215470,
+        1377669406, 489694449, 48920386, 640166861, 1188204484
+      ]
+    },
+    {
+      "type": "way_range",
+      "name": "Emerald Necklace Trail",
+      "props": { "goBoston": "existing" },
+      "fromId": 1377860559,
+      "toId": 1202689109
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Riverdale Parkway Bikepath",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" },
+      "excludeWays": [1160071610]
+    },
+    {
+      "type": "ways",
+      "notes": "Riverdale Parkway Bikepath",
+      "props": { "goBoston": "existing" },
+      "ids": [8842483, 86484310, 1160071612]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Jamaicaway Bikepath",
+      "highway": "cycleway",
+      "props": { "goBoston": "existing" }
+    },
+    {
+      "type": "ways",
+      "notes": "Jamaicaway Bikepath",
+      "props": { "goBoston": "existing" },
+      "ids": [
+        489693318, 1115073904, 1115011937, 1414001643, 1414001644, 1414001646,
+        1413996090, 1413996091, 1414001651, 1413996088, 404005329, 1413996087
+      ]
+    }
+  ]
+}

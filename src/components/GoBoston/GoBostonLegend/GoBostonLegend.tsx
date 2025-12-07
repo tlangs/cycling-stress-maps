@@ -11,9 +11,8 @@ export default function GoBostonLegend(props: GoBostonLegendProps) {
 
   // console.log(colorScale)
   const { colorScale, showLevelOfStress, setShowLevelOfStress } = props;
-  const existing = { borderColor: colorScale[0] };
-  const future = { borderColor: colorScale[1] };
-  const priority = { borderColor: colorScale[2] };
+  const future = { borderColor: colorScale[0] };
+  const priority = { borderColor: colorScale[1] };
 
   // console.log(lts1)
 
@@ -25,12 +24,6 @@ export default function GoBostonLegend(props: GoBostonLegendProps) {
     <div className="go-boston-legend go-boston-grid-container">
       <div className="go-boston-legend-header">
         <h2>Go Boston 2030</h2>
-      </div>
-
-      <div className="go-boston-legend-row" style={existing}>
-        <div className="go-boston-legend-text">
-          <span>Existing Network</span>
-        </div>
       </div>
 
       <div className="go-boston-legend-row" style={future}>

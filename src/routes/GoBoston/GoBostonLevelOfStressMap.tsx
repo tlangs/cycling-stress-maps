@@ -12,6 +12,7 @@ import mapboxgl, { type ExpressionSpecification } from "mapbox-gl";
 import goBoston from "../../assets/GoBoston/go-boston-annotated-geojson.json";
 import LevelOfStressLegend from "../../components/LevelOfStressLegend/LevelOfStressLegend";
 import GoBostonLegend from "../../components/GoBoston/GoBostonLegend/GoBostonLegend";
+import goBostonProjectLinks from "../../assets/GoBoston/project-websites.json";
 
 const routes = [goBoston.featureCollection] as GeoJSON.FeatureCollection[];
 
@@ -24,6 +25,7 @@ const stressLevelFourHex = "#d31f11";
 const stressLevelThreeHex = "#f47a00";
 const stressLevelTwoHex = "#62c8d3";
 const stressLevelOneHex = "#007191";
+const stressLevelUnknownHex = "grey";
 const footpathHex = "#62c8d3";
 
 const lts4Expr = ["==", ["get", "lts"], 4];
@@ -61,7 +63,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
       stressLevelOneHex,
       footpathExpr,
       footpathHex,
-      stressLevelFourHex,
+      stressLevelUnknownHex,
     ] as ExpressionSpecification,
     "line-opacity": 1,
     "line-width": 2,
@@ -88,8 +90,8 @@ function GoBostonLevelOfSressMap(): ReactElement {
       goBostonPriorityHex,
       goBostonDefaultHex,
     ] as ExpressionSpecification,
-    "line-width": 8,
-    "line-opacity": 1,
+    "line-width": showLevelOfStress ? 10 : 6,
+    "line-opacity": showLevelOfStress ? 0.7 : 1,
   };
 
   const mapRef: RefObject<mapboxgl.Map> = useRef(
@@ -139,18 +141,30 @@ function GoBostonLevelOfSressMap(): ReactElement {
           id: routeName + ":priority",
           type: "line",
           source: `${routeName}Source`,
+          slot: "middle",
           layout: {
             "line-join": "bevel",
             "line-cap": "round",
           },
           paint: goBostonPriorityPaint,
         });
-      });
-    }
 
-    if (showLevelOfStress) {
-      for (const routeName of routeNames) {
-        mapRef.current.on("load", () => {
+        mapRef.current.addLayer({
+          id: routeName + ":clickable",
+          type: "line",
+          source: `${routeName}Source`,
+          layout: {
+            "line-join": "bevel",
+            "line-cap": "round",
+          },
+          paint: {
+            "line-color": "white",
+            "line-width": 20,
+            "line-opacity": 0,
+          },
+        });
+
+        if (showLevelOfStress) {
           mapRef.current.addLayer({
             id: routeName,
             type: "line",
@@ -161,20 +175,20 @@ function GoBostonLevelOfSressMap(): ReactElement {
             },
             paint: ltsPaint,
           });
-        });
-      }
+        }
+      });
     }
 
     mapRef.current.on(
       "mouseenter",
-      routeNames.map((r) => r + ":priority"),
+      routeNames.map((r) => r + ":clickable"),
       () => {
         mapRef.current.getCanvas().style.cursor = "pointer";
       },
     );
     mapRef.current.on(
       "mouseleave",
-      routeNames.map((r) => r + ":priority"),
+      routeNames.map((r) => r + ":clickable"),
       () => {
         mapRef.current.getCanvas().style.cursor = "";
       },
@@ -182,7 +196,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
 
     mapRef.current.on(
       "click",
-      routeNames.map((r) => r + ":priority"),
+      routeNames.map((r) => r + ":clickable"),
       (e) => {
         if (e.features && e.features[0] && e.features[0].properties) {
           const props = e.features[0].properties;
@@ -227,11 +241,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
           />
         )}
         <GoBostonLegend
-          colorScale={[
-            goBostonExistingHex,
-            goBostonFutureHex,
-            goBostonPriorityHex,
-          ]}
+          colorScale={[goBostonFutureHex, goBostonPriorityHex]}
           showLevelOfStress={showLevelOfStress}
           setShowLevelOfStress={setShowLevelOfStress}
         />
@@ -243,17 +253,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
 }
 
 function LevelOfTrafficStressPopupHTML(properties: { [name: string]: any }) {
-  let html = "<table>";
-  html += "<tr>";
-  html += `<td><img src="https://raw.githubusercontent.com/BostonCyclistsUnion/Website/refs/heads/main/public/Icon_LTS${properties["lts"]}.svg" width="100px"/></td>`;
-  html += `<td><img src="https://raw.githubusercontent.com/BostonCyclistsUnion/Website/refs/heads/main/public/Text_LTS${properties["lts"]}.svg"/></td>`;
-  html += "</tr>";
-  html += `<tr><td>Name:</td><td>${properties["name"]}</td></tr>`;
-  html += `<tr><td>Type of road:</td><td>${properties["highway"]}</td></tr>`;
-  html += `<tr><td>Speed:</td><td>${properties["speed"]}mph</td></tr>`;
-  html += `<tr><td>Lanes:</td><td>${properties["lanes"]}</td></tr>`;
-  html += `<tr><td>Condition:</td><td>${properties["condition"]}</td></tr>`;
-  html += `<tr><td>Cycling facilities:</td><td>
+  const cycling = `<tr><td>Cycling facilities:</td><td>
   ${
     properties["cycleway"]
       ? Object.entries(JSON.parse(properties["cycleway"]))
@@ -262,6 +262,34 @@ function LevelOfTrafficStressPopupHTML(properties: { [name: string]: any }) {
           .join("<br/>")
       : "None"
   }</td></tr>`;
+
+  const projectName: string | undefined = properties["project"];
+  const projectLink = projectName
+    ? (goBostonProjectLinks as Record<string, string | null>)[projectName]
+    : undefined;
+
+  let project;
+
+  if (projectName && !projectLink) {
+    project = `<tr><td>Project:</td><td>${projectName}</td></tr>`;
+  } else if (projectName && projectLink) {
+    project = `<tr><td>Project:</td><td><a href="${projectLink}" target="_blank">${projectName}</a></td></tr>`;
+  } else {
+    project = "";
+  }
+
+  let html = "<table>";
+  html += "<tr>";
+  html += `<td><img src="https://raw.githubusercontent.com/BostonCyclistsUnion/Website/refs/heads/main/public/Icon_LTS${properties["lts"]}.svg" width="100px"/></td>`;
+  html += `<td><img src="https://raw.githubusercontent.com/BostonCyclistsUnion/Website/refs/heads/main/public/Text_LTS${properties["lts"]}.svg"/></td>`;
+  html += "</tr>";
+  html += `<tr><td>Name:</td><td>${properties["name"]}</td></tr>`;
+  html += project;
+  html += `<tr><td>Type of road:</td><td>${properties["highway"]}</td></tr>`;
+  html += `<tr><td>Speed:</td><td>${properties["speed"]}mph</td></tr>`;
+  html += `<tr><td>Lanes:</td><td>${properties["lanes"]}</td></tr>`;
+  html += `<tr><td>Condition:</td><td>${properties["condition"]}</td></tr>`;
+  html += cycling;
   html += `<tr><td>OSM ID:</td><td><a href="https://www.openstreetmap.org/way/${properties["osmId"]}">${properties["osmId"]}</a></td></tr>`;
   html += "</table>";
   return html;
