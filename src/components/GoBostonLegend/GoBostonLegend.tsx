@@ -1,16 +1,22 @@
+import { useState, type ReactElement } from "react";
 import "./GoBostonLegend.css";
+import Modal from "react-modal";
 
 type GoBostonLegendProps = {
   colorScale: string[];
   showLevelOfStress: boolean;
   setShowLevelOfStress: (v: boolean) => void;
+  children: ReactElement;
 };
 
 export default function GoBostonLegend(props: GoBostonLegendProps) {
   // console.log('Legend')
 
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   // console.log(colorScale)
-  const { colorScale, showLevelOfStress, setShowLevelOfStress } = props;
+  const { colorScale, showLevelOfStress, setShowLevelOfStress, children } =
+    props;
   const future = { borderColor: colorScale[0] };
   const priority = { borderColor: colorScale[1] };
 
@@ -51,6 +57,30 @@ export default function GoBostonLegend(props: GoBostonLegendProps) {
           Level of Stress
         </label>
       </div>
+
+      <div className="go-boston-legend-checkbox">
+        <input
+          type="checkbox"
+          id="toggleLevelOfStressBreakdown"
+          name="toggleLevelOfStressBreakdown"
+          onChange={(e) => setIsModalOpen(e.target.checked)}
+          checked={isModalOpen}
+        />
+        <label
+          className="go-boston-legend-label"
+          htmlFor="toggleLevelOfStressBreakdown"
+        >
+          Level of Stress Breakdown
+        </label>
+      </div>
+      <Modal
+        isOpen={isModalOpen}
+        contentLabel="Level of Stress Breakdown"
+        className="Modal"
+        overlayClassName="Overlay"
+      >
+        {children}
+      </Modal>
     </div>
   );
 }

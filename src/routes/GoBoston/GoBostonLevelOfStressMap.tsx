@@ -11,8 +11,9 @@ import {
 import mapboxgl, { type ExpressionSpecification } from "mapbox-gl";
 import goBoston from "../../assets/GoBoston/go-boston-annotated-geojson.json";
 import LevelOfStressLegend from "../../components/LevelOfStressLegend/LevelOfStressLegend";
-import GoBostonLegend from "../../components/GoBoston/GoBostonLegend/GoBostonLegend";
+import GoBostonLegend from "../../components/GoBostonLegend/GoBostonLegend";
 import goBostonProjectLinks from "../../assets/GoBoston/project-websites.json";
+import RoutePieChart from "../../components/RoutePieChart/RoutePieChart";
 
 const routes = [goBoston.featureCollection] as GeoJSON.FeatureCollection[];
 
@@ -36,19 +37,6 @@ const footpathExpr = ["==", ["get", "highway"], "footway"];
 
 function GoBostonLevelOfSressMap(): ReactElement {
   const [showLevelOfStress, setShowLevelOfStress] = useState(false);
-  const showExistingInfrastructure = false;
-
-  const filteredRoutes = routes.map((r) => {
-    if (!showExistingInfrastructure) {
-      return {
-        ...r,
-        features: r.features.filter((f) =>
-          ["future", "priority"].includes(f.properties?.["goBoston"]),
-        ),
-      };
-    }
-    return r;
-  });
 
   const ltsPaint = {
     "line-color": [
@@ -124,8 +112,8 @@ function GoBostonLevelOfSressMap(): ReactElement {
       ],
     });
 
-    for (let i = 0; i < filteredRoutes.length; i++) {
-      const route = filteredRoutes[i];
+    for (let i = 0; i < routes.length; i++) {
+      const route = routes[i];
       const routeName = routeNames[i];
       mapRef.current.on("load", () => {
         mapRef.current.addSource(`${routeName}Source`, {
@@ -201,7 +189,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
         if (e.features && e.features[0] && e.features[0].properties) {
           const props = e.features[0].properties;
 
-          var html = LevelOfTrafficStressPopupHTML(props);
+          let html = LevelOfTrafficStressPopupHTML(props);
 
           new mapboxgl.Popup()
             .setLngLat(e.lngLat)
@@ -227,6 +215,24 @@ function GoBostonLevelOfSressMap(): ReactElement {
     };
   });
 
+  const priorityRoutes = routes.flatMap((r) => {
+    return {
+      ...r,
+      features: r.features.filter(
+        (f) => f.properties?.["goBoston"] === "priority",
+      ),
+    };
+  });
+
+  const futureRoutes = routes.flatMap((r) => {
+    return {
+      ...r,
+      features: r.features.filter(
+        (f) => f.properties?.["goBoston"] === "future",
+      ),
+    };
+  });
+
   return (
     <Fragment>
       <div id="root">
@@ -244,8 +250,40 @@ function GoBostonLevelOfSressMap(): ReactElement {
           colorScale={[goBostonFutureHex, goBostonPriorityHex]}
           showLevelOfStress={showLevelOfStress}
           setShowLevelOfStress={setShowLevelOfStress}
-        />
-        {/* { showLevelOfStress && <RoutePieChart routes={routes} colorMap={{1: stressLevelOneHex, 2: stressLevelTwoHex, 3: stressLevelThreeHex, 4: stressLevelFourHex}}/> } */}
+        >
+          <div className="pie-chart-container">
+            <RoutePieChart
+              title="Priority Projects"
+              routes={priorityRoutes}
+              colorMap={{
+                1: stressLevelOneHex,
+                2: stressLevelTwoHex,
+                3: stressLevelThreeHex,
+                4: stressLevelFourHex,
+              }}
+            />
+            <RoutePieChart
+              title="Future Improvements"
+              routes={futureRoutes}
+              colorMap={{
+                1: stressLevelOneHex,
+                2: stressLevelTwoHex,
+                3: stressLevelThreeHex,
+                4: stressLevelFourHex,
+              }}
+            />
+            <RoutePieChart
+              title="Go Boston 2030"
+              routes={routes}
+              colorMap={{
+                1: stressLevelOneHex,
+                2: stressLevelTwoHex,
+                3: stressLevelThreeHex,
+                4: stressLevelFourHex,
+              }}
+            />
+          </div>
+        </GoBostonLegend>
         <div id="map-container" ref={mapContainerRef} />
       </div>
     </Fragment>
