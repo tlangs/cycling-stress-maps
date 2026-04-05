@@ -189,7 +189,7 @@ function GoBostonLevelOfSressMap(): ReactElement {
         if (e.features && e.features[0] && e.features[0].properties) {
           const props = e.features[0].properties;
 
-          let html = LevelOfTrafficStressPopupHTML(props);
+          const html = LevelOfTrafficStressPopupHTML(props);
 
           new mapboxgl.Popup()
             .setLngLat(e.lngLat)

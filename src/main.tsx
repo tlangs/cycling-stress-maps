@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import ProposedRoutesMap from "./routes/ProposedRoutesMap/ProposedRoutesMap";
-import App from "./App";
 import GoBostonLevelOfSressMap from "./routes/GoBoston/GoBostonLevelOfStressMap";
 import DefaultMap from "./routes/DefaultMap/DefaultMap";
 

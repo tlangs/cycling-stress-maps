@@ -86,7 +86,7 @@ function Mapbox(): ReactElement {
       if (e.features && e.features[0] && e.features[0].properties) {
         const props = e.features[0].properties;
 
-        let html = PopupHTML(props);
+        const html = PopupHTML(props);
 
         new mapboxgl.Popup()
           .setLngLat(e.lngLat)
