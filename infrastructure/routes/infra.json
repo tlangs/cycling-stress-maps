@@ -1,0 +1,34 @@
+{
+  "ways": [
+    {
+      "type": "query",
+      "query": "select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Dr. Paul Dudley White Path', 'Muddy River Bikepath', 'Brookline Avenue', 'Emerald Necklace Trail', 'Jamaicaway Bikepath', 'Pierre Lallement Bike Path', 'Neponset River Greenway', 'Boston Harbor Walk and Neponset River Greenway', 'Arborway', 'Fenway', 'Riverway', 'Park Drive', 'Lost Emerald Necklace' ) and w.highway = 'cycleway'",
+      "props": {
+        "category": "dcr-path"
+      }
+    },
+    {
+      "type": "way_fill",
+      "startId": 35600252,
+      "highway": "cycleway",
+      "noGoes": [1428788221, 1116635898],
+      "props": {
+        "category": "dcr-path"
+      }
+    },
+    {
+      "type": "query",
+      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE = 'track' or (LEFT_TYPE in ('lane') and LEFT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( RIGHT_TYPE = 'track' or (RIGHT_TYPE in ('lane') and RIGHT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Connect Historic Boston Bicycle Trail', 'Melnea Cass Bike Path', 'South Bay Harbor Trail', 'Atlantic Avenue', 'Commercial Street', 'Massachusetts Avenue', 'Boston HarborWalk' ) and w.highway = 'cycleway' ) W;",
+      "props": {
+        "category": "protected"
+      }
+    },
+    {
+      "type": "query",
+      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID   LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE in ('lane') and LEFT_SEPARATION is null and (LEFT_LANE not in ('pictogram', 'advisory') or LEFT_LANE is null) ) union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and (  RIGHT_TYPE in ('lane') and RIGHT_SEPARATION is null and (RIGHT_LANE not in ('pictogram', 'advisory') or RIGHT_LANE is null) ) ) W;",
+      "props": {
+        "category": "unprotected"
+      }
+    }
+  ]
+}
