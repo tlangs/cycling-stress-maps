@@ -5,6 +5,7 @@ import { HashRouter, Route, Routes } from "react-router-dom";
 import ProposedRoutesMap from "./routes/ProposedRoutesMap/ProposedRoutesMap";
 import App from "./App";
 import GoBostonLevelOfSressMap from "./routes/GoBoston/GoBostonLevelOfStressMap";
+import DefaultMap from "./routes/DefaultMap/DefaultMap";
 
 // REGISTER ERROR OVERLAY
 const showErrorOverlay = (err: ErrorEvent) => {
@@ -28,7 +29,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<DefaultMap />} />
         <Route path="/proposed-routes" element={<ProposedRoutesMap />} />
         <Route path="/go-boston" element={<GoBostonLevelOfSressMap />} />
         {/* <Route path="/stress-map" element={<LevelOfStressRouteMap/>}/>
