@@ -1,0 +1,8 @@
+{
+  "ways": [
+    {
+      "type": "query",
+      "query": "select  DISTINCT(OSM_ID) from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  where (LEFT_TYPE = 'track') or (LEFT_TYPE = 'lane' and LEFT_SEPARATION IS NOT NULL)  union  select w.OSM_ID as OSM_ID  from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  where (LEFT_TYPE = 'track')  or (RIGHT_TYPE = 'lane' and RIGHT_SEPARATION IS NOT NULL)  union   select w.OSM_ID as OSM_ID  from WAY w   where w.HIGHWAY = 'cycleway' and w.SURFACE != 'unpaved' ) L; "
+    }
+  ]
+}
