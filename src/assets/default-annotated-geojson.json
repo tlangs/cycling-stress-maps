@@ -1689,6 +1689,68 @@
       },
       {
         "type": "Feature",
+        "id": "way/290927723",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039394, 42.36709],
+            [-71.039387, 42.367035],
+            [-71.039368, 42.366931],
+            [-71.039344, 42.366837],
+            [-71.03931, 42.366759]
+          ]
+        },
+        "properties": {
+          "osmId": 290927723,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 37.513447240057175,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/290927735",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039323, 42.367468],
+            [-71.039358, 42.367337],
+            [-71.039375, 42.36724],
+            [-71.039386, 42.367168],
+            [-71.039394, 42.36709]
+          ]
+        },
+        "properties": {
+          "osmId": 290927735,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 42.48387589081968,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/301737839",
         "geometry": {
           "type": "LineString",
@@ -2860,6 +2922,81 @@
       },
       {
         "type": "Feature",
+        "id": "way/563157904",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.024845, 42.379514],
+            [-71.02486, 42.37948],
+            [-71.024858, 42.379429],
+            [-71.024849, 42.379361],
+            [-71.024845, 42.379308],
+            [-71.024844, 42.379258],
+            [-71.024863, 42.379208],
+            [-71.024898, 42.379163],
+            [-71.024943, 42.379131],
+            [-71.024992, 42.379115],
+            [-71.025039, 42.379095],
+            [-71.02513, 42.379051],
+            [-71.025171, 42.379023],
+            [-71.025211, 42.378988],
+            [-71.025306, 42.378901],
+            [-71.025364, 42.378836],
+            [-71.025473, 42.378717],
+            [-71.025491, 42.378699]
+          ]
+        },
+        "properties": {
+          "osmId": 563157904,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 112.3381172887611,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/563157905",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.024634, 42.379694],
+            [-71.024616, 42.379774],
+            [-71.024595, 42.379808],
+            [-71.024483, 42.379947],
+            [-71.024025, 42.380349]
+          ]
+        },
+        "properties": {
+          "osmId": 563157905,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 89.56926320812053,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/570815191",
         "geometry": {
           "type": "LineString",
@@ -2904,6 +3041,44 @@
           "condition": null,
           "surface": "concrete",
           "length": 96.60865713563912,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/640072349",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.03931, 42.366759],
+            [-71.03926, 42.366647],
+            [-71.039287, 42.366552],
+            [-71.039353, 42.366475],
+            [-71.039368, 42.366464],
+            [-71.039471, 42.366387],
+            [-71.039529, 42.366321],
+            [-71.039573, 42.366195],
+            [-71.039602, 42.366088],
+            [-71.039626, 42.36595],
+            [-71.03965, 42.365884],
+            [-71.039699, 42.365812]
+          ]
+        },
+        "properties": {
+          "osmId": 640072349,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "concrete",
+          "length": 115.21774050531091,
           "lts": 1,
           "category": "dcr-path",
           "trafficCalmed": false
@@ -3339,6 +3514,124 @@
       },
       {
         "type": "Feature",
+        "id": "way/667459870",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.027858, 42.377443],
+            [-71.027969, 42.377351],
+            [-71.028278, 42.377086],
+            [-71.028353, 42.377015],
+            [-71.028398, 42.376965],
+            [-71.028493, 42.376851],
+            [-71.028582, 42.376764],
+            [-71.028685, 42.376658],
+            [-71.02883, 42.376543],
+            [-71.02891, 42.376467],
+            [-71.028992, 42.376384],
+            [-71.029064, 42.376306],
+            [-71.029141, 42.37623],
+            [-71.029224, 42.376165],
+            [-71.029313, 42.376098],
+            [-71.029399, 42.376034],
+            [-71.029463, 42.375982],
+            [-71.029522, 42.375925],
+            [-71.029586, 42.37586],
+            [-71.029656, 42.375786],
+            [-71.029753, 42.375693],
+            [-71.029852, 42.375604],
+            [-71.029951, 42.375521],
+            [-71.030069, 42.375424],
+            [-71.03015, 42.375368],
+            [-71.030159, 42.375362],
+            [-71.030388, 42.375198],
+            [-71.030665, 42.374991],
+            [-71.030755, 42.374929],
+            [-71.030834, 42.37486],
+            [-71.030894, 42.374801],
+            [-71.030962, 42.374728],
+            [-71.031042, 42.374622],
+            [-71.031104, 42.374539],
+            [-71.031189, 42.374448],
+            [-71.031265, 42.374382],
+            [-71.031367, 42.374317],
+            [-71.031464, 42.374243],
+            [-71.031547, 42.37418],
+            [-71.031596, 42.374131],
+            [-71.031625, 42.374103],
+            [-71.031705, 42.37401],
+            [-71.031791, 42.373919],
+            [-71.031882, 42.373833],
+            [-71.031987, 42.373744],
+            [-71.032091, 42.373669],
+            [-71.032199, 42.37359],
+            [-71.032284, 42.373514],
+            [-71.032376, 42.373437],
+            [-71.03245, 42.373368],
+            [-71.032528, 42.373301],
+            [-71.032609, 42.373241],
+            [-71.032706, 42.373176],
+            [-71.032786, 42.373128],
+            [-71.03299, 42.373027],
+            [-71.0331, 42.372977],
+            [-71.033186, 42.37293],
+            [-71.033264, 42.37288],
+            [-71.033332, 42.372822]
+          ]
+        },
+        "properties": {
+          "osmId": 667459870,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 686.6157957756994,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/667459871",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.026085, 42.37828],
+            [-71.026174, 42.378336],
+            [-71.02622, 42.378355],
+            [-71.026362, 42.378413],
+            [-71.02642, 42.378428],
+            [-71.026428, 42.37843],
+            [-71.02649, 42.378442]
+          ]
+        },
+        "properties": {
+          "osmId": 667459871,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 38.29396897080451,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/668284028",
         "geometry": {
           "type": "LineString",
@@ -3739,6 +4032,227 @@
           "condition": null,
           "surface": "asphalt",
           "length": 186.0836202615187,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/765980917",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.036202, 42.370653],
+            [-71.036366, 42.370573],
+            [-71.036485, 42.370508],
+            [-71.036901, 42.370249],
+            [-71.037053, 42.370153],
+            [-71.037191, 42.370047],
+            [-71.037324, 42.369933],
+            [-71.037459, 42.369805],
+            [-71.037895, 42.369361],
+            [-71.037978, 42.369268],
+            [-71.038067, 42.369159],
+            [-71.038151, 42.369051],
+            [-71.038529, 42.368619],
+            [-71.038609, 42.368521],
+            [-71.038993, 42.368036],
+            [-71.039066, 42.367959],
+            [-71.039139, 42.367894],
+            [-71.039221, 42.36782],
+            [-71.039266, 42.367773],
+            [-71.039301, 42.367727],
+            [-71.039326, 42.367682],
+            [-71.039336, 42.36764],
+            [-71.039345, 42.367587],
+            [-71.039362, 42.367541],
+            [-71.03938, 42.367496]
+          ]
+        },
+        "properties": {
+          "osmId": 765980917,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 443.72907643438225,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/767392330",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.025491, 42.378699],
+            [-71.025626, 42.378571]
+          ]
+        },
+        "properties": {
+          "osmId": 767392330,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 18.09303821579803,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/767983541",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.033332, 42.372822],
+            [-71.033396, 42.372759],
+            [-71.033497, 42.372652],
+            [-71.033538, 42.37261],
+            [-71.03371, 42.372431],
+            [-71.033728, 42.372414],
+            [-71.033852, 42.372298],
+            [-71.033865, 42.372286]
+          ]
+        },
+        "properties": {
+          "osmId": 767983541,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 73.9753953245336,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/812876291",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.02649, 42.378442],
+            [-71.02655, 42.378445],
+            [-71.026593, 42.378441],
+            [-71.02666, 42.378414],
+            [-71.026743, 42.37835],
+            [-71.026773, 42.378319],
+            [-71.026804, 42.378273],
+            [-71.026875, 42.378176],
+            [-71.026934, 42.378109],
+            [-71.027009, 42.378039],
+            [-71.027113, 42.377962],
+            [-71.027205, 42.377891],
+            [-71.027285, 42.377825],
+            [-71.027363, 42.377772],
+            [-71.027435, 42.377722],
+            [-71.027711, 42.377556],
+            [-71.027779, 42.377507],
+            [-71.027845, 42.377453],
+            [-71.027858, 42.377443]
+          ]
+        },
+        "properties": {
+          "osmId": 812876291,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 162.0382210690794,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/812876293",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.025885, 42.378323],
+            [-71.025927, 42.378291],
+            [-71.025962, 42.378269],
+            [-71.026004, 42.378256],
+            [-71.026046, 42.378259],
+            [-71.026085, 42.37828]
+          ]
+        },
+        "properties": {
+          "osmId": 812876293,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 19.921740451076566,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/813710236",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039699, 42.365812],
+            [-71.039768, 42.365773],
+            [-71.039802, 42.365741],
+            [-71.039835, 42.365694],
+            [-71.039857, 42.365648]
+          ]
+        },
+        "properties": {
+          "osmId": 813710236,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "concrete",
+          "length": 22.94757230785676,
           "lts": 1,
           "category": "dcr-path",
           "trafficCalmed": false
@@ -6341,6 +6855,34 @@
       },
       {
         "type": "Feature",
+        "id": "way/1091348113",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.03938, 42.367496],
+            [-71.039323, 42.367468]
+          ]
+        },
+        "properties": {
+          "osmId": 1091348113,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 5.570049259994084,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/1092239227",
         "geometry": {
           "type": "LineString",
@@ -6486,6 +7028,48 @@
           "condition": null,
           "surface": "asphalt",
           "length": 26.677767274188447,
+          "lts": 1,
+          "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1092401162",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.033934, 42.372222],
+            [-71.034021, 42.372141],
+            [-71.034556, 42.371701],
+            [-71.034688, 42.371606],
+            [-71.034874, 42.371481],
+            [-71.03501, 42.371406],
+            [-71.035117, 42.37135],
+            [-71.035218, 42.371293],
+            [-71.035318, 42.371238],
+            [-71.035406, 42.371176],
+            [-71.035503, 42.371116],
+            [-71.035599, 42.371063],
+            [-71.035817, 42.370926],
+            [-71.035885, 42.370879],
+            [-71.036062, 42.37074],
+            [-71.036202, 42.370653]
+          ]
+        },
+        "properties": {
+          "osmId": 1092401162,
+          "cityId": 1,
+          "name": "Mary Ellen Welch Greenway",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 256.15356302111866,
           "lts": 1,
           "category": "dcr-path",
           "trafficCalmed": false
@@ -11101,6 +11685,862 @@
           "length": 2.690063599674501,
           "lts": 1,
           "category": "dcr-path",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1443745756",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.056514, 42.373416],
+            [-71.056506, 42.37342],
+            [-71.056472, 42.373441],
+            [-71.056445, 42.373467],
+            [-71.056425, 42.373497],
+            [-71.056291, 42.373705],
+            [-71.056267, 42.373736],
+            [-71.056237, 42.373766],
+            [-71.056212, 42.37379],
+            [-71.056183, 42.373815],
+            [-71.056152, 42.373839],
+            [-71.056121, 42.37386],
+            [-71.056083, 42.373884],
+            [-71.056001, 42.373934],
+            [-71.055997, 42.373941],
+            [-71.055995, 42.37395],
+            [-71.055994, 42.373961],
+            [-71.055994, 42.373972],
+            [-71.056, 42.374002]
+          ]
+        },
+        "properties": {
+          "osmId": 1443745756,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 80.21712574956935,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1263414141",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.057444, 42.372931],
+            [-71.056653, 42.373346],
+            [-71.05659, 42.373377],
+            [-71.056514, 42.373416]
+          ]
+        },
+        "properties": {
+          "osmId": 1263414141,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 93.443121877974,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825298125",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059998, 42.371772],
+            [-71.059975, 42.371746],
+            [-71.05997, 42.371741],
+            [-71.059963, 42.371738],
+            [-71.059956, 42.371738],
+            [-71.059949, 42.37174],
+            [-71.05969, 42.37186],
+            [-71.059289, 42.372049],
+            [-71.058593, 42.37237],
+            [-71.058177, 42.372564],
+            [-71.057806, 42.37274]
+          ]
+        },
+        "properties": {
+          "osmId": 825298125,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 214.27563536461003,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1263414142",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.057806, 42.37274],
+            [-71.057651, 42.372822],
+            [-71.057444, 42.372931]
+          ]
+        },
+        "properties": {
+          "osmId": 1263414142,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "paving_stones",
+          "length": 36.53653028073915,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395100939",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062392, 42.371062],
+            [-71.062342, 42.371044],
+            [-71.062287, 42.371025],
+            [-71.06223, 42.371001],
+            [-71.062202, 42.37099],
+            [-71.062166, 42.370974],
+            [-71.062106, 42.370946]
+          ]
+        },
+        "properties": {
+          "osmId": 1395100939,
+          "cityId": 1,
+          "name": "New Rutherford Avenue",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 26.849551379717692,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1395100939,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1392256152",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058605, 42.367239],
+            [-71.058718, 42.3674]
+          ]
+        },
+        "properties": {
+          "osmId": 1392256152,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 20.085884455094806,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1392256153",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058948, 42.367301],
+            [-71.058721, 42.366988]
+          ]
+        },
+        "properties": {
+          "osmId": 1392256153,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 39.49531212816414,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1392256154",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062106, 42.370946],
+            [-71.06195, 42.370867]
+          ]
+        },
+        "properties": {
+          "osmId": 1392256154,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 15.515452769972194,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1392256154,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/172440093",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062075, 42.370892],
+            [-71.062138, 42.370791],
+            [-71.062182, 42.370748],
+            [-71.062247, 42.370705],
+            [-71.062378, 42.370627],
+            [-71.062528, 42.370546],
+            [-71.0627, 42.37046],
+            [-71.062823, 42.370401],
+            [-71.062939, 42.370348],
+            [-71.063056, 42.370296],
+            [-71.063235, 42.370218],
+            [-71.06329, 42.370189],
+            [-71.063342, 42.370153],
+            [-71.063403, 42.370102],
+            [-71.06347, 42.370035],
+            [-71.063527, 42.369986],
+            [-71.06359, 42.369938],
+            [-71.063658, 42.369894],
+            [-71.063745, 42.369847],
+            [-71.063829, 42.369806],
+            [-71.063998, 42.36972]
+          ]
+        },
+        "properties": {
+          "osmId": 172440093,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 207.52459189182574,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1430478248",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06195, 42.370867],
+            [-71.061874, 42.370827],
+            [-71.061859, 42.370821]
+          ]
+        },
+        "properties": {
+          "osmId": 1430478248,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 9.112461372085217,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1430478248,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1430478250",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058721, 42.366988],
+            [-71.058545, 42.366904]
+          ]
+        },
+        "properties": {
+          "osmId": 1430478250,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 17.212174286435012,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1262331183",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058718, 42.3674],
+            [-71.060362, 42.369734],
+            [-71.060596, 42.370069],
+            [-71.060759, 42.370297],
+            [-71.060781, 42.370329],
+            [-71.060806, 42.370362],
+            [-71.060824, 42.370388],
+            [-71.060835, 42.370404],
+            [-71.060896, 42.370491],
+            [-71.060909, 42.370508],
+            [-71.060916, 42.370517],
+            [-71.060926, 42.370531],
+            [-71.060929, 42.370535],
+            [-71.060939, 42.370547],
+            [-71.060953, 42.370564],
+            [-71.060967, 42.370581],
+            [-71.060994, 42.370612],
+            [-71.061019, 42.370639],
+            [-71.061044, 42.370665],
+            [-71.06107, 42.370691],
+            [-71.061099, 42.370718],
+            [-71.061123, 42.370739],
+            [-71.061145, 42.370758]
+          ]
+        },
+        "properties": {
+          "osmId": 1262331183,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 423.68675724548353,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395413425",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061859, 42.370821],
+            [-71.061814, 42.370798],
+            [-71.061747, 42.370764],
+            [-71.061655, 42.370715],
+            [-71.061625, 42.370698]
+          ]
+        },
+        "properties": {
+          "osmId": 1395413425,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 23.602696212541712,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395413426",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062832, 42.371292],
+            [-71.062722, 42.371185]
+          ]
+        },
+        "properties": {
+          "osmId": 1395413426,
+          "cityId": 1,
+          "name": "New Rutherford Avenue",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 14.986929720258924,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395413427",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062485, 42.371096],
+            [-71.062413, 42.37107],
+            [-71.062392, 42.371062]
+          ]
+        },
+        "properties": {
+          "osmId": 1395413427,
+          "cityId": 1,
+          "name": "New Rutherford Avenue",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 8.453065191580432,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1288754616",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064837, 42.369699],
+            [-71.064679, 42.369689],
+            [-71.064554, 42.369681],
+            [-71.064493, 42.369675],
+            [-71.064351, 42.369664],
+            [-71.064287, 42.369675],
+            [-71.064125, 42.369706],
+            [-71.063998, 42.36972]
+          ]
+        },
+        "properties": {
+          "osmId": 1288754616,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 69.80628940265863,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1408478137",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061279, 42.370864],
+            [-71.061312, 42.370888],
+            [-71.061344, 42.370911],
+            [-71.061381, 42.370936],
+            [-71.061415, 42.370958],
+            [-71.061442, 42.370976],
+            [-71.061465, 42.37099],
+            [-71.061507, 42.371016],
+            [-71.061614, 42.37108],
+            [-71.061658, 42.371102]
+          ]
+        },
+        "properties": {
+          "osmId": 1408478137,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 40.88072618182769,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1337068346",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062075, 42.370892],
+            [-71.061973, 42.370849]
+          ]
+        },
+        "properties": {
+          "osmId": 1337068346,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "concrete",
+          "length": 9.692649437600592,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1449458899",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061145, 42.370758],
+            [-71.06117, 42.370778],
+            [-71.061224, 42.370821],
+            [-71.061246, 42.370839],
+            [-71.061279, 42.370864]
+          ]
+        },
+        "properties": {
+          "osmId": 1449458899,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 16.091522605787976,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1291968604",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061625, 42.370698],
+            [-71.061552, 42.370655],
+            [-71.06149, 42.370615],
+            [-71.061447, 42.370585],
+            [-71.061393, 42.370546],
+            [-71.061347, 42.370512],
+            [-71.061285, 42.370463],
+            [-71.061228, 42.370418],
+            [-71.061176, 42.370371],
+            [-71.061137, 42.370335],
+            [-71.06111, 42.370309],
+            [-71.061074, 42.370272],
+            [-71.061046, 42.370242],
+            [-71.061016, 42.370209],
+            [-71.06098, 42.370168],
+            [-71.060953, 42.370136],
+            [-71.060929, 42.370106],
+            [-71.060889, 42.370053],
+            [-71.060852, 42.370003],
+            [-71.060542, 42.369564],
+            [-71.060294, 42.369211],
+            [-71.059935, 42.368698],
+            [-71.059765, 42.368462],
+            [-71.058948, 42.367301]
+          ]
+        },
+        "properties": {
+          "osmId": 1291968604,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 439.45828041468985,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1314062047",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061973, 42.370849],
+            [-71.06195, 42.370867],
+            [-71.061903, 42.370905],
+            [-71.061751, 42.371027],
+            [-71.061658, 42.371102]
+          ]
+        },
+        "properties": {
+          "osmId": 1314062047,
+          "cityId": 1,
+          "name": "Chelsea Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 38.17749424878376,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1314062047,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1314062049",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061658, 42.371102],
+            [-71.061647, 42.371124],
+            [-71.061636, 42.371151],
+            [-71.061541, 42.371352]
+          ]
+        },
+        "properties": {
+          "osmId": 1314062049,
+          "cityId": 1,
+          "name": "Chelsea Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 29.47313408661468,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1291968611",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062722, 42.371185],
+            [-71.062598, 42.371139],
+            [-71.062485, 42.371096]
+          ]
+        },
+        "properties": {
+          "osmId": 1291968611,
+          "cityId": 1,
+          "name": "New Rutherford Avenue",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 21.84825623859961,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1291968611,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395423596",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058545, 42.366904],
+            [-71.058498, 42.367092],
+            [-71.058524, 42.367129]
+          ]
+        },
+        "properties": {
+          "osmId": 1395423596,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 25.7971028627751,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1395423597",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058524, 42.367129],
+            [-71.058574, 42.367197],
+            [-71.058605, 42.367239]
+          ]
+        },
+        "properties": {
+          "osmId": 1395423597,
+          "cityId": 1,
+          "name": "North Washington Street",
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 14.032065950074784,
+          "lts": 1,
+          "category": "protected",
+          "cycleway": {
+            "wayOsmId": 1395423597,
+            "leftType": "crossing",
+            "rightType": "crossing"
+          },
           "trafficCalmed": false
         }
       },

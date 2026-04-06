@@ -2,7 +2,7 @@
   "ways": [
     {
       "type": "query",
-      "query": "select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Dr. Paul Dudley White Path', 'Muddy River Bikepath', 'Brookline Avenue', 'Emerald Necklace Trail', 'Jamaicaway Bikepath', 'Pierre Lallement Bike Path', 'Neponset River Greenway', 'Boston Harbor Walk and Neponset River Greenway', 'Arborway', 'Fenway', 'Riverway', 'Park Drive', 'Lost Emerald Necklace' ) and w.highway = 'cycleway'",
+      "query": "select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Dr. Paul Dudley White Path', 'Muddy River Bikepath', 'Brookline Avenue', 'Emerald Necklace Trail', 'Jamaicaway Bikepath', 'Pierre Lallement Bike Path', 'Neponset River Greenway', 'Boston Harbor Walk and Neponset River Greenway', 'Arborway', 'Fenway', 'Riverway', 'Park Drive', 'Lost Emerald Necklace', 'Mary Ellen Welch Greenway' ) and w.highway = 'cycleway'",
       "props": {
         "category": "dcr-path"
       }
@@ -14,7 +14,26 @@
       "noGoes": [1428788221, 1116635898],
       "props": {
         "category": "dcr-path"
-      }
+      },
+      "notes": "Fenway Path"
+    },
+    {
+      "type": "way_fill",
+      "startId": 825298125,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "USS Constition Path"
+    },
+    {
+      "type": "way_fill",
+      "startId": 172440093,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "North Bank"
     },
     {
       "type": "query",
