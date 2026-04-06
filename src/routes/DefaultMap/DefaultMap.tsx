@@ -282,7 +282,7 @@ function Mapbox(): ReactElement {
     });
   }, [activeLayerIds, mapLoaded, allLayerIds]);
 
-  const handleInfraClick = (e: any, layerId: string) => {
+  const handleInfraClick = (layerId: string) => {
     if (activeLayerIds.includes(layerId)) {
       setActiveLayerIds(activeLayerIds.filter((d) => d !== layerId));
     } else {
@@ -320,7 +320,7 @@ function Mapbox(): ReactElement {
       }, 0) * milesPerMeter;
   const miles = Math.round(lengthInMiles * 100) / 100;
 
-  const handleNeighborhoodChange = (e: any, neighborhood: string) => {
+  const handleNeighborhoodChange = (neighborhood: string) => {
     const newSelected = {
       ...neighborhoodsSelected,
     };
@@ -352,7 +352,7 @@ function Mapbox(): ReactElement {
             ...(activeLayerIds.includes("dcr-path") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={(e) => handleInfraClick(e, "dcr-path")}
+          onClick={() => handleInfraClick("dcr-path")}
         >
           DCR Bike Path
         </button>
@@ -363,7 +363,7 @@ function Mapbox(): ReactElement {
             ...(activeLayerIds.includes("protected") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={(e) => handleInfraClick(e, "protected")}
+          onClick={() => handleInfraClick("protected")}
         >
           Protected Infrastructure
         </button>
@@ -374,7 +374,7 @@ function Mapbox(): ReactElement {
             ...(activeLayerIds.includes("unprotected") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={(e) => handleInfraClick(e, "unprotected")}
+          onClick={() => handleInfraClick("unprotected")}
         >
           Unprotected Infrastructure
         </button>
@@ -385,7 +385,7 @@ function Mapbox(): ReactElement {
             ...(showNeighborhoods && activeMenuItemStyle),
             marginTop: "1em",
           }}
-          onClick={(_) => setShowNeighborhoods(!showNeighborhoods)}
+          onClick={() => setShowNeighborhoods(!showNeighborhoods)}
         >
           {showNeighborhoods ? "Hide" : "Show"} Neighborhoods
         </button>
@@ -413,7 +413,7 @@ function Mapbox(): ReactElement {
                   id={`${name}-checkbox`}
                   name={`${name}-checkbox`}
                   checked={neighborhoodsSelected[name]}
-                  onChange={(e: any) => handleNeighborhoodChange(e, name)}
+                  onChange={() => handleNeighborhoodChange(name)}
                 />
                 <label htmlFor={`${name}-checkbox`}>{name}</label>
               </div>
