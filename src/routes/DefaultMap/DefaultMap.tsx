@@ -5,10 +5,14 @@ import {
   type RefObject,
   type ReactElement,
   useState,
+  useMemo,
 } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import lanes from "../../assets/default-annotated-geojson.json";
+import neighborhoodsCollection from "../../assets/neighborhoods.json";
+import haversine from "haversine-distance";
+import robustPointInPolygon from "robust-point-in-polygon";
 
 const lastMapCenterKey = "lastMapCenter";
 const lastZoomLevelKey = "lastZoomLevel";
@@ -20,7 +24,7 @@ const menuStyle = {
   top: 10,
   right: 10,
   borderRadius: 3,
-  width: "120px",
+  width: "160px",
   border: "1px solid rgba(0, 0, 0, 0.4)",
   fontFamily: "'Open Sans', sans-serif",
 };
@@ -45,6 +49,70 @@ const activeMenuItemStyle = {
 
 const milesPerMeter = 0.0006213712;
 
+const neighborhoods = neighborhoodsCollection.features.reduce(
+  (acc, feature) => {
+    // @ts-expect-error these actually are compatible
+    acc[feature.properties.name] = feature;
+    return acc;
+  },
+  {} as { [name: string]: GeoJSON.Feature },
+);
+
+const neighborhoodNames = Object.keys(neighborhoods).sort();
+const initialNeighborhoodsSelected = neighborhoodNames.reduce(
+  (acc, name) => {
+    acc[name] = false;
+    return acc;
+  },
+  {} as { [name: string]: boolean },
+);
+
+const lengthOfCoordinatesWithinNeighborhoods = (
+  feature: GeoJSON.Feature,
+  neighborhoodFeatures: GeoJSON.Feature[],
+): number => {
+  let totalDistance = 0;
+  neighborhoodFeatures.forEach((neighborhood) => {
+    totalDistance += lengthWithinNeighborhood(feature, neighborhood);
+  });
+  return totalDistance;
+};
+
+const lengthWithinNeighborhood = (
+  feature: GeoJSON.Feature,
+  neighborhood: GeoJSON.Feature,
+): number => {
+  let dist = 0;
+  let last: undefined | GeoJSON.Position = undefined;
+  let polygonsToCheck: GeoJSON.Position[][][] = [];
+  if (neighborhood.geometry.type === "MultiPolygon") {
+    polygonsToCheck = neighborhood.geometry.coordinates;
+  } else {
+    polygonsToCheck = [
+      // @ts-expect-error coordinates actually do exist
+      neighborhood.geometry.coordinates as GeoJSON.Position[][],
+    ];
+  }
+
+  // @ts-expect-error coordinates actually do exist
+  feature.geometry.coordinates.forEach((coord) => {
+    const itsIn = polygonsToCheck.some(
+      // @ts-expect-error Point from robustPointInPolygon not exported
+      (polygon) => robustPointInPolygon(polygon[0], coord) <= 0,
+    );
+    if (itsIn && last !== undefined) {
+      // @ts-expect-error haversine Coordinates and GeoJSON Positions are compatible
+      dist += haversine(last, coord);
+      last = coord;
+    } else if (itsIn && last === undefined) {
+      last = coord;
+    } else {
+      last = undefined;
+    }
+  });
+  return dist;
+};
+
 function Mapbox(): ReactElement {
   const mapRef: RefObject<mapboxgl.Map> = useRef(
     null as unknown as mapboxgl.Map,
@@ -53,11 +121,17 @@ function Mapbox(): ReactElement {
     null as unknown as HTMLDivElement,
   );
 
-  const allLayerIds = ["dcr-path", "protected", "unprotected"];
+  const allLayerIds = useMemo(
+    () => ["dcr-path", "protected", "unprotected"],
+    [],
+  );
 
   const [activeLayerIds, setActiveLayerIds] = useState(allLayerIds);
-  const [miles, setMiles] = useState(0);
   const [mapLoaded, setMapLoaded] = useState(false);
+  const [neighborhoodsSelected, setNeighborhoodsSelected] = useState(
+    initialNeighborhoodsSelected,
+  );
+  const [showNeighborhoods, setShowNeighborhoods] = useState(false);
 
   useEffect(() => {
     mapboxgl.accessToken =
@@ -206,11 +280,9 @@ function Mapbox(): ReactElement {
         mapRef.current.setLayoutProperty(layerId, "visibility", "none");
       }
     });
-  }, [activeLayerIds]);
+  }, [activeLayerIds, mapLoaded, allLayerIds]);
 
-  const handleClick = (e: any) => {
-    const layerId = e.target.id;
-
+  const handleInfraClick = (e: any, layerId: string) => {
     if (activeLayerIds.includes(layerId)) {
       setActiveLayerIds(activeLayerIds.filter((d) => d !== layerId));
     } else {
@@ -218,18 +290,43 @@ function Mapbox(): ReactElement {
     }
   };
 
-  useEffect(() => {
-    const lengthInMiles =
-      lanes.featureCollection.features
-        .filter((feature) =>
-          activeLayerIds.includes(feature.properties["category"]),
-        )
-        .reduce((acc, feature) => {
+  const neighborhoodsToCheck = [] as GeoJSON.Feature[];
+  neighborhoodNames.map((name) => {
+    if (neighborhoodsSelected[name]) {
+      neighborhoodsToCheck.push(neighborhoods[name]);
+    }
+  });
+  const allNeighborhoodsSelected =
+    neighborhoodsToCheck.length === neighborhoodNames.length;
+  const noNeighborhoodsSelected = neighborhoodsToCheck.length === 0;
+
+  const lengthInMiles =
+    lanes.featureCollection.features
+      .filter((feature) =>
+        activeLayerIds.includes(feature.properties["category"]),
+      )
+      .reduce((acc, feature) => {
+        if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
           return feature.properties?.length + acc;
-        }, 0) * milesPerMeter;
-    const rounded = Math.round(lengthInMiles * 100) / 100;
-    setMiles(rounded);
-  }, [activeLayerIds]);
+        } else {
+          return (
+            acc +
+            lengthOfCoordinatesWithinNeighborhoods(
+              feature as GeoJSON.Feature,
+              neighborhoodsToCheck,
+            )
+          );
+        }
+      }, 0) * milesPerMeter;
+  const miles = Math.round(lengthInMiles * 100) / 100;
+
+  const handleNeighborhoodChange = (e: any, neighborhood: string) => {
+    const newSelected = {
+      ...neighborhoodsSelected,
+    };
+    newSelected[neighborhood] = !newSelected[neighborhood];
+    setNeighborhoodsSelected(newSelected);
+  };
 
   return (
     <>
@@ -241,6 +338,8 @@ function Mapbox(): ReactElement {
             ...activeMenuItemStyle,
             marginBottom: "1em",
             cursor: "default",
+            background: "#3852B4",
+            borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
         >
           Miles: {miles}
@@ -253,7 +352,7 @@ function Mapbox(): ReactElement {
             ...(activeLayerIds.includes("dcr-path") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={handleClick}
+          onClick={(e) => handleInfraClick(e, "dcr-path")}
         >
           DCR Bike Path
         </button>
@@ -264,7 +363,7 @@ function Mapbox(): ReactElement {
             ...(activeLayerIds.includes("protected") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={handleClick}
+          onClick={(e) => handleInfraClick(e, "protected")}
         >
           Protected Infrastructure
         </button>
@@ -273,11 +372,53 @@ function Mapbox(): ReactElement {
           style={{
             ...menuItemStyle,
             ...(activeLayerIds.includes("unprotected") && activeMenuItemStyle),
+            borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={handleClick}
+          onClick={(e) => handleInfraClick(e, "unprotected")}
         >
           Unprotected Infrastructure
         </button>
+        <button
+          id="miles"
+          style={{
+            ...menuItemStyle,
+            ...(showNeighborhoods && activeMenuItemStyle),
+            marginTop: "1em",
+          }}
+          onClick={(_) => setShowNeighborhoods(!showNeighborhoods)}
+        >
+          {showNeighborhoods ? "Hide" : "Show"} Neighborhoods
+        </button>
+        <div>
+          <div
+            style={{
+              ...menuItemStyle,
+              padding: "0",
+              ...activeMenuItemStyle,
+            }}
+          ></div>
+          {showNeighborhoods &&
+            neighborhoodNames.map((name) => (
+              <div
+                style={{
+                  ...menuItemStyle,
+                  padding: "0",
+                  ...activeMenuItemStyle,
+                  textAlign: "left",
+                  cursor: "default",
+                }}
+              >
+                <input
+                  type="checkbox"
+                  id={`${name}-checkbox`}
+                  name={`${name}-checkbox`}
+                  checked={neighborhoodsSelected[name]}
+                  onChange={(e: any) => handleNeighborhoodChange(e, name)}
+                />
+                <label htmlFor={`${name}-checkbox`}>{name}</label>
+              </div>
+            ))}
+        </div>
       </nav>
       <div id="map" ref={mapContainerRef} style={{ height: "100%" }} />
     </>
