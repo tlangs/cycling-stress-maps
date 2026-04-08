@@ -11,14 +11,14 @@ import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import lanes from "../../assets/default-annotated-geojson.json";
 import neighborhoodsCollection from "../../assets/neighborhoods.json";
+import neighborhoodsMask from "../../assets/neighborhoodsMask.json";
 import haversine from "haversine-distance";
-import robustPointInPolygon from "robust-point-in-polygon";
+import { booleanContains } from "@turf/boolean-contains";
 
 const lastMapCenterKey = "lastMapCenter";
 const lastZoomLevelKey = "lastZoomLevel";
 
 const menuStyle = {
-  // background: "#fff",
   position: "absolute" as const,
   zIndex: 1,
   top: 10,
@@ -84,21 +84,26 @@ const lengthWithinNeighborhood = (
 ): number => {
   let dist = 0;
   let last: undefined | GeoJSON.Position = undefined;
-  let polygonsToCheck: GeoJSON.Position[][][] = [];
+  let geometriesToCheck: GeoJSON.Geometry[] = [] as GeoJSON.Geometry[];
   if (neighborhood.geometry.type === "MultiPolygon") {
-    polygonsToCheck = neighborhood.geometry.coordinates;
+    neighborhood.geometry.coordinates.forEach((coords) => {
+      geometriesToCheck.push({
+        ...neighborhood,
+        type: "Polygon",
+        coordinates: coords,
+      });
+    });
   } else {
-    polygonsToCheck = [
-      // @ts-expect-error coordinates actually do exist
-      neighborhood.geometry.coordinates as GeoJSON.Position[][],
-    ];
+    geometriesToCheck = [neighborhood.geometry];
   }
 
   // @ts-expect-error coordinates actually do exist
   feature.geometry.coordinates.forEach((coord) => {
-    const itsIn = polygonsToCheck.some(
-      // @ts-expect-error Point from robustPointInPolygon not exported
-      (polygon) => robustPointInPolygon(polygon[0], coord) <= 0,
+    const itsIn = geometriesToCheck.some((geometry) =>
+      booleanContains(geometry, {
+        type: "Point",
+        coordinates: coord,
+      }),
     );
     if (itsIn && last !== undefined) {
       // @ts-expect-error haversine Coordinates and GeoJSON Positions are compatible
@@ -126,7 +131,9 @@ function Mapbox(): ReactElement {
     [],
   );
 
-  const [activeLayerIds, setActiveLayerIds] = useState(allLayerIds);
+  const initialActiveLayerIds = ["dcr-path", "protected"];
+
+  const [activeLayerIds, setActiveLayerIds] = useState(initialActiveLayerIds);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [neighborhoodsSelected, setNeighborhoodsSelected] = useState(
     initialNeighborhoodsSelected,
@@ -166,6 +173,14 @@ function Mapbox(): ReactElement {
       mapRef.current.addSource("infrastructure", {
         type: "geojson",
         data: lanes.featureCollection as GeoJSON.FeatureCollection,
+      });
+      mapRef.current.addSource("neighborhoods", {
+        type: "geojson",
+        data: neighborhoodsCollection as GeoJSON.FeatureCollection,
+      });
+      mapRef.current.addSource("neighborhoods-mask", {
+        type: "geojson",
+        data: neighborhoodsMask as GeoJSON.Feature,
       });
 
       mapRef.current.addLayer({
@@ -230,6 +245,26 @@ function Mapbox(): ReactElement {
           "line-opacity": 0,
         },
       });
+
+      mapRef.current.addLayer({
+        id: "neighborhoods-mask",
+        type: "fill",
+        source: "neighborhoods-mask",
+        paint: {
+          "fill-color": "black",
+          "fill-opacity": 0.5,
+        },
+      });
+
+      mapRef.current.addLayer({
+        id: "neighborhoods",
+        type: "fill",
+        source: "neighborhoods",
+        paint: {
+          "fill-color": "grey",
+          "fill-opacity": 0.75,
+        },
+      });
     });
 
     mapRef.current.on("mouseenter", "clickable", () => {
@@ -282,6 +317,31 @@ function Mapbox(): ReactElement {
     });
   }, [activeLayerIds, mapLoaded, allLayerIds]);
 
+  useEffect(() => {
+    if (!mapLoaded) return;
+    const neighborhoodsLayer = "neighborhoods";
+    const names = Object.entries(neighborhoodsSelected)
+      .filter((e) => !e[1])
+      .map((e) => e[0]);
+    if (names.length < neighborhoodNames.length) {
+      mapRef.current.setFilter(neighborhoodsLayer, [
+        "all",
+        ["in", "name", ...names],
+      ]);
+      mapRef.current.setLayoutProperty(
+        neighborhoodsLayer,
+        "visibility",
+        "visible",
+      );
+    } else {
+      mapRef.current.setLayoutProperty(
+        neighborhoodsLayer,
+        "visibility",
+        "none",
+      );
+    }
+  }, [mapLoaded, neighborhoodsSelected]);
+
   const handleInfraClick = (layerId: string) => {
     if (activeLayerIds.includes(layerId)) {
       setActiveLayerIds(activeLayerIds.filter((d) => d !== layerId));
@@ -300,10 +360,20 @@ function Mapbox(): ReactElement {
     neighborhoodsToCheck.length === neighborhoodNames.length;
   const noNeighborhoodsSelected = neighborhoodsToCheck.length === 0;
 
+  const uniqueFeaturesObj = {} as { [id: string]: GeoJSON.Feature };
+  lanes.featureCollection.features.forEach((feature) => {
+    if (feature.properties !== null && feature.properties["category"]) {
+      uniqueFeaturesObj[feature.id] = feature as GeoJSON.Feature;
+    }
+  });
+  const uniqueFeatures = Object.values(uniqueFeaturesObj);
+
   const lengthInMiles =
-    lanes.featureCollection.features
-      .filter((feature) =>
-        activeLayerIds.includes(feature.properties["category"]),
+    uniqueFeatures
+      .filter(
+        (feature) =>
+          feature.properties !== null &&
+          activeLayerIds.includes(feature.properties["category"]),
       )
       .reduce((acc, feature) => {
         if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
@@ -320,13 +390,36 @@ function Mapbox(): ReactElement {
       }, 0) * milesPerMeter;
   const miles = Math.round(lengthInMiles * 100) / 100;
 
-  const handleNeighborhoodChange = (neighborhood: string) => {
-    const newSelected = {
-      ...neighborhoodsSelected,
+  const neighborhoodCheckboxes = useMemo(() => {
+    const handleNeighborhoodChange = (neighborhood: string) => {
+      const newSelected = {
+        ...neighborhoodsSelected,
+      };
+      newSelected[neighborhood] = !newSelected[neighborhood];
+      setNeighborhoodsSelected(newSelected);
     };
-    newSelected[neighborhood] = !newSelected[neighborhood];
-    setNeighborhoodsSelected(newSelected);
-  };
+
+    return neighborhoodNames.map((name) => (
+      <div
+        style={{
+          ...menuItemStyle,
+          padding: "0",
+          ...activeMenuItemStyle,
+          textAlign: "left",
+          cursor: "default",
+        }}
+      >
+        <input
+          type="checkbox"
+          id={`${name}-checkbox`}
+          name={`${name}-checkbox`}
+          checked={neighborhoodsSelected[name]}
+          onChange={() => handleNeighborhoodChange(name)}
+        />
+        <label htmlFor={`${name}-checkbox`}>{name}</label>
+      </div>
+    ));
+  }, [neighborhoodsSelected]);
 
   return (
     <>
@@ -397,27 +490,7 @@ function Mapbox(): ReactElement {
               ...activeMenuItemStyle,
             }}
           ></div>
-          {showNeighborhoods &&
-            neighborhoodNames.map((name) => (
-              <div
-                style={{
-                  ...menuItemStyle,
-                  padding: "0",
-                  ...activeMenuItemStyle,
-                  textAlign: "left",
-                  cursor: "default",
-                }}
-              >
-                <input
-                  type="checkbox"
-                  id={`${name}-checkbox`}
-                  name={`${name}-checkbox`}
-                  checked={neighborhoodsSelected[name]}
-                  onChange={() => handleNeighborhoodChange(name)}
-                />
-                <label htmlFor={`${name}-checkbox`}>{name}</label>
-              </div>
-            ))}
+          {showNeighborhoods && neighborhoodCheckboxes}
         </div>
       </nav>
       <div id="map" ref={mapContainerRef} style={{ height: "100%" }} />
@@ -425,12 +498,15 @@ function Mapbox(): ReactElement {
   );
 }
 
-function PopupHTML(properties: { [name: string]: any }) {
+function PopupHTML(properties: GeoJSON.GeoJsonProperties): string {
+  if (properties === null) {
+    return "";
+  }
   const cycling = `<tr><td>Cycling facilities:</td><td>
   ${
     properties["cycleway"]
       ? Object.entries(JSON.parse(properties["cycleway"]))
-          .filter(([key, _]) => key != "wayOsmId")
+          .filter(([key]) => key != "wayOsmId")
           .map(([key, value]) => `${key}: ${value}`)
           .join("<br/>")
       : "None"

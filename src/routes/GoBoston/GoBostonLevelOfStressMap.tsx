@@ -290,12 +290,17 @@ function GoBostonLevelOfSressMap(): ReactElement {
   );
 }
 
-function LevelOfTrafficStressPopupHTML(properties: { [name: string]: any }) {
+function LevelOfTrafficStressPopupHTML(
+  properties: GeoJSON.GeoJsonProperties,
+): string {
+  if (properties === null) {
+    return "";
+  }
   const cycling = `<tr><td>Cycling facilities:</td><td>
   ${
     properties["cycleway"]
       ? Object.entries(JSON.parse(properties["cycleway"]))
-          .filter(([key, _]) => key != "wayOsmId")
+          .filter(([key]) => key != "wayOsmId")
           .map(([key, value]) => `${key}: ${value}`)
           .join("<br/>")
       : "None"

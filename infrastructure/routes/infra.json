@@ -2,7 +2,7 @@
   "ways": [
     {
       "type": "query",
-      "query": "select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Dr. Paul Dudley White Path', 'Muddy River Bikepath', 'Brookline Avenue', 'Emerald Necklace Trail', 'Jamaicaway Bikepath', 'Pierre Lallement Bike Path', 'Neponset River Greenway', 'Boston Harbor Walk and Neponset River Greenway', 'Arborway', 'Fenway', 'Riverway', 'Park Drive', 'Lost Emerald Necklace', 'Mary Ellen Welch Greenway' ) and w.highway = 'cycleway'",
+      "query": "select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Dr. Paul Dudley White Path', 'Muddy River Bikepath', 'Brookline Avenue', 'Emerald Necklace Trail', 'Jamaicaway Bikepath', 'Pierre Lallement Bike Path', 'Neponset River Greenway', 'Boston Harbor Walk and Neponset River Greenway', 'Arborway', 'Fenway', 'Riverway', 'Park Drive', 'Lost Emerald Necklace', 'Mary Ellen Welch Greenway', 'Fenway Multi-Use Path', 'Riverdale Parkway Bikepath', 'Dedham Heritage Rail Trail', 'Melnea Cass Boulevard', 'Leo M. Birmingham Parkway', 'Harvest River Bridge', 'Morton Street', 'Frances Appleton Bridge', 'Arthur Fiedler Footbridge', 'Dartmouth Street Overpass', 'Gloucester Street Overpass', 'Silber Way Overpass' ) and w.highway = 'cycleway'",
       "props": {
         "category": "dcr-path"
       }
@@ -16,6 +16,64 @@
         "category": "dcr-path"
       },
       "notes": "Fenway Path"
+    },
+    {
+      "type": "ways",
+      "ids": [170658072, 760884285, 828301025, 1335269714, 55677206, 44244396],
+      "props": {
+        "category": "dcr-path"
+      },
+      "notes": "Esplanade Access"
+    },
+    {
+      "type": "way_fill",
+      "startId": 767392331,
+      "highway": "cycleway",
+      "noGoes": [129032477],
+      "props": {
+        "category": "dcr-path"
+      },
+      "notes": "Constitution Beach"
+    },
+    {
+      "type": "way_fill",
+      "startId": 75801514,
+      "highway": "cycleway",
+      "noGoes": [75801533],
+      "props": {
+        "category": "dcr-path"
+      },
+      "notes": "Constitution Beach"
+    },
+    {
+      "type": "way",
+      "id": 75801548,
+      "props": {
+        "category": "dcr-path"
+      },
+      "notes": "Constitution Beach"
+    },
+    {
+      "type": "ways",
+      "ids": [
+        1087041477, 1335269715, 32800315, 1335269713, 843137147, 826189022,
+        1335269716
+      ],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Esplanade Access (Boston)"
+    },
+    {
+      "type": "ways",
+      "ids": [
+        654803324, 503106158, 630294868, 1314014297, 1104840942, 93037173,
+        1104840944, 147776843
+      ],
+      "props": {
+        "category": "dcr-path"
+      },
+      "notes": "Neoponset River Greenway Access"
     },
     {
       "type": "way_fill",
@@ -36,8 +94,87 @@
       "notes": "North Bank"
     },
     {
+      "type": "ways",
+      "ids": [211836494, 8637956],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Calvin Struzziery Bridge"
+    },
+    {
+      "type": "ways",
+      "ids": [701128994, 802065892, 701128993],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Lower Stonybrook Reservation"
+    },
+    {
+      "type": "ways",
+      "ids": [
+        1087024112, 821722242, 1087024110, 1087024109, 920589855, 905907959,
+        920589856, 1087024107, 1087024106, 920592039, 1087024111, 818682939
+      ],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "UMass Roundabout"
+    },
+    {
+      "type": "way",
+      "id": 506110773,
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Shawmut Path"
+    },
+    {
+      "type": "way",
+      "id": 112688231,
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Fallon Field"
+    },
+    {
+      "type": "ways",
+      "ids": [1388085128, 1073412488, 8651251],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Rena Park"
+    },
+    {
+      "type": "way_range",
+      "fromId": 453563181,
+      "toId": 129032477,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "East Boston Greenway"
+    },
+    {
+      "type": "way_range",
+      "fromId": 767983542,
+      "toId": 832653364,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "East Boston Memorial Park"
+    },
+    {
+      "type": "ways",
+      "ids": [749544866, 749544865, 749544866],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Tomahawk Drive"
+    },
+    {
       "type": "query",
-      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE = 'track' or (LEFT_TYPE in ('lane') and LEFT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( RIGHT_TYPE = 'track' or (RIGHT_TYPE in ('lane') and RIGHT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Connect Historic Boston Bicycle Trail', 'Melnea Cass Bike Path', 'South Bay Harbor Trail', 'Atlantic Avenue', 'Commercial Street', 'Massachusetts Avenue', 'Boston HarborWalk' ) and w.highway = 'cycleway' ) W;",
+      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE = 'track' or (LEFT_TYPE in ('lane') and LEFT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( RIGHT_TYPE = 'track' or (RIGHT_TYPE in ('lane') and RIGHT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Connect Historic Boston Bicycle Trail', 'Melnea Cass Bike Path', 'South Bay Harbor Trail', 'Atlantic Avenue', 'Commercial Street', 'Massachusetts Avenue', 'Boston HarborWalk', 'Boston Harborwalk', 'A Street', 'New Cypher Street', 'Richards Street', 'Seaport Boulevard', 'Northern Avenue', 'Summer Street', 'Causeway Street', 'Miller''s River Littoral Way', 'Cambridge Street', 'Alford Street', 'Maffa Way', 'Main Street', 'Encore Riverwalk', 'Western Avenue', 'South Campus Drive', 'Academic Way', 'American Legion Highway', 'Huntington Avenue', 'Washington Street', 'Warren Street', 'Dudley Street', 'Poplar Street', 'Ruggles Street', 'Commonwealth Avenue', 'Guest Street', 'Arthur Street', 'Boylston Street', 'Calvin Struzziery Bridge', 'Beacon''s Walk', 'River Street', 'Mattapan North Busway', 'South Street', 'Circuit Drive', 'West Fourth Street', 'Traveler Street', 'Albany Street', 'Granby Street', 'North Beacon Street' ) and w.highway = 'cycleway' ) W;",
       "props": {
         "category": "protected"
       }
