@@ -127,11 +127,11 @@ function Mapbox(): ReactElement {
   );
 
   const allLayerIds = useMemo(
-    () => ["dcr-path", "protected", "unprotected"],
+    () => ["state-path", "protected", "unprotected"],
     [],
   );
 
-  const initialActiveLayerIds = ["dcr-path", "protected"];
+  const initialActiveLayerIds = ["state-path", "protected"];
 
   const [activeLayerIds, setActiveLayerIds] = useState(initialActiveLayerIds);
   const [mapLoaded, setMapLoaded] = useState(false);
@@ -184,7 +184,7 @@ function Mapbox(): ReactElement {
       });
 
       mapRef.current.addLayer({
-        id: "dcr-path",
+        id: "state-path",
         type: "line",
         source: "infrastructure",
         layout: {
@@ -196,7 +196,7 @@ function Mapbox(): ReactElement {
           "line-opacity": 1,
           "line-width": 3,
         },
-        filter: ["all", ["==", "category", "dcr-path"]],
+        filter: ["all", ["==", "category", "state-path"]],
       });
 
       mapRef.current.addLayer({
@@ -439,15 +439,15 @@ function Mapbox(): ReactElement {
         </button>
 
         <button
-          id="dcr-path"
+          id="state-path"
           style={{
             ...menuItemStyle,
-            ...(activeLayerIds.includes("dcr-path") && activeMenuItemStyle),
+            ...(activeLayerIds.includes("state-path") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={() => handleInfraClick("dcr-path")}
+          onClick={() => handleInfraClick("state-path")}
         >
-          DCR Bike Path
+          State Bike Path
         </button>
         <button
           id="protected"
