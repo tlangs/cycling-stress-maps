@@ -55,6 +55,50 @@
     },
     {
       "type": "ways",
+      "ids": [8647120, 1083635635, 1271412882],
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Franklin Park Circuit Drive"
+    },
+    {
+      "type": "way_fill",
+      "startId": 942668936,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Circuit Drive Path"
+    },
+    {
+      "type": "way_fill",
+      "startId": 8645269,
+      "name": "Franklin Park Service Road",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Franklin Park"
+    },
+    {
+      "type": "way_fill",
+      "startId": 504665060,
+      "highway": "service",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Playstead Road"
+    },
+    {
+      "type": "ways",
+      "ids": [1290371143, 504661143, 8652406],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Franklin Park Ways"
+    },
+    {
+      "type": "ways",
       "ids": [
         1087041477, 1335269715, 32800315, 1335269713, 843137147, 826189022,
         1335269716
@@ -134,7 +178,7 @@
       "type": "way",
       "id": 506110773,
       "props": {
-        "category": "protected"
+        "category": "state-path"
       },
       "notes": "Shawmut Path"
     },
@@ -174,7 +218,7 @@
     },
     {
       "type": "query",
-      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE = 'track' or (LEFT_TYPE in ('lane') and LEFT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( RIGHT_TYPE = 'track' or (RIGHT_TYPE in ('lane') and RIGHT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Connect Historic Boston Bicycle Trail', 'Melnea Cass Bike Path', 'South Bay Harbor Trail', 'Atlantic Avenue', 'Commercial Street', 'Massachusetts Avenue', 'A Street', 'New Cypher Street', 'Richards Street', 'Seaport Boulevard', 'Northern Avenue', 'Summer Street', 'Causeway Street', 'Miller''s River Littoral Way', 'Cambridge Street', 'Alford Street', 'Maffa Way', 'Main Street', 'Encore Riverwalk', 'Western Avenue', 'South Campus Drive', 'Academic Way', 'American Legion Highway', 'Huntington Avenue', 'Washington Street', 'Warren Street', 'Dudley Street', 'Poplar Street', 'Ruggles Street', 'Commonwealth Avenue', 'Guest Street', 'Arthur Street', 'Boylston Street', 'Calvin Struzziery Bridge', 'Beacon''s Walk', 'River Street', 'Mattapan North Busway', 'South Street', 'Circuit Drive', 'West Fourth Street', 'Traveler Street', 'Albany Street', 'Granby Street', 'North Beacon Street' ) and w.highway = 'cycleway' ) W;",
+      "query": "select  OSM_ID from ( select w.OSM_ID as OSM_ID from WAY w  LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( LEFT_TYPE = 'track' or (LEFT_TYPE in ('lane') and LEFT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as OSM_ID from WAY w   LEFT JOIN CYCLEWAY cw on w.osm_id = cw.WAY_OSM_ID  LEFT JOIN CITY c on c.id = w.city_id where c.CITY_NAME = 'BOSTON' and ( RIGHT_TYPE = 'track' or (RIGHT_TYPE in ('lane') and RIGHT_SEPARATION not in ('no', null)) )  union  select w.OSM_ID as WAY_OSM from WAY w where w.WAY_NAME in ( 'Connect Historic Boston Bicycle Trail', 'Melnea Cass Bike Path', 'South Bay Harbor Trail', 'Atlantic Avenue', 'Commercial Street', 'Massachusetts Avenue', 'A Street', 'New Cypher Street', 'Richards Street', 'Seaport Boulevard', 'Northern Avenue', 'Summer Street', 'Causeway Street', 'Miller''s River Littoral Way', 'Cambridge Street', 'Alford Street', 'Maffa Way', 'Main Street', 'Encore Riverwalk', 'Western Avenue', 'South Campus Drive', 'Academic Way', 'American Legion Highway', 'Huntington Avenue', 'Washington Street', 'Warren Street', 'Dudley Street', 'Poplar Street', 'Ruggles Street', 'Commonwealth Avenue', 'Guest Street', 'Arthur Street', 'Boylston Street', 'Calvin Struzziery Bridge', 'Beacon''s Walk', 'River Street', 'Mattapan North Busway', 'South Street', 'Circuit Drive', 'West Fourth Street', 'Traveler Street', 'Albany Street', 'Granby Street', 'North Beacon Street', 'Seaver Street', 'Glen Lane' ) and w.highway = 'cycleway' ) W;",
       "props": {
         "category": "protected"
       }
