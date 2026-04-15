@@ -16624,89 +16624,41 @@
       },
       {
         "type": "Feature",
-        "id": "way/494969946",
+        "id": "way/1070099603",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-71.101727, 42.300727],
-            [-71.101752, 42.300763],
-            [-71.101773, 42.300802],
-            [-71.10179, 42.300842],
-            [-71.101814, 42.30092],
-            [-71.101831, 42.300955],
-            [-71.101852, 42.300981],
-            [-71.101882, 42.301006],
-            [-71.101915, 42.301024],
-            [-71.101951, 42.30104]
-          ]
-        },
-        "properties": {
-          "osmId": 494969946,
-          "cityId": 1,
-          "name": "Franklin Park Service Road",
-          "highway": "service",
-          "speed": 25,
-          "speedSource": "Signed speed limit",
-          "lanes": 2,
-          "lanesSource": "OSM",
-          "oneWay": true,
-          "condition": "fair",
-          "surface": "asphalt",
-          "length": 40.78068045286068,
-          "lts": 2,
-          "category": "protected",
-          "trafficCalmed": false
-        }
-      },
-      {
-        "type": "Feature",
-        "id": "way/8645365",
-        "geometry": {
-          "type": "LineString",
-          "coordinates": [
+            [-71.09897, 42.297892],
             [-71.098978, 42.297884],
-            [-71.099005, 42.297916],
-            [-71.099082, 42.29801],
-            [-71.099187, 42.29815],
-            [-71.099263, 42.298263],
-            [-71.09935, 42.298408],
-            [-71.099438, 42.298548],
-            [-71.099477, 42.298615],
-            [-71.099511, 42.298664],
-            [-71.09957, 42.298738],
-            [-71.099632, 42.298805],
-            [-71.099734, 42.298898],
-            [-71.099817, 42.298969],
-            [-71.099899, 42.299034],
-            [-71.100034, 42.299136],
-            [-71.100118, 42.299213],
-            [-71.100154, 42.299247],
-            [-71.100177, 42.299273],
-            [-71.100196, 42.299303],
-            [-71.100217, 42.299345],
-            [-71.100237, 42.299387],
-            [-71.100247, 42.299411],
-            [-71.100258, 42.29944],
-            [-71.100276, 42.29949],
-            [-71.100287, 42.299549],
-            [-71.100307, 42.299636],
-            [-71.100316, 42.2997],
-            [-71.100392, 42.299761],
-            [-71.100459, 42.299837],
-            [-71.100639, 42.300012],
-            [-71.100825, 42.300156],
-            [-71.101011, 42.300256],
-            [-71.101213, 42.300344],
-            [-71.101422, 42.300471],
-            [-71.101491, 42.300517],
-            [-71.101552, 42.300565],
-            [-71.101622, 42.300625],
-            [-71.101672, 42.300674],
-            [-71.101727, 42.300727]
+            [-71.098985, 42.297878],
+            [-71.098996, 42.297863],
+            [-71.099004, 42.297846],
+            [-71.099006, 42.297828],
+            [-71.099004, 42.297811],
+            [-71.098997, 42.297794],
+            [-71.098987, 42.297778],
+            [-71.098972, 42.297764],
+            [-71.098953, 42.297753],
+            [-71.098933, 42.297744],
+            [-71.09891, 42.297739],
+            [-71.098886, 42.297736],
+            [-71.098846, 42.297741],
+            [-71.098811, 42.297754],
+            [-71.098782, 42.297775],
+            [-71.09878, 42.29778],
+            [-71.098765, 42.297802],
+            [-71.098761, 42.297832],
+            [-71.098769, 42.297861],
+            [-71.09879, 42.297886],
+            [-71.098821, 42.297905],
+            [-71.098858, 42.297916],
+            [-71.098898, 42.297917],
+            [-71.098937, 42.297909],
+            [-71.09897, 42.297892]
           ]
         },
         "properties": {
-          "osmId": 8645365,
+          "osmId": 1070099603,
           "cityId": 1,
           "name": "Franklin Park Service Road",
           "highway": "service",
@@ -16717,7 +16669,7 @@
           "oneWay": false,
           "condition": "fair",
           "surface": "asphalt",
-          "length": 398.0940145237587,
+          "length": 63.269924877856646,
           "lts": 1,
           "category": "protected",
           "trafficCalmed": false
@@ -16725,24 +16677,31 @@
       },
       {
         "type": "Feature",
-        "id": "way/8645269",
+        "id": "way/1046991058",
         "geometry": {
           "type": "LineString",
           "coordinates": [
-            [-71.102144, 42.300898],
-            [-71.102124, 42.300874],
-            [-71.102089, 42.300843],
-            [-71.102052, 42.300822],
-            [-71.102008, 42.300806],
-            [-71.101956, 42.300793],
-            [-71.101834, 42.300771],
-            [-71.101794, 42.300759],
-            [-71.101758, 42.300743],
-            [-71.101727, 42.300727]
+            [-71.098707, 42.297223],
+            [-71.098687, 42.297333],
+            [-71.098671, 42.297425],
+            [-71.098668, 42.297499],
+            [-71.09867, 42.297544],
+            [-71.098675, 42.29757],
+            [-71.098681, 42.297598],
+            [-71.098687, 42.297614],
+            [-71.098697, 42.297635],
+            [-71.098713, 42.297652],
+            [-71.098738, 42.297666],
+            [-71.098766, 42.297674],
+            [-71.098803, 42.297685],
+            [-71.098831, 42.297694],
+            [-71.098846, 42.2977],
+            [-71.098858, 42.297709],
+            [-71.098886, 42.297736]
           ]
         },
         "properties": {
-          "osmId": 8645269,
+          "osmId": 1046991058,
           "cityId": 1,
           "name": "Franklin Park Service Road",
           "highway": "service",
@@ -16750,11 +16709,120 @@
           "speedSource": "Signed speed limit",
           "lanes": 2,
           "lanesSource": "OSM",
-          "oneWay": true,
+          "oneWay": false,
+          "condition": "fair",
+          "surface": null,
+          "length": 65.99575696516283,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8649915",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.099176, 42.295935],
+            [-71.099115, 42.295968],
+            [-71.09905, 42.296004],
+            [-71.098968, 42.296076],
+            [-71.098836, 42.296257],
+            [-71.098735, 42.296452],
+            [-71.098707, 42.296632],
+            [-71.09869, 42.296737],
+            [-71.098694, 42.296887],
+            [-71.098707, 42.296934],
+            [-71.09872, 42.29701]
+          ]
+        },
+        "properties": {
+          "osmId": 8649915,
+          "cityId": 1,
+          "name": "Franklin Park Service Road",
+          "highway": "service",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
           "condition": "fair",
           "surface": "asphalt",
-          "length": 40.502233791044944,
+          "length": 131.82913739665665,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8647027",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098694, 42.296887],
+            [-71.098548, 42.296792],
+            [-71.098452, 42.296754],
+            [-71.098355, 42.296728],
+            [-71.098252, 42.296711],
+            [-71.09801, 42.2967],
+            [-71.097839, 42.296716],
+            [-71.097578, 42.296778],
+            [-71.097412, 42.296831],
+            [-71.097151, 42.296888],
+            [-71.096904, 42.296913],
+            [-71.096796, 42.296896],
+            [-71.096671, 42.296856],
+            [-71.096537, 42.296789],
+            [-71.096384, 42.296689],
+            [-71.096291, 42.296598],
+            [-71.096195, 42.296484]
+          ]
+        },
+        "properties": {
+          "osmId": 8647027,
+          "cityId": 1,
+          "name": null,
+          "highway": "service",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 234.60838154025453,
           "lts": 2,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/494970975",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.09872, 42.29701],
+            [-71.098718, 42.297118],
+            [-71.098707, 42.297223]
+          ]
+        },
+        "properties": {
+          "osmId": 494970975,
+          "cityId": 1,
+          "name": "Franklin Park Service Road",
+          "highway": "service",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 23.797333365605965,
+          "lts": 1,
           "category": "protected",
           "trafficCalmed": false
         }
@@ -17265,6 +17333,600 @@
       },
       {
         "type": "Feature",
+        "id": "way/127441120",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.097564, 42.297986],
+            [-71.097682, 42.298149],
+            [-71.097837, 42.298406],
+            [-71.097945, 42.298637],
+            [-71.098106, 42.299037],
+            [-71.098175, 42.299224],
+            [-71.098267, 42.299434],
+            [-71.098293, 42.299553],
+            [-71.098374, 42.299664],
+            [-71.098508, 42.299807],
+            [-71.098568, 42.299873],
+            [-71.098664, 42.299978],
+            [-71.098803, 42.300128],
+            [-71.098889, 42.300168],
+            [-71.099093, 42.30024],
+            [-71.099307, 42.300299],
+            [-71.099608, 42.30037],
+            [-71.099822, 42.300422],
+            [-71.099958, 42.30045],
+            [-71.100096, 42.300466],
+            [-71.100214, 42.300466],
+            [-71.100353, 42.300466],
+            [-71.10052, 42.300458],
+            [-71.100576, 42.300455]
+          ]
+        },
+        "properties": {
+          "osmId": 127441120,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "paved",
+          "length": 414.2865001422077,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/910063699",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.09537, 42.297041],
+            [-71.095316, 42.297133],
+            [-71.095244, 42.297254]
+          ]
+        },
+        "properties": {
+          "osmId": 910063699,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "paved",
+          "length": 25.784709222994067,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/910063700",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.095986, 42.296141],
+            [-71.095965, 42.29624],
+            [-71.095939, 42.296375],
+            [-71.095879, 42.296546],
+            [-71.095821, 42.29665],
+            [-71.095772, 42.296736],
+            [-71.095679, 42.296861],
+            [-71.095575, 42.2969],
+            [-71.095467, 42.29697],
+            [-71.095406, 42.297015],
+            [-71.09537, 42.297041]
+          ]
+        },
+        "properties": {
+          "osmId": 910063700,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 117.33249716089051,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1134059958",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.097564, 42.297986],
+            [-71.097558, 42.297935],
+            [-71.097587, 42.297847],
+            [-71.097612, 42.297809]
+          ]
+        },
+        "properties": {
+          "osmId": 1134059958,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 20.41388897889454,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1134059959",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100576, 42.300455],
+            [-71.100759, 42.300446],
+            [-71.100831, 42.300442],
+            [-71.100965, 42.300458],
+            [-71.101281, 42.300533],
+            [-71.101389, 42.300585],
+            [-71.101552, 42.30066]
+          ]
+        },
+        "properties": {
+          "osmId": 1134059959,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 85.92767704225253,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1134059960",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.095244, 42.297254],
+            [-71.095209, 42.297379],
+            [-71.095252, 42.297526],
+            [-71.095332, 42.297665],
+            [-71.095467, 42.297795],
+            [-71.09559, 42.297883],
+            [-71.095756, 42.297942],
+            [-71.095976, 42.297966],
+            [-71.096142, 42.29795],
+            [-71.096293, 42.297903],
+            [-71.096588, 42.297811],
+            [-71.096733, 42.297784],
+            [-71.096893, 42.297768],
+            [-71.097162, 42.297772],
+            [-71.097344, 42.297807],
+            [-71.097382, 42.297832],
+            [-71.097478, 42.297895],
+            [-71.097564, 42.297986]
+          ]
+        },
+        "properties": {
+          "osmId": 1134059960,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 257.31153659094304,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1087248381",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100194, 42.299668],
+            [-71.100175, 42.299598],
+            [-71.100138, 42.29947],
+            [-71.100092, 42.299356],
+            [-71.100051, 42.299283],
+            [-71.1, 42.299226],
+            [-71.099927, 42.299137],
+            [-71.099843, 42.299064],
+            [-71.099655, 42.298898],
+            [-71.099516, 42.298773],
+            [-71.099424, 42.298666],
+            [-71.099358, 42.298556],
+            [-71.09926, 42.298407],
+            [-71.099121, 42.298204],
+            [-71.099002, 42.298062],
+            [-71.098932, 42.297991],
+            [-71.098887, 42.29796],
+            [-71.098828, 42.297947],
+            [-71.098774, 42.297931],
+            [-71.098725, 42.2979],
+            [-71.098697, 42.297854],
+            [-71.098679, 42.297806]
+          ]
+        },
+        "properties": {
+          "osmId": 1087248381,
+          "cityId": 1,
+          "name": null,
+          "highway": "path",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 247.30123011133355,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1087248382",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100188, 42.299725],
+            [-71.100191, 42.299698],
+            [-71.100194, 42.299668]
+          ]
+        },
+        "properties": {
+          "osmId": 1087248382,
+          "cityId": 1,
+          "name": null,
+          "highway": "path",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 6.333254782790912,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1087248383",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100759, 42.300446],
+            [-71.100634, 42.30023],
+            [-71.100529, 42.30007],
+            [-71.10043, 42.299958],
+            [-71.10032, 42.299841],
+            [-71.100235, 42.29977],
+            [-71.10018, 42.299739],
+            [-71.100188, 42.299725]
+          ]
+        },
+        "properties": {
+          "osmId": 1087248383,
+          "cityId": 1,
+          "name": null,
+          "highway": "path",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 94.46201563821589,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/505210792",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.101332, 42.302373],
+            [-71.10113, 42.302263]
+          ]
+        },
+        "properties": {
+          "osmId": 505210792,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 20.59674561898911,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1113468259",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.101728, 42.302636],
+            [-71.101705, 42.302608],
+            [-71.101552, 42.302496],
+            [-71.101332, 42.302373]
+          ]
+        },
+        "properties": {
+          "osmId": 1113468259,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 43.984829888427726,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/127441126",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.103689, 42.303274],
+            [-71.103633, 42.303249],
+            [-71.103409, 42.303144],
+            [-71.102891, 42.302902],
+            [-71.102585, 42.302803],
+            [-71.102376, 42.302747],
+            [-71.102177, 42.302711],
+            [-71.101816, 42.302661],
+            [-71.101728, 42.302636]
+          ]
+        },
+        "properties": {
+          "osmId": 127441126,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 178.0924746901319,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/505210791",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.10113, 42.302263],
+            [-71.101003, 42.302196]
+          ]
+        },
+        "properties": {
+          "osmId": 505210791,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 12.848735832864826,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/127441600",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.096502, 42.299775],
+            [-71.096405, 42.299783],
+            [-71.096362, 42.299795],
+            [-71.096325, 42.299821],
+            [-71.096277, 42.299872],
+            [-71.096248, 42.299895],
+            [-71.096225, 42.299901],
+            [-71.096213, 42.299903],
+            [-71.096185, 42.299896],
+            [-71.096145, 42.299878],
+            [-71.096121, 42.299847],
+            [-71.096121, 42.299807],
+            [-71.096126, 42.299775],
+            [-71.096166, 42.299736],
+            [-71.096244, 42.299678],
+            [-71.096325, 42.299633],
+            [-71.096361, 42.299613],
+            [-71.096408, 42.299607],
+            [-71.096451, 42.299621],
+            [-71.096467, 42.299648],
+            [-71.096494, 42.299696],
+            [-71.096499, 42.29974],
+            [-71.096502, 42.299775],
+            [-71.096526, 42.299833],
+            [-71.096561, 42.299877],
+            [-71.096606, 42.299946],
+            [-71.096644, 42.300002],
+            [-71.096684, 42.300055],
+            [-71.096754, 42.300125],
+            [-71.096821, 42.300199],
+            [-71.096866, 42.300237],
+            [-71.096921, 42.300273],
+            [-71.096992, 42.300306],
+            [-71.097076, 42.300335],
+            [-71.097163, 42.300349],
+            [-71.097241, 42.300347],
+            [-71.097322, 42.300334],
+            [-71.09737, 42.300316],
+            [-71.097418, 42.300292],
+            [-71.097456, 42.300252],
+            [-71.097485, 42.300207],
+            [-71.09752, 42.300142],
+            [-71.097533, 42.300086],
+            [-71.097543, 42.300024],
+            [-71.09754, 42.299994]
+          ]
+        },
+        "properties": {
+          "osmId": 127441600,
+          "cityId": 1,
+          "name": null,
+          "highway": "service",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 245.47800189672503,
+          "lts": 2,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1271412865",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.09754, 42.299994],
+            [-71.097537, 42.299974],
+            [-71.097518, 42.29989],
+            [-71.097492, 42.299813],
+            [-71.097457, 42.29975],
+            [-71.097398, 42.299666],
+            [-71.097307, 42.299581],
+            [-71.097172, 42.299464],
+            [-71.097087, 42.299379],
+            [-71.096958, 42.299293],
+            [-71.096845, 42.299218],
+            [-71.096813, 42.299166],
+            [-71.096805, 42.299113],
+            [-71.096818, 42.299061],
+            [-71.09684, 42.299025],
+            [-71.096885, 42.298998],
+            [-71.096969, 42.298986],
+            [-71.097103, 42.298996],
+            [-71.097234, 42.299033],
+            [-71.097333, 42.299087],
+            [-71.097414, 42.299174],
+            [-71.097457, 42.299238],
+            [-71.097537, 42.299321],
+            [-71.09762, 42.299422],
+            [-71.097693, 42.299498],
+            [-71.097784, 42.299565],
+            [-71.097867, 42.299639],
+            [-71.097958, 42.29969],
+            [-71.098049, 42.299736],
+            [-71.098119, 42.299773],
+            [-71.098226, 42.299809],
+            [-71.098344, 42.299839],
+            [-71.098568, 42.299873],
+            [-71.098607, 42.299871],
+            [-71.098717, 42.299827],
+            [-71.098849, 42.299763],
+            [-71.098991, 42.299698],
+            [-71.099187, 42.299636],
+            [-71.099332, 42.299601],
+            [-71.099485, 42.299597],
+            [-71.099589, 42.299607],
+            [-71.099765, 42.299642]
+          ]
+        },
+        "properties": {
+          "osmId": 1271412865,
+          "cityId": 1,
+          "name": null,
+          "highway": "service",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 419.9232060338211,
+          "lts": 2,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/1290371143",
         "geometry": {
           "type": "LineString",
@@ -17350,6 +18012,484 @@
           "condition": "fair",
           "surface": "asphalt",
           "length": 144.76519106536634,
+          "lts": 2,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1134059959",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100576, 42.300455],
+            [-71.100759, 42.300446],
+            [-71.100831, 42.300442],
+            [-71.100965, 42.300458],
+            [-71.101281, 42.300533],
+            [-71.101389, 42.300585],
+            [-71.101552, 42.30066]
+          ]
+        },
+        "properties": {
+          "osmId": 1134059959,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 85.92767704225253,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/380295711",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.095679, 42.296861],
+            [-71.095999, 42.296875],
+            [-71.096243, 42.297033],
+            [-71.096466, 42.297095],
+            [-71.097199, 42.297047],
+            [-71.097574, 42.296948],
+            [-71.097928, 42.296857],
+            [-71.098162, 42.29681],
+            [-71.098404, 42.296814],
+            [-71.098541, 42.29688],
+            [-71.098636, 42.297022],
+            [-71.098639, 42.297036]
+          ]
+        },
+        "properties": {
+          "osmId": 380295711,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 269.2035793572786,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1491307708",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.095821, 42.29665],
+            [-71.095999, 42.296875]
+          ]
+        },
+        "properties": {
+          "osmId": 1491307708,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 28.961631435760793,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/910063702",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098619, 42.29722],
+            [-71.098612, 42.297283],
+            [-71.098608, 42.2973],
+            [-71.098597, 42.297345],
+            [-71.098587, 42.297385],
+            [-71.098579, 42.297438],
+            [-71.098574, 42.297489],
+            [-71.098576, 42.297515],
+            [-71.098582, 42.297553],
+            [-71.098593, 42.297603],
+            [-71.098605, 42.29765],
+            [-71.098629, 42.297728]
+          ]
+        },
+        "properties": {
+          "osmId": 910063702,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 57.24615956418594,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099609",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098629, 42.297728],
+            [-71.098615, 42.297749],
+            [-71.098604, 42.29777]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099609,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 5.071995663310531,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/910063701",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098639, 42.297036],
+            [-71.098619, 42.29722]
+          ]
+        },
+        "properties": {
+          "osmId": 910063701,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 20.489403165713753,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/354670504",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.100759, 42.300446],
+            [-71.100802, 42.300554],
+            [-71.100843, 42.300643],
+            [-71.100895, 42.300825],
+            [-71.100935, 42.301012],
+            [-71.100948, 42.301163],
+            [-71.100942, 42.301273],
+            [-71.10094, 42.301328]
+          ]
+        },
+        "properties": {
+          "osmId": 354670504,
+          "cityId": 1,
+          "name": null,
+          "highway": "cycleway",
+          "speed": 0,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 99.89761647001664,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099605",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.09871, 42.297719],
+            [-71.098665, 42.297723],
+            [-71.098629, 42.297728]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099605,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 6.777834179583813,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099604",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098681, 42.297598],
+            [-71.098697, 42.297683],
+            [-71.098704, 42.297707],
+            [-71.09871, 42.297719]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099604,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 13.75172442672526,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099607",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098721, 42.297738],
+            [-71.098731, 42.297747],
+            [-71.098741, 42.297755],
+            [-71.09878, 42.29778]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099607,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 6.702222763247889,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099608",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.09871, 42.297719],
+            [-71.098717, 42.29773],
+            [-71.098721, 42.297738]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099608,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 2.2520457544380275,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099606",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098721, 42.297738],
+            [-71.098712, 42.297756],
+            [-71.098688, 42.297798],
+            [-71.098679, 42.297806]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099606,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 8.409390532340648,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1070099610",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098679, 42.297806],
+            [-71.098667, 42.297806],
+            [-71.098641, 42.297795],
+            [-71.09863, 42.297791],
+            [-71.09862, 42.297785],
+            [-71.098604, 42.29777]
+          ]
+        },
+        "properties": {
+          "osmId": 1070099610,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 7.659451238254529,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/127441602",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.098604, 42.29777],
+            [-71.098484, 42.29779],
+            [-71.098358, 42.297815],
+            [-71.098245, 42.297827],
+            [-71.098119, 42.297835],
+            [-71.097956, 42.297821],
+            [-71.097811, 42.297799],
+            [-71.097714, 42.297799],
+            [-71.097612, 42.297809],
+            [-71.09751, 42.297825],
+            [-71.097382, 42.297832]
+          ]
+        },
+        "properties": {
+          "osmId": 127441602,
+          "cityId": 1,
+          "name": null,
+          "highway": "footway",
+          "speed": 15,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": null,
+          "length": 101.84182292273034,
+          "lts": 1,
+          "category": "protected",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8646792",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.099765, 42.299642],
+            [-71.099795, 42.299648],
+            [-71.100066, 42.299691],
+            [-71.100142, 42.299695],
+            [-71.100191, 42.299698],
+            [-71.100201, 42.299699],
+            [-71.100316, 42.2997]
+          ]
+        },
+        "properties": {
+          "osmId": 8646792,
+          "cityId": 1,
+          "name": null,
+          "highway": "service",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 45.982165970068536,
           "lts": 2,
           "category": "protected",
           "trafficCalmed": false
@@ -29178,7 +30318,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 146.4091043057108,
+          "length": 146.40910718157852,
           "lts": 1,
           "category": "protected",
           "trafficCalmed": false
@@ -30914,7 +32054,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 284.12911111547436,
+          "length": 284.1291131393525,
           "lts": 1,
           "category": "protected",
           "trafficCalmed": false
@@ -43375,7 +44515,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 154.76939783390037,
+          "length": 154.76940202694536,
           "lts": 1,
           "category": "protected",
           "trafficCalmed": false
@@ -43546,7 +44686,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 20.88606378132991,
+          "length": 20.88644219200907,
           "lts": 1,
           "category": "protected",
           "cycleway": {
@@ -43621,7 +44761,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 107.77299568395603,
+          "length": 107.77294209079719,
           "lts": 1,
           "category": "protected",
           "trafficCalmed": false
@@ -43725,7 +44865,7 @@
           "oneWay": true,
           "condition": null,
           "surface": "asphalt",
-          "length": 23.486599192250715,
+          "length": 23.485804766978447,
           "lts": 1,
           "category": "protected",
           "cycleway": {
@@ -49103,7 +50243,7 @@
           "oneWay": false,
           "condition": "good",
           "surface": "asphalt",
-          "length": 173.0174303147718,
+          "length": 173.0171172982461,
           "lts": 2,
           "category": "unprotected",
           "cycleway": {
@@ -74269,7 +75409,7 @@
           "oneWay": true,
           "condition": "good",
           "surface": "asphalt",
-          "length": 172.2709351719676,
+          "length": 172.2709444591617,
           "lts": 3,
           "category": "unprotected",
           "cycleway": {
@@ -75038,7 +76178,7 @@
           "oneWay": false,
           "condition": "good",
           "surface": "asphalt",
-          "length": 80.86148141567287,
+          "length": 80.86334574551292,
           "lts": 2,
           "category": "unprotected",
           "cycleway": {

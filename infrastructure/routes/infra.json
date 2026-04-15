@@ -72,13 +72,12 @@
       "notes": "Circuit Drive Path"
     },
     {
-      "type": "way_fill",
-      "startId": 8645269,
-      "name": "Franklin Park Service Road",
+      "type": "ways",
+      "ids": [1070099603, 1046991058, 8649915, 8647027, 494970975],
       "props": {
         "category": "protected"
       },
-      "notes": "Franklin Park"
+      "notes": "Franklin Park Service Road"
     },
     {
       "type": "way_fill",
@@ -90,8 +89,50 @@
       "notes": "Playstead Road"
     },
     {
+      "type": "way_fill",
+      "startId": 127441120,
+      "highway": "footway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Scarboro Pond"
+    },
+    {
+      "type": "way_fill",
+      "startId": 1087248382,
+      "highway": "path",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Away from Scarboro Pond"
+    },
+    {
+      "type": "way_fill",
+      "startId": 127441126,
+      "highway": "cycleway",
+      "props": {
+        "category": "protected"
+      },
+      "notes": "William Street Entrance Franklin Park"
+    },
+    {
+      "type": "way_fill",
+      "startId": 1271412865,
+      "highway": "service",
+      "noGoes": [8646792],
+      "props": {
+        "category": "protected"
+      },
+      "notes": "Scarboro Hill"
+    },
+
+    {
       "type": "ways",
-      "ids": [1290371143, 504661143, 8652406],
+      "ids": [
+        1290371143, 504661143, 8652406, 1134059959, 380295711, 1491307708,
+        910063702, 1070099609, 910063701, 354670504, 1070099605, 1070099604,
+        1070099607, 1070099608, 1070099606, 1070099610, 127441602, 8646792
+      ],
       "props": {
         "category": "protected"
       },
