@@ -1,4 +1,4 @@
-import "./DefaultMap.css";
+import "./NetworkMap.css";
 import {
   useRef,
   useEffect,
@@ -9,7 +9,8 @@ import {
 } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import lanes from "../../assets/default-annotated-geojson.json";
+import existing from "../../assets/default-annotated-geojson.json";
+import network from "../../assets/network-annotated-geojson.json";
 import neighborhoodsCollection from "../../assets/neighborhoods.json";
 import neighborhoodsMask from "../../assets/neighborhoodsMask.json";
 import haversine from "haversine-distance";
@@ -126,12 +127,9 @@ function Mapbox(): ReactElement {
     null as unknown as HTMLDivElement,
   );
 
-  const allLayerIds = useMemo(
-    () => ["state-path", "protected", "unprotected"],
-    [],
-  );
+  const allLayerIds = useMemo(() => ["existing", "proposed"], []);
 
-  const initialActiveLayerIds = ["state-path", "protected"];
+  const initialActiveLayerIds = ["proposed"];
 
   const [activeLayerIds, setActiveLayerIds] = useState(initialActiveLayerIds);
   const [mapLoaded, setMapLoaded] = useState(false);
@@ -170,9 +168,13 @@ function Mapbox(): ReactElement {
 
     mapRef.current.on("load", () => {
       setMapLoaded(true);
-      mapRef.current.addSource("infrastructure", {
+      mapRef.current.addSource("proposed", {
         type: "geojson",
-        data: lanes.featureCollection as GeoJSON.FeatureCollection,
+        data: network.featureCollection as GeoJSON.FeatureCollection,
+      });
+      mapRef.current.addSource("existing", {
+        type: "geojson",
+        data: existing.featureCollection as GeoJSON.FeatureCollection,
       });
       mapRef.current.addSource("neighborhoods", {
         type: "geojson",
@@ -184,9 +186,9 @@ function Mapbox(): ReactElement {
       });
 
       mapRef.current.addLayer({
-        id: "state-path",
+        id: "existing",
         type: "line",
-        source: "infrastructure",
+        source: "existing",
         layout: {
           "line-join": "round",
           "line-cap": "round",
@@ -196,45 +198,28 @@ function Mapbox(): ReactElement {
           "line-opacity": 1,
           "line-width": 3,
         },
-        filter: ["all", ["==", "category", "state-path"]],
+        filter: ["all", ["!=", "category", "unprotected"]],
       });
 
       mapRef.current.addLayer({
-        id: "protected",
+        id: "proposed",
         type: "line",
-        source: "infrastructure",
+        source: "proposed",
         layout: {
           "line-join": "round",
           "line-cap": "round",
         },
         paint: {
-          "line-color": "#409D9B",
+          "line-color": "green",
           "line-opacity": 1,
           "line-width": 3,
         },
-        filter: ["all", ["==", "category", "protected"]],
-      });
-
-      mapRef.current.addLayer({
-        id: "unprotected",
-        type: "line",
-        source: "infrastructure",
-        layout: {
-          "line-join": "round",
-          "line-cap": "round",
-        },
-        paint: {
-          "line-color": "#409D9B",
-          "line-opacity": 1,
-          "line-width": 3,
-        },
-        filter: ["all", ["==", "category", "unprotected"]],
       });
 
       mapRef.current.addLayer({
         id: "clickable",
         type: "line",
-        source: "infrastructure",
+        source: "existing",
         layout: {
           "line-join": "bevel",
           "line-cap": "round",
@@ -361,33 +346,25 @@ function Mapbox(): ReactElement {
   const noNeighborhoodsSelected = neighborhoodsToCheck.length === 0;
 
   const uniqueFeaturesObj = {} as { [id: string]: GeoJSON.Feature };
-  lanes.featureCollection.features.forEach((feature) => {
-    if (feature.properties !== null && feature.properties["category"]) {
-      uniqueFeaturesObj[feature.id] = feature as GeoJSON.Feature;
-    }
+  existing.featureCollection.features.forEach((feature) => {
+    uniqueFeaturesObj[feature.id] = feature as GeoJSON.Feature;
   });
   const uniqueFeatures = Object.values(uniqueFeaturesObj);
 
   const lengthInMiles =
-    uniqueFeatures
-      .filter(
-        (feature) =>
-          feature.properties !== null &&
-          activeLayerIds.includes(feature.properties["category"]),
-      )
-      .reduce((acc, feature) => {
-        if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
-          return feature.properties?.length + acc;
-        } else {
-          return (
-            acc +
-            lengthOfCoordinatesWithinNeighborhoods(
-              feature as GeoJSON.Feature,
-              neighborhoodsToCheck,
-            )
-          );
-        }
-      }, 0) * milesPerMeter;
+    uniqueFeatures.reduce((acc, feature) => {
+      if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
+        return feature.properties?.length + acc;
+      } else {
+        return (
+          acc +
+          lengthOfCoordinatesWithinNeighborhoods(
+            feature as GeoJSON.Feature,
+            neighborhoodsToCheck,
+          )
+        );
+      }
+    }, 0) * milesPerMeter;
   const miles = Math.round(lengthInMiles * 100) / 100;
 
   const neighborhoodCheckboxes = useMemo(() => {
@@ -439,37 +416,26 @@ function Mapbox(): ReactElement {
         </button>
 
         <button
-          id="state-path"
+          id="network"
           style={{
             ...menuItemStyle,
-            ...(activeLayerIds.includes("state-path") && activeMenuItemStyle),
+            ...(activeLayerIds.includes("proposed") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={() => handleInfraClick("state-path")}
+          onClick={() => handleInfraClick("proposed")}
         >
-          State Bike Path
+          Proposed Network
         </button>
         <button
-          id="protected"
+          id="existing"
           style={{
             ...menuItemStyle,
-            ...(activeLayerIds.includes("protected") && activeMenuItemStyle),
+            ...(activeLayerIds.includes("existing") && activeMenuItemStyle),
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
-          onClick={() => handleInfraClick("protected")}
+          onClick={() => handleInfraClick("existing")}
         >
-          Protected Infrastructure
-        </button>
-        <button
-          id="unprotected"
-          style={{
-            ...menuItemStyle,
-            ...(activeLayerIds.includes("unprotected") && activeMenuItemStyle),
-            borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
-          }}
-          onClick={() => handleInfraClick("unprotected")}
-        >
-          Unprotected Infrastructure
+          Existing Infrastructure
         </button>
         <button
           id="neighborhoods"

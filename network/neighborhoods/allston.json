@@ -1,0 +1,92 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "startId": 815133962,
+      "name": "Commonwealth Avenue",
+      "highway": "cycleway",
+      "noGoes": [521561072]
+    },
+    {
+      "type": "way_fill",
+      "startId": 1460593096,
+      "name": "Commonwealth Avenue",
+      "highway": "cycleway",
+      "noGoes": [436643920]
+    },
+    {
+      "type": "ways",
+      "ids": [1055101268, 1192462675, 1292265426, 1055101265, 1281866156],
+      "name": "Commonwealth Avenue"
+    },
+    {
+      "type": "way_fill",
+      "startId": 326399426,
+      "name": "Commonwealth Avenue",
+      "highway": "residential",
+      "noGoes": [709876929]
+    },
+    {
+      "type": "way_fill",
+      "startId": 571190608,
+      "name": "Commonwealth Avenue",
+      "highway": "residential",
+      "noGoes": [571187864]
+    },
+    {
+      "type": "way_fill",
+      "startId": 1333099325,
+      "name": "North Beacon Street",
+      "highway": "primary",
+      "noGoes": [426492034]
+    },
+    {
+      "type": "way_fill",
+      "startId": 8647304,
+      "name": "Brighton Avenue",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 1055101267,
+      "name": "Brighton Avenue",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 1267771528,
+      "highway": "cycleway",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 508540843,
+      "name": "River Street",
+      "noGoes": [262474116]
+    },
+    {
+      "type": "way_fill",
+      "startId": 261609285,
+      "highway": "primary",
+      "name": "Cambridge Street",
+      "noGoes": [1356246378, 1323812791, 44558794]
+    },
+    {
+      "type": "way",
+      "id": 808989990,
+      "name": "Warren Street"
+    },
+    {
+      "type": "way_fill",
+      "startId": 328012571,
+      "name": "Western Avenue",
+      "noGoes": [426611255, 8647460]
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Boston University Bridge"
+    }
+  ],
+
+  "neighborhood": "allston"
+}

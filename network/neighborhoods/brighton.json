@@ -1,0 +1,118 @@
+{
+  "ways": [
+    {
+      "type": "way_fill",
+      "startId": 709876929,
+      "name": "Commonwealth Avenue",
+      "highway": "residential",
+      "noGoes": [8651803]
+    },
+    {
+      "type": "way_fill",
+      "startId": 571187864,
+      "name": "Commonwealth Avenue",
+      "highway": "residential",
+      "noGoes": [627755984]
+    },
+    {
+      "type": "way_fill",
+      "startId": 1389220364,
+      "name": "Commonwealth Avenue",
+      "highway": "primary",
+      "noGoes": [799520205, 9123000]
+    },
+    {
+      "type": "way_fill",
+      "startId": 8651285,
+      "name": "Commonwealth Avenue",
+      "highway": "primary",
+      "noGoes": [92064192, 323899185]
+    },
+    {
+      "type": "way_fill",
+      "startId": 149701299,
+      "name": "Washington Street",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 1088539395,
+      "name": "Washington Street",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 149701299,
+      "name": "Cambridge Street",
+      "highway": "primary",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 149701301,
+      "name": "Cambridge Street",
+      "highway": "primary",
+      "noGoes": [1082211479]
+    },
+    {
+      "type": "way_fill",
+      "startId": 8643994,
+      "name": "Faneuil Street",
+      "highway": "tertiary",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 1223989861,
+      "name": "Chestnut Hill Avenue",
+      "highway": "secondary",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 426611255,
+      "highway": "secondary",
+      "name": "Western Avenue",
+      "noGoes": [426611253]
+    },
+    {
+      "type": "way_fill",
+      "startId": 426492034,
+      "name": "North Beacon Street",
+      "highway": "primary",
+      "noGoes": [1333099325]
+    },
+    {
+      "type": "way_fill",
+      "startId": 8644753,
+      "name": "Lake Street",
+      "highway": "tertiary",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 261310440,
+      "name": "North Harvard Street",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 1355904247,
+      "name": "Market Street",
+      "noGoes": []
+    },
+    {
+      "type": "way_fill",
+      "startId": 427628715,
+      "name": "Leo M. Birmingham Parkway",
+      "noGoes": [8642193, 1375091544]
+    },
+    {
+      "type": "way",
+      "id": 1375091543,
+      "name": "Leo M. Birmingham Parkway"
+    }
+  ],
+
+  "neighborhood": "brighton"
+}
