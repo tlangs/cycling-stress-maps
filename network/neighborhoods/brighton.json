@@ -113,6 +113,7 @@
       "name": "Leo M. Birmingham Parkway"
     }
   ],
-
-  "neighborhood": "brighton"
+  "props": {
+    "neighborhood": "brighton"
+  }
 }

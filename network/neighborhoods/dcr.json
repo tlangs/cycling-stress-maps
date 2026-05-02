@@ -1,0 +1,42 @@
+{
+  "ways": [
+    {
+      "type": "ways_with_name",
+      "name": "Dr. Paul Dudley White Path"
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Pierre Lallement Bike Path"
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Riverway Bikepath"
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Jamaicaway Bikepath"
+    },
+    {
+      "type": "ways_with_name",
+      "name": "Muddy River Bikepath"
+    },
+    {
+      "type": "ways_with_name",
+      "highway": "cycleway",
+      "name": "Riverdale Parkway Bikepath"
+    },
+    {
+      "type": "ways_with_name",
+      "highway": "cycleway",
+      "name": "Emerald Necklace Trail"
+    },
+    {
+      "type": "ways_with_name",
+      "highway": "cycleway",
+      "name": "Arborway"
+    }
+  ],
+  "props": {
+    "owner": "dcr"
+  }
+}

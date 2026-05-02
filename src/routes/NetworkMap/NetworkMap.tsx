@@ -346,25 +346,30 @@ function Mapbox(): ReactElement {
   const noNeighborhoodsSelected = neighborhoodsToCheck.length === 0;
 
   const uniqueFeaturesObj = {} as { [id: string]: GeoJSON.Feature };
-  existing.featureCollection.features.forEach((feature) => {
+  network.featureCollection.features.forEach((feature) => {
     uniqueFeaturesObj[feature.id] = feature as GeoJSON.Feature;
   });
   const uniqueFeatures = Object.values(uniqueFeaturesObj);
 
   const lengthInMiles =
-    uniqueFeatures.reduce((acc, feature) => {
-      if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
-        return feature.properties?.length + acc;
-      } else {
-        return (
-          acc +
-          lengthOfCoordinatesWithinNeighborhoods(
-            feature as GeoJSON.Feature,
-            neighborhoodsToCheck,
-          )
-        );
-      }
-    }, 0) * milesPerMeter;
+    uniqueFeatures
+      .filter(
+        (feature) =>
+          feature.properties !== null && feature.properties["owner"] !== "dcr",
+      )
+      .reduce((acc, feature) => {
+        if (allNeighborhoodsSelected || noNeighborhoodsSelected) {
+          return feature.properties?.length + acc;
+        } else {
+          return (
+            acc +
+            lengthOfCoordinatesWithinNeighborhoods(
+              feature as GeoJSON.Feature,
+              neighborhoodsToCheck,
+            )
+          );
+        }
+      }, 0) * milesPerMeter;
   const miles = Math.round(lengthInMiles * 100) / 100;
 
   const neighborhoodCheckboxes = useMemo(() => {
@@ -412,7 +417,8 @@ function Mapbox(): ReactElement {
             borderBottom: "1px solid rgba(0, 0, 0, 0.25)",
           }}
         >
-          Miles: {miles}
+          Proposed Miles <br /> (sans-DCR)
+          <br /> <b>{miles}</b>
         </button>
 
         <button

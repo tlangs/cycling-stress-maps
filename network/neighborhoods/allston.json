@@ -87,6 +87,7 @@
       "name": "Boston University Bridge"
     }
   ],
-
-  "neighborhood": "allston"
+  "props": {
+    "neighborhood": "allston"
+  }
 }
