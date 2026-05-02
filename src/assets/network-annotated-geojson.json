@@ -20273,6 +20273,39 @@
       },
       {
         "type": "Feature",
+        "id": "way/328877208",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.147079, 42.350165],
+            [-71.146919, 42.35014],
+            [-71.146412, 42.350067],
+            [-71.146266, 42.350046],
+            [-71.145697, 42.34996],
+            [-71.145043, 42.349862],
+            [-71.144433, 42.349771]
+          ]
+        },
+        "properties": {
+          "osmId": 328877208,
+          "cityId": 1,
+          "name": "Warren Street",
+          "highway": "tertiary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 221.81611759011554,
+          "lts": 2,
+          "neighborhood": "allston",
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
         "id": "way/808989990",
         "geometry": {
           "type": "LineString",

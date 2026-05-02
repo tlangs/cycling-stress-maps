@@ -72,9 +72,11 @@
       "noGoes": [1356246378, 1323812791, 44558794]
     },
     {
-      "type": "way",
-      "id": 808989990,
-      "name": "Warren Street"
+      "type": "way_fill",
+      "startId": 808989990,
+      "highway": "tertiary",
+      "name": "Warren Street",
+      "noGoes": [533472380]
     },
     {
       "type": "way_fill",
