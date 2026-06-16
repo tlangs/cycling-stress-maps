@@ -8,15 +8,6 @@ import neighborhoodsMask from "../../assets/neighborhoodsMask.json";
 const lastMapCenterKey = "lastMapCenter";
 const lastZoomLevelKey = "lastZoomLevel";
 
-const neighborhoods = neighborhoodsCollection.features.reduce(
-  (acc, feature) => {
-    // @ts-expect-error these actually are compatible
-    acc[feature.properties.name] = feature;
-    return acc;
-  },
-  {} as { [name: string]: GeoJSON.Feature },
-);
-
 function Mapbox(): ReactElement {
   const mapRef: RefObject<mapboxgl.Map> = useRef(
     null as unknown as mapboxgl.Map,
