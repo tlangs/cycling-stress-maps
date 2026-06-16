@@ -3,6 +3,10 @@
 `npm install` to get environment running
 Install `Run on Save` VSCode extension by `pucelle`
 
+### If you are on Windows
+To edit this repo and commit without running into Trevyn's husky stuff:
+`git commit --no-verify -m "{commit message}"`
+
 ## Get map data
 In the `BostonCyclistsUnion/StressMap`, download and process map data using one of the following commands:
 - `py main.py process -city Boston --plot`
