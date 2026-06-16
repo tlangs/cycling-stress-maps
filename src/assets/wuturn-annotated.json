@@ -1,0 +1,3019 @@
+{
+  "featureCollection": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "way/8645648",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072176, 42.387645],
+            [-71.071267, 42.389142]
+          ]
+        },
+        "properties": {
+          "osmId": 8645648,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 182.45015426115057,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8645648,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822623866",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071267, 42.389142],
+            [-71.070945, 42.389671]
+          ]
+        },
+        "properties": {
+          "osmId": 822623866,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": null,
+          "length": 64.49654977920181,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822623866,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822623867",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070945, 42.389671],
+            [-71.070805, 42.389893],
+            [-71.070699, 42.39007],
+            [-71.070644, 42.390169],
+            [-71.070599, 42.390259]
+          ]
+        },
+        "properties": {
+          "osmId": 822623867,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 71.24085702009384,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822623867,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086801846",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070599, 42.390259],
+            [-71.070549, 42.390391]
+          ]
+        },
+        "properties": {
+          "osmId": 1086801846,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 15.35504049922657,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1086801846,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/38783470",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070549, 42.390391],
+            [-71.070661, 42.390295],
+            [-71.070706, 42.390251],
+            [-71.070732, 42.390225],
+            [-71.070802, 42.39014],
+            [-71.07089, 42.390013]
+          ]
+        },
+        "properties": {
+          "osmId": 38783470,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 50.839740794781385,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 38783470,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086801845",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.07089, 42.390013],
+            [-71.07108, 42.389715]
+          ]
+        },
+        "properties": {
+          "osmId": 1086801845,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 36.59526535969725,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1086801845,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822623868",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.07108, 42.389715],
+            [-71.071401, 42.389185]
+          ]
+        },
+        "properties": {
+          "osmId": 822623868,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": null,
+          "length": 64.53725034198568,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822623868,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822623865",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071401, 42.389185],
+            [-71.072303, 42.387705]
+          ]
+        },
+        "properties": {
+          "osmId": 822623865,
+          "cityId": 1,
+          "name": "Alford Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 180.52054972268672,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822623865,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/138798811",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059278, 42.359215],
+            [-71.059302, 42.359223],
+            [-71.059472, 42.359275]
+          ]
+        },
+        "properties": {
+          "osmId": 138798811,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 17.28668087827284,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 138798811,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/747090074",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059472, 42.359275],
+            [-71.059509, 42.359289],
+            [-71.059552, 42.359308],
+            [-71.05961, 42.359338],
+            [-71.059648, 42.359364],
+            [-71.059676, 42.359386],
+            [-71.059695, 42.359404],
+            [-71.05972, 42.359432],
+            [-71.059735, 42.359463],
+            [-71.059753, 42.359518]
+          ]
+        },
+        "properties": {
+          "osmId": 747090074,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 37.13017662779903,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 747090074,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/879039477",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059753, 42.359518],
+            [-71.059772, 42.359588],
+            [-71.059777, 42.359609],
+            [-71.05978, 42.359618],
+            [-71.059789, 42.359645]
+          ]
+        },
+        "properties": {
+          "osmId": 879039477,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 14.527776577599283,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 879039477,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1106843295",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059789, 42.359645],
+            [-71.0598, 42.359675],
+            [-71.059813, 42.359701],
+            [-71.059824, 42.359724],
+            [-71.059827, 42.359733],
+            [-71.059843, 42.359765],
+            [-71.059858, 42.359798],
+            [-71.059877, 42.359836],
+            [-71.0599, 42.359884],
+            [-71.05993, 42.359936],
+            [-71.059959, 42.359988],
+            [-71.05999, 42.360037],
+            [-71.060022, 42.360081]
+          ]
+        },
+        "properties": {
+          "osmId": 1106843295,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 52.10982845277198,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1106843295,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/779927697",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060022, 42.360081],
+            [-71.060058, 42.360127],
+            [-71.060095, 42.360174],
+            [-71.060135, 42.360221],
+            [-71.060172, 42.360266],
+            [-71.060217, 42.360312],
+            [-71.060269, 42.360363],
+            [-71.060314, 42.360403],
+            [-71.060361, 42.360441],
+            [-71.060406, 42.36048],
+            [-71.060456, 42.360525],
+            [-71.06049, 42.360556],
+            [-71.060523, 42.360581],
+            [-71.060568, 42.360617],
+            [-71.06061, 42.360648],
+            [-71.06065, 42.360675],
+            [-71.060692, 42.360701]
+          ]
+        },
+        "properties": {
+          "osmId": 779927697,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 88.7164240693181,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 779927697,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426456649",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060692, 42.360701],
+            [-71.060834, 42.360784],
+            [-71.060977, 42.360865],
+            [-71.061049, 42.360903],
+            [-71.061061, 42.360911],
+            [-71.061104, 42.360931],
+            [-71.061134, 42.360946],
+            [-71.061166, 42.360961],
+            [-71.0612, 42.360975],
+            [-71.06125, 42.360994]
+          ]
+        },
+        "properties": {
+          "osmId": 426456649,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 56.363433732199546,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426456649,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1126704040",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06125, 42.360994],
+            [-71.061272, 42.361002],
+            [-71.061297, 42.361012],
+            [-71.061326, 42.361021],
+            [-71.061359, 42.361033],
+            [-71.061384, 42.361041],
+            [-71.061413, 42.361051],
+            [-71.061438, 42.361059],
+            [-71.061476, 42.361071],
+            [-71.061517, 42.361083],
+            [-71.061568, 42.3611],
+            [-71.061678, 42.361138],
+            [-71.061767, 42.361167]
+          ]
+        },
+        "properties": {
+          "osmId": 1126704040,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 46.62272243686901,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1126704040,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426456582",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061767, 42.361167],
+            [-71.06181, 42.361179],
+            [-71.061856, 42.361191],
+            [-71.061909, 42.361203],
+            [-71.06196, 42.361215],
+            [-71.062013, 42.361227],
+            [-71.062068, 42.361238],
+            [-71.062123, 42.361249],
+            [-71.062181, 42.361259],
+            [-71.06223, 42.361267],
+            [-71.062282, 42.361274],
+            [-71.062327, 42.36128],
+            [-71.062372, 42.361285],
+            [-71.062425, 42.36129],
+            [-71.062481, 42.361294],
+            [-71.062529, 42.361297],
+            [-71.062579, 42.361299],
+            [-71.06263, 42.361302],
+            [-71.062668, 42.361303],
+            [-71.062692, 42.361304],
+            [-71.062733, 42.361305],
+            [-71.062772, 42.361305],
+            [-71.062822, 42.361305],
+            [-71.062864, 42.361305]
+          ]
+        },
+        "properties": {
+          "osmId": 426456582,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 92.04280497891992,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426456582,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/533600032",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062864, 42.361305],
+            [-71.063051, 42.361302],
+            [-71.06316, 42.3613]
+          ]
+        },
+        "properties": {
+          "osmId": 533600032,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 24.368848670454874,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 533600032,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1317061159",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06316, 42.3613],
+            [-71.063344, 42.361296]
+          ]
+        },
+        "properties": {
+          "osmId": 1317061159,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 15.115119921518042,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1317061159,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426456594",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063344, 42.361296],
+            [-71.063559, 42.361292],
+            [-71.063592, 42.361292],
+            [-71.063645, 42.361291],
+            [-71.06377, 42.361288]
+          ]
+        },
+        "properties": {
+          "osmId": 426456594,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 35.02297031866715,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 426456594, "rightType": "shared_lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8652409",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06377, 42.361288],
+            [-71.063895, 42.361285],
+            [-71.063953, 42.361284],
+            [-71.064384, 42.361273],
+            [-71.064539, 42.361267],
+            [-71.064612, 42.361265],
+            [-71.064758, 42.36126],
+            [-71.064897, 42.361254],
+            [-71.064978, 42.361251],
+            [-71.065017, 42.361249],
+            [-71.065052, 42.361246],
+            [-71.065119, 42.361244]
+          ]
+        },
+        "properties": {
+          "osmId": 8652409,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 110.9032417149531,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 8652409, "rightType": "lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1106843296",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065119, 42.361244],
+            [-71.065213, 42.361241],
+            [-71.065333, 42.361239],
+            [-71.06553, 42.361238]
+          ]
+        },
+        "properties": {
+          "osmId": 1106843296,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 33.82670010495108,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1106843296,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/823316160",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06553, 42.361238],
+            [-71.065775, 42.361237]
+          ]
+        },
+        "properties": {
+          "osmId": 823316160,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 20.08108551957455,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 823316160,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/823316159",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065775, 42.361237],
+            [-71.066329, 42.361235],
+            [-71.066616, 42.361234]
+          ]
+        },
+        "properties": {
+          "osmId": 823316159,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 69.09199096696705,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 823316159,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1106843298",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066616, 42.361234],
+            [-71.066715, 42.361234],
+            [-71.06676, 42.361236],
+            [-71.066852, 42.361235]
+          ]
+        },
+        "properties": {
+          "osmId": 1106843298,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 19.45184075041077,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1106843298,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/817361876",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066852, 42.361235],
+            [-71.066972, 42.361235]
+          ]
+        },
+        "properties": {
+          "osmId": 817361876,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 9.835174948877752,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 817361876,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1106843297",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066972, 42.361235],
+            [-71.06711, 42.361233],
+            [-71.067405, 42.361226]
+          ]
+        },
+        "properties": {
+          "osmId": 1106843297,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 35.615654751353354,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1106843297,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/817361874",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.067405, 42.361226],
+            [-71.067849, 42.361218],
+            [-71.068248, 42.361207]
+          ]
+        },
+        "properties": {
+          "osmId": 817361874,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 69.27902656818394,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 817361874,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426456606",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.068248, 42.361207],
+            [-71.068539, 42.3612],
+            [-71.068576, 42.361199],
+            [-71.068727, 42.361196]
+          ]
+        },
+        "properties": {
+          "osmId": 426456606,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 39.41135390023557,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426456606,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426456630",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.068727, 42.361196],
+            [-71.068868, 42.361193],
+            [-71.069031, 42.361189],
+            [-71.069335, 42.361182],
+            [-71.069364, 42.361181],
+            [-71.069963, 42.361172],
+            [-71.069992, 42.361173],
+            [-71.070019, 42.361174],
+            [-71.07005, 42.361179],
+            [-71.070074, 42.361184],
+            [-71.070099, 42.361195]
+          ]
+        },
+        "properties": {
+          "osmId": 426456630,
+          "cityId": 1,
+          "name": "Cambridge Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 113.20518338093584,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426456630,
+            "leftType": "no",
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/941562893",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058625, 42.359],
+            [-71.058945, 42.359096]
+          ]
+        },
+        "properties": {
+          "osmId": 941562893,
+          "cityId": 1,
+          "name": "Court Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 28.3489858175974,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 941562893,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/826634235",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058945, 42.359096],
+            [-71.059106, 42.359145],
+            [-71.059184, 42.359173],
+            [-71.059278, 42.359215]
+          ]
+        },
+        "properties": {
+          "osmId": 826634235,
+          "cityId": 1,
+          "name": "Court Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 30.471849058124988,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 826634235,
+            "rightType": "track",
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426472927",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059815, 42.359038],
+            [-71.059822, 42.358997],
+            [-71.059834, 42.358942],
+            [-71.059849, 42.358892],
+            [-71.059867, 42.358837],
+            [-71.059879, 42.3588],
+            [-71.059894, 42.358762],
+            [-71.059907, 42.358733],
+            [-71.059922, 42.358704],
+            [-71.059939, 42.358675],
+            [-71.059959, 42.358646],
+            [-71.059988, 42.358607],
+            [-71.060013, 42.358575],
+            [-71.06004, 42.358542],
+            [-71.060073, 42.358497]
+          ]
+        },
+        "properties": {
+          "osmId": 426472927,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 64.43675031022036,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426472927,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/138827717",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060073, 42.358497],
+            [-71.060324, 42.358181],
+            [-71.06035, 42.358145],
+            [-71.060379, 42.358102],
+            [-71.060408, 42.358058],
+            [-71.060427, 42.358027],
+            [-71.060446, 42.357995]
+          ]
+        },
+        "properties": {
+          "osmId": 138827717,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 63.764627071403375,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 138827717,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/63104590",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060446, 42.357995],
+            [-71.060475, 42.357953],
+            [-71.060504, 42.357916],
+            [-71.060531, 42.357884],
+            [-71.060554, 42.357858],
+            [-71.060577, 42.357835],
+            [-71.061048, 42.357372],
+            [-71.061134, 42.357299],
+            [-71.061223, 42.357223],
+            [-71.061262, 42.357184],
+            [-71.061467, 42.356985],
+            [-71.061658, 42.3568],
+            [-71.061706, 42.356755],
+            [-71.061744, 42.356719],
+            [-71.061786, 42.356683],
+            [-71.061883, 42.356601],
+            [-71.061905, 42.356581],
+            [-71.061982, 42.356511]
+          ]
+        },
+        "properties": {
+          "osmId": 63104590,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 207.98791652179239,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 63104590,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/591136306",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061982, 42.356511],
+            [-71.062196, 42.356321],
+            [-71.06226, 42.356265],
+            [-71.062513, 42.356018]
+          ]
+        },
+        "properties": {
+          "osmId": 591136306,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 70.08419625105454,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 591136306,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1149777185",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062513, 42.356018],
+            [-71.062834, 42.355708],
+            [-71.062887, 42.355662]
+          ]
+        },
+        "properties": {
+          "osmId": 1149777185,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 50.1669805773239,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1149777185,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8651512",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062887, 42.355662],
+            [-71.063042, 42.355514],
+            [-71.063208, 42.355334],
+            [-71.063268, 42.355259],
+            [-71.06329, 42.355231],
+            [-71.063339, 42.355174],
+            [-71.063419, 42.35506],
+            [-71.063583, 42.354774],
+            [-71.063592, 42.354759],
+            [-71.063803, 42.354341],
+            [-71.063835, 42.354274],
+            [-71.063914, 42.35412],
+            [-71.063987, 42.353975],
+            [-71.064095, 42.353727]
+          ]
+        },
+        "properties": {
+          "osmId": 8651512,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 238.42280147366705,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8651512,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1121209368",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064095, 42.353727],
+            [-71.064135, 42.353636],
+            [-71.064146, 42.353609],
+            [-71.06421, 42.353458],
+            [-71.064238, 42.353385]
+          ]
+        },
+        "properties": {
+          "osmId": 1121209368,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 39.83025340862383,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1121209368,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1121209369",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064238, 42.353385],
+            [-71.064366, 42.353064],
+            [-71.06437, 42.353047]
+          ]
+        },
+        "properties": {
+          "osmId": 1121209369,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 39.09224357026554,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1121209369,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1121209367",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.06437, 42.353047],
+            [-71.064425, 42.352832],
+            [-71.064462, 42.352705]
+          ]
+        },
+        "properties": {
+          "osmId": 1121209367,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 38.720830089773514,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1121209367,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426831020",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064462, 42.352705],
+            [-71.064529, 42.352468]
+          ]
+        },
+        "properties": {
+          "osmId": 426831020,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 27.031963860608627,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426831020,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/840928388",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064529, 42.352468],
+            [-71.064547, 42.35241],
+            [-71.064556, 42.352372]
+          ]
+        },
+        "properties": {
+          "osmId": 840928388,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 10.867006223362022,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 840928388,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8650197",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064556, 42.352372],
+            [-71.064577, 42.352292],
+            [-71.064656, 42.351992],
+            [-71.064729, 42.351722],
+            [-71.064746, 42.351657],
+            [-71.064772, 42.351545],
+            [-71.064788, 42.35149]
+          ]
+        },
+        "properties": {
+          "osmId": 8650197,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 99.8491901491548,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8650197,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1120131787",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064788, 42.35149],
+            [-71.064813, 42.351405],
+            [-71.064873, 42.351199],
+            [-71.064921, 42.351088]
+          ]
+        },
+        "properties": {
+          "osmId": 1120131787,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 46.165925821945464,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1120131787,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648550",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064921, 42.351088],
+            [-71.064942, 42.351018],
+            [-71.064945, 42.351005],
+            [-71.064962, 42.350945],
+            [-71.064981, 42.350873],
+            [-71.065062, 42.35059],
+            [-71.065179, 42.350234],
+            [-71.065221, 42.350083],
+            [-71.065245, 42.349998],
+            [-71.065288, 42.349817],
+            [-71.065293, 42.349796]
+          ]
+        },
+        "properties": {
+          "osmId": 8648550,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 146.9159024412212,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8648550,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1126768951",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065293, 42.349796],
+            [-71.06533, 42.349647],
+            [-71.065353, 42.349533],
+            [-71.065361, 42.349495]
+          ]
+        },
+        "properties": {
+          "osmId": 1126768951,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 33.930291358036584,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1126768951,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1126768950",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065361, 42.349495],
+            [-71.065386, 42.34937],
+            [-71.065516, 42.34875],
+            [-71.065522, 42.348723],
+            [-71.065537, 42.348629]
+          ]
+        },
+        "properties": {
+          "osmId": 1126768950,
+          "cityId": 1,
+          "name": "Tremont Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 97.36694507527406,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1126768950,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1089092080",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065537, 42.348629],
+            [-71.06555, 42.348557],
+            [-71.065668, 42.347912],
+            [-71.065687, 42.3478]
+          ]
+        },
+        "properties": {
+          "osmId": 1089092080,
+          "cityId": 1,
+          "name": "Shawmut Avenue",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 93.00420847772337,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1089092080,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8650174",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065687, 42.3478],
+            [-71.065694, 42.347765],
+            [-71.065709, 42.347679]
+          ]
+        },
+        "properties": {
+          "osmId": 8650174,
+          "cityId": 1,
+          "name": "Shawmut Avenue",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 13.551570730387217,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8650174,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1119776243",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065709, 42.347679],
+            [-71.065723, 42.347608],
+            [-71.065728, 42.347585]
+          ]
+        },
+        "properties": {
+          "osmId": 1119776243,
+          "cityId": 1,
+          "name": "Shawmut Avenue",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 10.54757460083147,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1119776243,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/87109178",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065728, 42.347585],
+            [-71.06585, 42.346982]
+          ]
+        },
+        "properties": {
+          "osmId": 87109178,
+          "cityId": 1,
+          "name": "Shawmut Avenue",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 67.76554393501361,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 87109178,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1354961429",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.085458, 42.347913],
+            [-71.085372, 42.347936],
+            [-71.085256, 42.347966]
+          ]
+        },
+        "properties": {
+          "osmId": 1354961429,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 17.611036922789243,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1354961429,
+            "leftType": "no",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1096242208",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064556, 42.352372],
+            [-71.064456, 42.352353],
+            [-71.064382, 42.352344],
+            [-71.064317, 42.352338],
+            [-71.064284, 42.352336]
+          ]
+        },
+        "properties": {
+          "osmId": 1096242208,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 22.737760310075284,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1096242208,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1096242209",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063229, 42.352327],
+            [-71.062761, 42.352372],
+            [-71.062741, 42.352374],
+            [-71.062716, 42.352376],
+            [-71.062666, 42.352383],
+            [-71.062591, 42.352392]
+          ]
+        },
+        "properties": {
+          "osmId": 1096242209,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 52.93231386032698,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1096242209,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648229",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070699, 42.351902],
+            [-71.070587, 42.351972],
+            [-71.070499, 42.351996],
+            [-71.07043, 42.352014],
+            [-71.070266, 42.352055],
+            [-71.069306, 42.35225],
+            [-71.069273, 42.352257],
+            [-71.069192, 42.352274]
+          ]
+        },
+        "properties": {
+          "osmId": 8648229,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 131.55399934535893,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8648229,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1333332901",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.085584, 42.347879],
+            [-71.085748, 42.347883],
+            [-71.086656, 42.347634]
+          ]
+        },
+        "properties": {
+          "osmId": 1333332901,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 93.0064337580253,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 1333332901, "rightType": "shared_lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1333332903",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.086337, 42.347641],
+            [-71.086148, 42.347693],
+            [-71.085763, 42.347799],
+            [-71.085717, 42.347811],
+            [-71.085584, 42.347879]
+          ]
+        },
+        "properties": {
+          "osmId": 1333332903,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 67.66391290724641,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1333332903,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8649126",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070699, 42.351902],
+            [-71.070569, 42.351903],
+            [-71.070468, 42.351928],
+            [-71.070245, 42.351986],
+            [-71.069967, 42.352049],
+            [-71.06929, 42.352186],
+            [-71.069248, 42.352193],
+            [-71.069169, 42.352206]
+          ]
+        },
+        "properties": {
+          "osmId": 8649126,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 130.63744167676893,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 8649126,
+            "leftType": "no",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/852187438",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.085256, 42.347966],
+            [-71.085137, 42.347998],
+            [-71.084693, 42.348117],
+            [-71.083887, 42.348335],
+            [-71.083836, 42.34835],
+            [-71.083749, 42.348373],
+            [-71.083443, 42.348455],
+            [-71.08252, 42.348703],
+            [-71.082483, 42.348712],
+            [-71.082369, 42.348743],
+            [-71.08224, 42.348777],
+            [-71.081789, 42.348896]
+          ]
+        },
+        "properties": {
+          "osmId": 852187438,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 303.1220129340314,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 852187438,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/852187439",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.078616, 42.349751],
+            [-71.077662, 42.350006],
+            [-71.077503, 42.350048],
+            [-71.077466, 42.350058],
+            [-71.077345, 42.350091]
+          ]
+        },
+        "properties": {
+          "osmId": 852187439,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 111.06919613316475,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 852187439,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/671208885",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.067487, 42.352519],
+            [-71.067326, 42.352527],
+            [-71.067109, 42.352525]
+          ]
+        },
+        "properties": {
+          "osmId": 671208885,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 31.081283762841288,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 671208885,
+            "leftType": "separate",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1484199352",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.087042, 42.347528],
+            [-71.087164, 42.347495]
+          ]
+        },
+        "properties": {
+          "osmId": 1484199352,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 10.7072859792812,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 1484199352, "rightType": "shared_lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8645818",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.085584, 42.347879],
+            [-71.085458, 42.347913]
+          ]
+        },
+        "properties": {
+          "osmId": 8645818,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 11.046848884546495,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8645818,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1483681470",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.086656, 42.347634],
+            [-71.086779, 42.3476],
+            [-71.087042, 42.347528]
+          ]
+        },
+        "properties": {
+          "osmId": 1483681470,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 33.875555955766686,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 1483681470, "rightType": "shared_lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8647872",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066941, 42.352524],
+            [-71.066348, 42.352497],
+            [-71.066115, 42.352486],
+            [-71.065925, 42.352473],
+            [-71.065496, 42.352447],
+            [-71.065085, 42.352417]
+          ]
+        },
+        "properties": {
+          "osmId": 8647872,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 152.96961999880918,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8647872,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/591236042",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.080775, 42.34917],
+            [-71.079957, 42.34939],
+            [-71.079656, 42.349472],
+            [-71.079602, 42.349487],
+            [-71.079501, 42.349515]
+          ]
+        },
+        "properties": {
+          "osmId": 591236042,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 111.5193699204041,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 591236042,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/814346830",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.077345, 42.350091],
+            [-71.077305, 42.350101],
+            [-71.077142, 42.350146],
+            [-71.076194, 42.350403],
+            [-71.075328, 42.350639],
+            [-71.075288, 42.35065],
+            [-71.075202, 42.350669]
+          ]
+        },
+        "properties": {
+          "osmId": 814346830,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 187.51784491445162,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 814346830,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/814346831",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.075202, 42.350669],
+            [-71.07512, 42.350693],
+            [-71.074284, 42.350916],
+            [-71.07373, 42.351064],
+            [-71.073197, 42.351213],
+            [-71.073163, 42.351222],
+            [-71.073062, 42.35125]
+          ]
+        },
+        "properties": {
+          "osmId": 814346831,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 187.2841042170729,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 814346831,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1343631696",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.087744, 42.347299],
+            [-71.087522, 42.347316],
+            [-71.087362, 42.34736],
+            [-71.087199, 42.347405],
+            [-71.08715, 42.347418],
+            [-71.086843, 42.347502]
+          ]
+        },
+        "properties": {
+          "osmId": 1343631696,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 77.84385625040224,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1343631696,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825263836",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.081789, 42.348896],
+            [-71.080931, 42.349128],
+            [-71.080882, 42.349141],
+            [-71.080775, 42.34917]
+          ]
+        },
+        "properties": {
+          "osmId": 825263836,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 88.70947332263569,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 825263836,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825263838",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073062, 42.35125],
+            [-71.072965, 42.351276],
+            [-71.071453, 42.351683],
+            [-71.070853, 42.351845],
+            [-71.070812, 42.351856],
+            [-71.070699, 42.351902]
+          ]
+        },
+        "properties": {
+          "osmId": 825263838,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 207.44244162606822,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 825263838,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825263839",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069169, 42.352206],
+            [-71.06902, 42.352236],
+            [-71.068591, 42.352322],
+            [-71.068527, 42.352334],
+            [-71.068213, 42.352401],
+            [-71.067799, 42.352479],
+            [-71.067649, 42.352504],
+            [-71.067611, 42.352509],
+            [-71.067568, 42.352514],
+            [-71.067487, 42.352519]
+          ]
+        },
+        "properties": {
+          "osmId": 825263839,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 142.6283075859326,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 825263839,
+            "leftType": "no",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8645216",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.064284, 42.352336],
+            [-71.064141, 42.352329],
+            [-71.063905, 42.35232],
+            [-71.063765, 42.352316],
+            [-71.063681, 42.352313],
+            [-71.063495, 42.352309],
+            [-71.063337, 42.35232],
+            [-71.063229, 42.352327]
+          ]
+        },
+        "properties": {
+          "osmId": 8645216,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 86.85610522269695,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8645216,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825263841",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069192, 42.352274],
+            [-71.068874, 42.352348],
+            [-71.06865, 42.352401],
+            [-71.068451, 42.352447],
+            [-71.068082, 42.352519],
+            [-71.067856, 42.352563]
+          ]
+        },
+        "properties": {
+          "osmId": 825263841,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 114.46018961911264,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 825263841,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/815774828",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.079501, 42.349515],
+            [-71.079395, 42.349544],
+            [-71.078616, 42.349751]
+          ]
+        },
+        "properties": {
+          "osmId": 815774828,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 77.28253173638068,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 815774828,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1317279602",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.067109, 42.352525],
+            [-71.066941, 42.352524]
+          ]
+        },
+        "properties": {
+          "osmId": 1317279602,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 13.847312521014649,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1317279602,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/826552819",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.087164, 42.347495],
+            [-71.087504, 42.347402],
+            [-71.087554, 42.347388],
+            [-71.087744, 42.347299]
+          ]
+        },
+        "properties": {
+          "osmId": 826552819,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 52.63595271024113,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 826552819, "rightType": "shared_lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/826552820",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.086843, 42.347502],
+            [-71.086745, 42.347529],
+            [-71.086337, 42.347641]
+          ]
+        },
+        "properties": {
+          "osmId": 826552820,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 44.31693817218183,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 826552820,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1089092083",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.067645, 42.352682],
+            [-71.067601, 42.352741],
+            [-71.067588, 42.352775],
+            [-71.067581, 42.352811]
+          ]
+        },
+        "properties": {
+          "osmId": 1089092083,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 15.49278703833317,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1089092083,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285819765",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.067856, 42.352563],
+            [-71.067782, 42.352584],
+            [-71.067731, 42.352606],
+            [-71.067699, 42.352624],
+            [-71.067669, 42.352656],
+            [-71.067645, 42.352682]
+          ]
+        },
+        "properties": {
+          "osmId": 1285819765,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 22.477565312292242,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1285819765,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1175610614",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.065085, 42.352417],
+            [-71.064673, 42.352387],
+            [-71.064556, 42.352372]
+          ]
+        },
+        "properties": {
+          "osmId": 1175610614,
+          "cityId": 1,
+          "name": "Boylston Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 43.80271160828992,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1175610614,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      }
+    ]
+  }
+}

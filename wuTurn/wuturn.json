@@ -1,0 +1,42 @@
+{
+  "ways": [
+    {
+      "type": "way_range",
+      "name": "Alford Street",
+      "fromId": 8645648,
+      "toId": 822623865,
+      "noGoes": [980431771]
+    },
+    {
+      "type": "way_range",
+      "name": "Cambridge Street",
+      "fromId": 138798811,
+      "toId": 426456630
+    },
+    {
+      "type": "way_range",
+      "name": "Court Street",
+      "fromId": 941562893,
+      "toId": 826634235
+    },
+    {
+      "type": "way_range",
+      "name": "Tremont Street",
+      "fromId": 426472927,
+      "toId": 1126768950
+    },
+    {
+      "type": "way_range",
+      "name": "Shawmut Avenue",
+      "fromId": 1089092080,
+      "toId": 87109178
+    },
+    {
+      "type": "way_fill",
+      "name": "Boylston Street",
+      "startId": 1343631696,
+      "noGoes": [1483958800],
+      "highway": "primary"
+    }
+  ]
+}
