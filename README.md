@@ -5,6 +5,7 @@ Install `Run on Save` VSCode extension by `pucelle`
 
 ### If you are on Windows
 To edit this repo and commit without running into Trevyn's husky stuff:
+`git add {filename of changes file}`
 `git commit --no-verify -m "{commit message}"`
 
 ## Get map data
