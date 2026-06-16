@@ -37,6 +37,96 @@
       "startId": 1343631696,
       "noGoes": [1483958800],
       "highway": "primary"
+    },
+    {
+      "type": "way_range",
+      "name": "Washington Street",
+      "fromId": 1121981969,
+      "toId": 333071936
+    },
+    {
+      "type": "way_fill",
+      "name": "Kneeland Street",
+      "startId": 1323824615,
+      "noGoes": [426492390]
+    },
+    {
+      "type": "way_fill",
+      "name": "Stuart Street",
+      "startId": 1285819769,
+      "noGoes": [1280740663, 8651704]
+    },
+    {
+      "type": "way_range",
+      "name": "Milk Street",
+      "fromId": 426489346,
+      "toId": 485292837
+    },
+    {
+      "type": "way_fill",
+      "name": "Summer Street",
+      "startId": 187589431,
+      "highway": "primary",
+      "noGoes": [290048940, 1323780986, 1369553000]
+    },
+    {
+      "type": "way_fill",
+      "name": "Summer Street",
+      "startId": 8651836,
+      "highway": "primary",
+      "noGoes": [217382371, 48983697, 8647218]
+    },
+    {
+      "type": "way_range",
+      "name": "Congress Street",
+      "fromId": 85890998,
+      "toId": 822604875
+    },
+    {
+      "type": "way_fill",
+      "name": "Congress Street",
+      "startId": 427635744,
+      "noGoes": [48982055, 1013953519, 426659552, 426659557]
+    },
+    {
+      "type": "way_range",
+      "name": "A Street",
+      "fromId": 296774317,
+      "toId": 712375230,
+      "noGoes": [1086987643]
+    },
+    {
+      "type": "way",
+      "name": "Traveler Street Bridge",
+      "id": 48938072
+    },
+    {
+      "type": "way",
+      "name": "West Fourth Street Bridge",
+      "id": 48938074
+    },
+    {
+      "type": "way_range",
+      "name": "Columbus Avenue",
+      "fromId": 92029619,
+      "toId": 1285819244
+    },
+    {
+      "type": "way_fill",
+      "name": "Arlington Street",
+      "startId": 1333372330,
+      "noGoes": [1329768969]
+    },
+    {
+      "type": "way",
+      "name": "Marginal Road",
+      "id": 970427243
+    },
+    {
+      "type": "way_range",
+      "name": "Berkeley Street",
+      "fromId": 8691837,
+      "toId": 604252821
     }
   ]
 }

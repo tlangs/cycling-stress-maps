@@ -3013,6 +3013,4021 @@
           },
           "trafficCalmed": false
         }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1121981969",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063042, 42.350927],
+            [-71.062987, 42.351005],
+            [-71.062944, 42.351067],
+            [-71.062917, 42.351183],
+            [-71.062846, 42.351426],
+            [-71.06284, 42.35145],
+            [-71.062832, 42.351479],
+            [-71.062826, 42.351498],
+            [-71.062821, 42.351519],
+            [-71.062819, 42.351527],
+            [-71.062814, 42.351545],
+            [-71.0628, 42.351603]
+          ]
+        },
+        "properties": {
+          "osmId": 1121981969,
+          "cityId": 1,
+          "name": "Washington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 78.27566734548762,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1121981969,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/591136310",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.0628, 42.351603],
+            [-71.062783, 42.351671],
+            [-71.062755, 42.35178],
+            [-71.062739, 42.351844],
+            [-71.062735, 42.351862],
+            [-71.062719, 42.351916],
+            [-71.062617, 42.352277],
+            [-71.06261, 42.352305],
+            [-71.062591, 42.352392]
+          ]
+        },
+        "properties": {
+          "osmId": 591136310,
+          "cityId": 1,
+          "name": "Washington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 89.42907521761626,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 591136310,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1154673770",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062591, 42.352392],
+            [-71.062579, 42.35248],
+            [-71.062567, 42.352586],
+            [-71.062553, 42.352837],
+            [-71.062544, 42.353039],
+            [-71.062537, 42.353099]
+          ]
+        },
+        "properties": {
+          "osmId": 1154673770,
+          "cityId": 1,
+          "name": "Washington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 78.73308747246597,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1154673770,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1154673771",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062537, 42.353099],
+            [-71.06253, 42.353206],
+            [-71.062527, 42.353248]
+          ]
+        },
+        "properties": {
+          "osmId": 1154673771,
+          "cityId": 1,
+          "name": "Washington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 16.544010626333474,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1154673771,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/333071936",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062527, 42.353248],
+            [-71.062461, 42.35345],
+            [-71.062387, 42.353586],
+            [-71.062288, 42.353741],
+            [-71.06228, 42.353753],
+            [-71.062232, 42.353823],
+            [-71.062191, 42.353864]
+          ]
+        },
+        "properties": {
+          "osmId": 333071936,
+          "cityId": 1,
+          "name": "Washington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 74.3903354653328,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 333071936,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1323824615",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.059754, 42.350144],
+            [-71.05989, 42.350186],
+            [-71.060158, 42.35027],
+            [-71.060204, 42.350284],
+            [-71.06025, 42.350298],
+            [-71.060812, 42.350452],
+            [-71.060872, 42.350471]
+          ]
+        },
+        "properties": {
+          "osmId": 1323824615,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 98.7969733592135,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1323824615,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1323824616",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060872, 42.350471],
+            [-71.060932, 42.350487],
+            [-71.061224, 42.35056],
+            [-71.061284, 42.350576]
+          ]
+        },
+        "properties": {
+          "osmId": 1323824616,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 35.82662996066385,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1323824616,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1323824617",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061284, 42.350576],
+            [-71.061374, 42.3506],
+            [-71.061452, 42.35062],
+            [-71.061518, 42.350637]
+          ]
+        },
+        "properties": {
+          "osmId": 1323824617,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 5,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 20.37700778069593,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1323824617,
+            "leftType": "lane",
+            "rightType": "lane",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/295875087",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.061518, 42.350637],
+            [-71.061605, 42.350657],
+            [-71.062131, 42.350803],
+            [-71.062197, 42.350822]
+          ]
+        },
+        "properties": {
+          "osmId": 295875087,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 59.515640154858445,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 295875087,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242632754",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.062197, 42.350822],
+            [-71.062423, 42.350876],
+            [-71.062515, 42.350895],
+            [-71.062628, 42.350912],
+            [-71.062881, 42.350932],
+            [-71.063042, 42.350927]
+          ]
+        },
+        "properties": {
+          "osmId": 242632754,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 70.98193046408413,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 242632754,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8651676",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063042, 42.350927],
+            [-71.062941, 42.350868],
+            [-71.062628, 42.350839],
+            [-71.062541, 42.350835],
+            [-71.062413, 42.350823],
+            [-71.062131, 42.350803]
+          ]
+        },
+        "properties": {
+          "osmId": 8651676,
+          "cityId": 1,
+          "name": "Kneeland Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 77.56115447621625,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 8651676,
+            "leftType": "no",
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242633873",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063915, 42.351008],
+            [-71.064391, 42.351059],
+            [-71.064667, 42.351079],
+            [-71.064796, 42.351085],
+            [-71.064921, 42.351088]
+          ]
+        },
+        "properties": {
+          "osmId": 242633873,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 83.24732712547036,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 242633873,
+            "leftType": "track",
+            "leftSeparation": "flex_post",
+            "rightType": "track",
+            "rightSeparation": "flex_post"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242633874",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066852, 42.350936],
+            [-71.06671, 42.350963],
+            [-71.066426, 42.351026]
+          ]
+        },
+        "properties": {
+          "osmId": 242633874,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 36.452344587708616,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 242633874,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242652627",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066074, 42.351097],
+            [-71.065072, 42.351089],
+            [-71.064921, 42.351088]
+          ]
+        },
+        "properties": {
+          "osmId": 242652627,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 94.7634599568286,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 242652627,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/970425331",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.066426, 42.351026],
+            [-71.066404, 42.351031],
+            [-71.066247, 42.351068],
+            [-71.06617, 42.351084],
+            [-71.066074, 42.351097]
+          ]
+        },
+        "properties": {
+          "osmId": 970425331,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 29.97684541882674,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 970425331,
+            "leftType": "lane",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285819768",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063671, 42.350981],
+            [-71.063915, 42.351008]
+          ]
+        },
+        "properties": {
+          "osmId": 1285819768,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 5,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 20.285981017587716,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1285819768,
+            "leftType": "track",
+            "leftSeparation": "flex_post",
+            "rightType": "track",
+            "rightSeparation": "flex_post"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285819769",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.063042, 42.350927],
+            [-71.063184, 42.35093],
+            [-71.063214, 42.350931],
+            [-71.063381, 42.350949],
+            [-71.063465, 42.350958],
+            [-71.063671, 42.350981]
+          ]
+        },
+        "properties": {
+          "osmId": 1285819769,
+          "cityId": 1,
+          "name": "Stuart Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 5,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 52.118581402443866,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1285819769,
+            "leftType": "track",
+            "leftSeparation": "flex_post",
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426489346",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.057323, 42.356751],
+            [-71.057232, 42.356757],
+            [-71.056761, 42.356788],
+            [-71.056667, 42.356794]
+          ]
+        },
+        "properties": {
+          "osmId": 426489346,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 54.07764286656764,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426489346,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426489347",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.056667, 42.356794],
+            [-71.056629, 42.356797],
+            [-71.056487, 42.356808],
+            [-71.056435, 42.356813],
+            [-71.056328, 42.356824]
+          ]
+        },
+        "properties": {
+          "osmId": 426489347,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 28.127953909115078,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426489347,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426489344",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.056328, 42.356824],
+            [-71.056213, 42.356839],
+            [-71.056137, 42.356849]
+          ]
+        },
+        "properties": {
+          "osmId": 426489344,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 15.866133754920918,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426489344,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426489345",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.056137, 42.356849],
+            [-71.055839, 42.35689],
+            [-71.05575, 42.356902]
+          ]
+        },
+        "properties": {
+          "osmId": 426489345,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 32.38134461763472,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426489345,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/104210747",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.05575, 42.356902],
+            [-71.055689, 42.356913],
+            [-71.055651, 42.356925],
+            [-71.055624, 42.356933],
+            [-71.055558, 42.356957],
+            [-71.055261, 42.357115],
+            [-71.055109, 42.357203],
+            [-71.05494, 42.357312],
+            [-71.054901, 42.357337],
+            [-71.054833, 42.357387],
+            [-71.054478, 42.357643],
+            [-71.054421, 42.357684],
+            [-71.054384, 42.357711],
+            [-71.054066, 42.357928],
+            [-71.053997, 42.357975]
+          ]
+        },
+        "properties": {
+          "osmId": 104210747,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 188.28731505296503,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 104210747,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/485292837",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.053997, 42.357975],
+            [-71.05392, 42.358029],
+            [-71.053379, 42.358401],
+            [-71.053342, 42.358427],
+            [-71.053282, 42.358468],
+            [-71.05322, 42.358497],
+            [-71.05318, 42.35851],
+            [-71.053122, 42.358523],
+            [-71.052348, 42.358649],
+            [-71.052295, 42.358657],
+            [-71.052175, 42.358677]
+          ]
+        },
+        "properties": {
+          "osmId": 485292837,
+          "cityId": 1,
+          "name": "Milk Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 174.6751602667984,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 485292837,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1323804831",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052533, 42.351331],
+            [-71.052655, 42.351386],
+            [-71.052692, 42.351403],
+            [-71.052731, 42.35142]
+          ]
+        },
+        "properties": {
+          "osmId": 1323804831,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 19.054731281910126,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1323804831,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604873",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051761, 42.350849],
+            [-71.051205, 42.350596]
+          ]
+        },
+        "properties": {
+          "osmId": 822604873,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 53.61944323843028,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822604873,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/831226185",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052731, 42.35142],
+            [-71.052769, 42.351441],
+            [-71.052842, 42.351482]
+          ]
+        },
+        "properties": {
+          "osmId": 831226185,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 11.3803582606268,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604876",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052172, 42.351037],
+            [-71.051949, 42.350935],
+            [-71.051761, 42.350849]
+          ]
+        },
+        "properties": {
+          "osmId": 822604876,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 39.692604773646174,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822604876,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604878",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051693, 42.350944],
+            [-71.052107, 42.351137]
+          ]
+        },
+        "properties": {
+          "osmId": 822604878,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 40.18078650299257,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 822604878,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604879",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052107, 42.351137],
+            [-71.052533, 42.351331]
+          ]
+        },
+        "properties": {
+          "osmId": 822604879,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 41.172361333378795,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 822604879,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/187589424",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051205, 42.350596],
+            [-71.051138, 42.350574],
+            [-71.050964, 42.350552]
+          ]
+        },
+        "properties": {
+          "osmId": 187589424,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 20.558388456861504,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 187589424,
+            "leftType": "no",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/187589429",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052793, 42.35133],
+            [-71.052756, 42.351311],
+            [-71.052615, 42.35124],
+            [-71.052172, 42.351037]
+          ]
+        },
+        "properties": {
+          "osmId": 187589429,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 60.59504464653502,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 187589429,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/187589431",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051139, 42.350674],
+            [-71.051222, 42.350715],
+            [-71.051261, 42.350734],
+            [-71.051293, 42.350749],
+            [-71.051693, 42.350944]
+          ]
+        },
+        "properties": {
+          "osmId": 187589431,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 54.51363557778255,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 187589431,
+            "leftType": "no",
+            "rightType": "yes",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/187589433",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.050964, 42.350552],
+            [-71.05108, 42.350644],
+            [-71.051139, 42.350674]
+          ]
+        },
+        "properties": {
+          "osmId": 187589433,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 19.886330243301803,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 187589433,
+            "leftType": "no",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/592009791",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052883, 42.351376],
+            [-71.052793, 42.35133]
+          ]
+        },
+        "properties": {
+          "osmId": 592009791,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 9.019841624334392,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8639497",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.042148, 42.346201],
+            [-71.042052, 42.346151],
+            [-71.041917, 42.346081],
+            [-71.041875, 42.346057],
+            [-71.041834, 42.346032],
+            [-71.041753, 42.345982],
+            [-71.040869, 42.345411],
+            [-71.040806, 42.34537],
+            [-71.040745, 42.345329],
+            [-71.040682, 42.345286],
+            [-71.040516, 42.34517],
+            [-71.040426, 42.345107]
+          ]
+        },
+        "properties": {
+          "osmId": 8639497,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 186.8425217346521,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8639497,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1188194572",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039488, 42.344641],
+            [-71.039718, 42.344787]
+          ]
+        },
+        "properties": {
+          "osmId": 1188194572,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 24.862229706334716,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1188194572,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/48983952",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.042871, 42.346581],
+            [-71.042421, 42.346344],
+            [-71.042391, 42.346328],
+            [-71.04227, 42.346264]
+          ]
+        },
+        "properties": {
+          "osmId": 48983952,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 60.66126439122617,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 48983952,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1323797146",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039589, 42.34456],
+            [-71.039435, 42.344463]
+          ]
+        },
+        "properties": {
+          "osmId": 1323797146,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 16.596769761314746,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 1323797146, "rightType": "separate" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426500509",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039435, 42.344463],
+            [-71.039102, 42.344248],
+            [-71.039068, 42.344226],
+            [-71.038956, 42.344154]
+          ]
+        },
+        "properties": {
+          "osmId": 426500509,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 52.28554562045863,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 426500509, "rightType": "separate" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426500510",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.038411, 42.343947],
+            [-71.038694, 42.344133],
+            [-71.038725, 42.344154],
+            [-71.038829, 42.344223]
+          ]
+        },
+        "properties": {
+          "osmId": 426500510,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 46.09040592059066,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426500510,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426501279",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.040338, 42.345185],
+            [-71.040804, 42.345484],
+            [-71.041152, 42.345708]
+          ]
+        },
+        "properties": {
+          "osmId": 426501279,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 88.64956856968531,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426501279,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426500512",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.038129, 42.34369],
+            [-71.038179, 42.343753],
+            [-71.038236, 42.343813],
+            [-71.03831, 42.343875],
+            [-71.038411, 42.343947]
+          ]
+        },
+        "properties": {
+          "osmId": 426500512,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 36.98580089521832,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426500512,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426500513",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.038956, 42.344154],
+            [-71.038812, 42.344061],
+            [-71.038567, 42.343904],
+            [-71.038469, 42.343846],
+            [-71.038461, 42.343842],
+            [-71.038334, 42.343775],
+            [-71.038266, 42.343744],
+            [-71.038129, 42.34369]
+          ]
+        },
+        "properties": {
+          "osmId": 426500513,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 85.63267282422268,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 426500513, "rightType": "separate" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426501280",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043697, 42.347014],
+            [-71.043669, 42.347],
+            [-71.042871, 42.346581]
+          ]
+        },
+        "properties": {
+          "osmId": 426501280,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 83.22268168288046,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 426501280,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/591217315",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.038829, 42.344223],
+            [-71.038915, 42.344278]
+          ]
+        },
+        "properties": {
+          "osmId": 591217315,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 9.2885243388868,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 591217315,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426501278",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.041152, 42.345708],
+            [-71.041288, 42.345796],
+            [-71.04169, 42.346056]
+          ]
+        },
+        "properties": {
+          "osmId": 426501278,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 58.70241812292823,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426501278,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648094",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.038915, 42.344278],
+            [-71.039008, 42.344337],
+            [-71.039427, 42.344602],
+            [-71.039488, 42.344641]
+          ]
+        },
+        "properties": {
+          "osmId": 8648094,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 62.10231325593405,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 8648094,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426500511",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.039718, 42.344787],
+            [-71.040142, 42.345059],
+            [-71.040174, 42.345079],
+            [-71.040338, 42.345185]
+          ]
+        },
+        "properties": {
+          "osmId": 426500511,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 67.50330324564122,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426500511,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/947926951",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043642, 42.347111],
+            [-71.043754, 42.347169]
+          ]
+        },
+        "properties": {
+          "osmId": 947926951,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 11.225831594421397,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 947926951,
+            "leftType": "no",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426497576",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043104, 42.346821],
+            [-71.043221, 42.346882],
+            [-71.04351, 42.347037],
+            [-71.043621, 42.3471],
+            [-71.043642, 42.347111]
+          ]
+        },
+        "properties": {
+          "osmId": 426497576,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 54.7148207923603,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426497576,
+            "leftType": "no",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426497575",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043824, 42.347083],
+            [-71.043697, 42.347014]
+          ]
+        },
+        "properties": {
+          "osmId": 426497575,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 12.941048238852964,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426497575,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426497578",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.044665, 42.347669],
+            [-71.04519, 42.347947],
+            [-71.045227, 42.347966],
+            [-71.045329, 42.348019]
+          ]
+        },
+        "properties": {
+          "osmId": 426497578,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 67.07296171399626,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426497578,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426497579",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043917, 42.34726],
+            [-71.044061, 42.347338],
+            [-71.044665, 42.347669]
+          ]
+        },
+        "properties": {
+          "osmId": 426497579,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 76.43985916423753,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426497579,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426497577",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.044439, 42.347408],
+            [-71.044028, 42.34719],
+            [-71.04401, 42.34718]
+          ]
+        },
+        "properties": {
+          "osmId": 426497577,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 43.432181401397465,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426497577,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1279173939",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.045431, 42.347934],
+            [-71.045334, 42.347882],
+            [-71.044757, 42.347576]
+          ]
+        },
+        "properties": {
+          "osmId": 1279173939,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 68.23080571816871,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1279173939,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8652596",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.04204, 42.346275],
+            [-71.042088, 42.346302],
+            [-71.042134, 42.346327],
+            [-71.042175, 42.346349]
+          ]
+        },
+        "properties": {
+          "osmId": 8652596,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 13.833584863643523,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1083721909",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.043754, 42.347169],
+            [-71.043894, 42.347247],
+            [-71.043917, 42.34726]
+          ]
+        },
+        "properties": {
+          "osmId": 1083721909,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 16.788904286757266,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1083721909,
+            "leftType": "no",
+            "rightType": "lane"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/426501277",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.04227, 42.346264],
+            [-71.042148, 42.346201]
+          ]
+        },
+        "properties": {
+          "osmId": 426501277,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 12.231154099865568,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 426501277,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8651836",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.045329, 42.348019],
+            [-71.045416, 42.348064],
+            [-71.045503, 42.348108],
+            [-71.045647, 42.348174],
+            [-71.045777, 42.348234],
+            [-71.047591, 42.349063],
+            [-71.047717, 42.349121]
+          ]
+        },
+        "properties": {
+          "osmId": 8651836,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 231.35441203330078,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8651836,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648022",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.04169, 42.346056],
+            [-71.041909, 42.346194],
+            [-71.041937, 42.346212],
+            [-71.041989, 42.346245],
+            [-71.04204, 42.346275]
+          ]
+        },
+        "properties": {
+          "osmId": 8648022,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 37.74251742024865,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 8648022,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648409",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.047782, 42.349046],
+            [-71.04765, 42.348986],
+            [-71.047584, 42.348955],
+            [-71.046089, 42.348274],
+            [-71.046025, 42.348244],
+            [-71.045964, 42.348214],
+            [-71.045895, 42.34818],
+            [-71.045825, 42.348143],
+            [-71.04562, 42.348034],
+            [-71.045582, 42.348014],
+            [-71.045431, 42.347934]
+          ]
+        },
+        "properties": {
+          "osmId": 8648409,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 229.38377641807114,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8648409,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/947928282",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.044757, 42.347576],
+            [-71.044439, 42.347408]
+          ]
+        },
+        "properties": {
+          "osmId": 947928282,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 32.12297523837997,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 947928282,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/518408557",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.040426, 42.345107],
+            [-71.040304, 42.345023],
+            [-71.040255, 42.344989],
+            [-71.040198, 42.344951],
+            [-71.040144, 42.344915],
+            [-71.039589, 42.34456]
+          ]
+        },
+        "properties": {
+          "osmId": 518408557,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 91.77447742993603,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 518408557, "rightType": "separate" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1090206707",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.042175, 42.346349],
+            [-71.042297, 42.346408],
+            [-71.042614, 42.34657],
+            [-71.043104, 42.346821]
+          ]
+        },
+        "properties": {
+          "osmId": 1090206707,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 92.66452409168994,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1090206707,
+            "leftType": "no",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/947930361",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.04401, 42.34718],
+            [-71.043984, 42.347167],
+            [-71.043824, 42.347083]
+          ]
+        },
+        "properties": {
+          "osmId": 947930361,
+          "cityId": 1,
+          "name": "Summer Street",
+          "highway": "primary",
+          "speed": 35,
+          "speedSource": "Assumed",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 18.733225105606802,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 947930361,
+            "leftType": "no",
+            "rightType": "lane",
+            "rightBuffer": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/85890998",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052129, 42.352286],
+            [-71.052099, 42.352274],
+            [-71.052067, 42.352261],
+            [-71.051327, 42.351963]
+          ]
+        },
+        "properties": {
+          "osmId": 85890998,
+          "cityId": 1,
+          "name": "Congress Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 75.01247267382595,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 85890998,
+            "leftType": "track",
+            "rightType": "track"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604874",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051327, 42.351963],
+            [-71.05102, 42.351839]
+          ]
+        },
+        "properties": {
+          "osmId": 822604874,
+          "cityId": 1,
+          "name": "Congress Street",
+          "highway": "secondary",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 28.75373143441964,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 822604874,
+            "leftType": "track",
+            "rightType": "track"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822604875",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.05102, 42.351839],
+            [-71.050436, 42.351604]
+          ]
+        },
+        "properties": {
+          "osmId": 822604875,
+          "cityId": 1,
+          "name": "Congress Street",
+          "highway": "secondary",
+          "speed": 30,
+          "speedSource": "Assumed",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 54.65234098418244,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 822604875,
+            "leftType": "track",
+            "rightType": "track"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/296774317",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.053641, 42.343494],
+            [-71.053174, 42.3443],
+            [-71.053156, 42.34433],
+            [-71.053133, 42.344365],
+            [-71.053113, 42.344393],
+            [-71.053087, 42.34443],
+            [-71.053063, 42.34446],
+            [-71.053053, 42.344473],
+            [-71.052655, 42.344983],
+            [-71.05262, 42.345028],
+            [-71.05259, 42.345068],
+            [-71.052567, 42.345101],
+            [-71.052545, 42.345136],
+            [-71.05251, 42.345194],
+            [-71.052474, 42.345252],
+            [-71.052449, 42.345288]
+          ]
+        },
+        "properties": {
+          "osmId": 296774317,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 222.5704570348166,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 296774317,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086987642",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.052449, 42.345288],
+            [-71.052429, 42.345318],
+            [-71.052387, 42.345376],
+            [-71.052337, 42.345442],
+            [-71.051733, 42.346217]
+          ]
+        },
+        "properties": {
+          "osmId": 1086987642,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 118.89848977010101,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1086987642,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086987640",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051733, 42.346217],
+            [-71.051604, 42.346382]
+          ]
+        },
+        "properties": {
+          "osmId": 1086987640,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 21.21471120294352,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1086987640,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086987641",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.051604, 42.346382],
+            [-71.051573, 42.346421],
+            [-71.05156, 42.346436]
+          ]
+        },
+        "properties": {
+          "osmId": 1086987641,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 6.972722364162231,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1086987641,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1086987639",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.05156, 42.346436],
+            [-71.051543, 42.346455],
+            [-71.051517, 42.346483],
+            [-71.05148, 42.346524]
+          ]
+        },
+        "properties": {
+          "osmId": 1086987639,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 11.774961246847155,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1086987639,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/712375230",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.05148, 42.346524],
+            [-71.051407, 42.346589],
+            [-71.051397, 42.3466],
+            [-71.051363, 42.346643],
+            [-71.051326, 42.346691],
+            [-71.051196, 42.346855],
+            [-71.051119, 42.346959]
+          ]
+        },
+        "properties": {
+          "osmId": 712375230,
+          "cityId": 1,
+          "name": "A Street",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 56.86861325366246,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 712375230,
+            "leftType": "separate",
+            "rightType": "separate"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/48938072",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.060672, 42.343732],
+            [-71.060607, 42.343722],
+            [-71.060503, 42.343707],
+            [-71.060478, 42.343703],
+            [-71.060393, 42.343693],
+            [-71.060019, 42.343649],
+            [-71.058324, 42.343453],
+            [-71.058235, 42.343443],
+            [-71.058154, 42.343431],
+            [-71.058076, 42.343416],
+            [-71.057997, 42.343402]
+          ]
+        },
+        "properties": {
+          "osmId": 48938072,
+          "cityId": 1,
+          "name": "Traveler Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 222.97958833835395,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/48938074",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.058638, 42.341998],
+            [-71.060337, 42.342433]
+          ]
+        },
+        "properties": {
+          "osmId": 48938074,
+          "cityId": 1,
+          "name": "West Fourth Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 147.76393831032337,
+          "lts": 3,
+          "cycleway": { "wayOsmId": 48938074, "leftType": "lane" },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/92029619",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073538, 42.347251],
+            [-71.073462, 42.347314],
+            [-71.073292, 42.347451],
+            [-71.073066, 42.347627]
+          ]
+        },
+        "properties": {
+          "osmId": 92029619,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 57.043833839282854,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 92029619,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1483674981",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073066, 42.347627],
+            [-71.073025, 42.34766]
+          ]
+        },
+        "properties": {
+          "osmId": 1483674981,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 4.98174614192491,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1483674981,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1329768972",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073025, 42.34766],
+            [-71.072763, 42.347871],
+            [-71.072666, 42.34795],
+            [-71.072555, 42.34804]
+          ]
+        },
+        "properties": {
+          "osmId": 1329768972,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 57.259437425478424,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1329768972,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/383058043",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072555, 42.34804],
+            [-71.072495, 42.348088],
+            [-71.072365, 42.348195]
+          ]
+        },
+        "properties": {
+          "osmId": 383058043,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 23.24383250428035,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 383058043,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285819243",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072365, 42.348195],
+            [-71.072316, 42.348237],
+            [-71.072273, 42.348275]
+          ]
+        },
+        "properties": {
+          "osmId": 1285819243,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 11.658957175928993,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1285819243,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822959766",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072273, 42.348275],
+            [-71.071879, 42.348587],
+            [-71.071792, 42.348659]
+          ]
+        },
+        "properties": {
+          "osmId": 822959766,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 58.212705491046535,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 822959766,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/87109189",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070387, 42.349792],
+            [-71.071038, 42.349264],
+            [-71.071188, 42.349142],
+            [-71.07158, 42.348824],
+            [-71.071669, 42.348752],
+            [-71.071792, 42.348659]
+          ]
+        },
+        "properties": {
+          "osmId": 87109189,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 170.87385660549293,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 87109189,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285819244",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069926, 42.350148],
+            [-71.070184, 42.349957],
+            [-71.070226, 42.349923],
+            [-71.070387, 42.349792]
+          ]
+        },
+        "properties": {
+          "osmId": 1285819244,
+          "cityId": 1,
+          "name": "Columbus Avenue",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 54.80199501026276,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 1285819244,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/89641249",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072353, 42.355255],
+            [-71.072252, 42.355045],
+            [-71.072109, 42.354753],
+            [-71.072096, 42.354727],
+            [-71.072063, 42.354655]
+          ]
+        },
+        "properties": {
+          "osmId": 89641249,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 70.89403140059018,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 89641249,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1329768965",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072482, 42.355361],
+            [-71.072467, 42.35535],
+            [-71.072429, 42.355319],
+            [-71.072353, 42.355255]
+          ]
+        },
+        "properties": {
+          "osmId": 1329768965,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 15.814648105927487,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242631526",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069926, 42.350148],
+            [-71.069859, 42.349984]
+          ]
+        },
+        "properties": {
+          "osmId": 242631526,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 19.0123742024169,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 242631526,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1329768968",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070845, 42.35217],
+            [-71.070779, 42.352039],
+            [-71.070762, 42.35201],
+            [-71.070706, 42.351914],
+            [-71.070699, 42.351902]
+          ]
+        },
+        "properties": {
+          "osmId": 1329768968,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 32.16765426911178,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1329768968,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1333372330",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069342, 42.348549],
+            [-71.069321, 42.34849],
+            [-71.069314, 42.348467],
+            [-71.069229, 42.34821],
+            [-71.069217, 42.348181],
+            [-71.06918, 42.348086]
+          ]
+        },
+        "properties": {
+          "osmId": 1333372330,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 53.147939942555766,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 1333372330,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1333372331",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069439, 42.348821],
+            [-71.069432, 42.348768],
+            [-71.069419, 42.348681],
+            [-71.069381, 42.348609],
+            [-71.069342, 42.348549]
+          ]
+        },
+        "properties": {
+          "osmId": 1333372331,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 31.617107839105334,
+          "lts": 3,
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/242544492",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070699, 42.351902],
+            [-71.07069, 42.351887],
+            [-71.070644, 42.351809],
+            [-71.070634, 42.351791],
+            [-71.070519, 42.351557],
+            [-71.070449, 42.351411],
+            [-71.070356, 42.351209],
+            [-71.070342, 42.351182],
+            [-71.070292, 42.351068]
+          ]
+        },
+        "properties": {
+          "osmId": 242544492,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 98.55754400426021,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 242544492,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1108965708",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070073, 42.350516],
+            [-71.069992, 42.350311],
+            [-71.069981, 42.350283],
+            [-71.069926, 42.350148]
+          ]
+        },
+        "properties": {
+          "osmId": 1108965708,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 42.69831457656061,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 1108965708,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8641166",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071495, 42.353503],
+            [-71.071464, 42.353446],
+            [-71.071429, 42.353372],
+            [-71.071327, 42.353159],
+            [-71.071287, 42.353078],
+            [-71.071171, 42.352838],
+            [-71.07116, 42.352814],
+            [-71.071134, 42.35276],
+            [-71.071101, 42.35269],
+            [-71.07091, 42.352305]
+          ]
+        },
+        "properties": {
+          "osmId": 8641166,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 141.58624934017365,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8641166,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/92028174",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072712, 42.355388],
+            [-71.072636, 42.3554],
+            [-71.072603, 42.3554],
+            [-71.072579, 42.355397],
+            [-71.07255, 42.35539],
+            [-71.072528, 42.355383],
+            [-71.072498, 42.355371],
+            [-71.07249, 42.355366],
+            [-71.072482, 42.355361]
+          ]
+        },
+        "properties": {
+          "osmId": 92028174,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": null,
+          "surface": "asphalt",
+          "length": 20.09933655027733,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 92028174,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "kerb",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1333372332",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069439, 42.348821],
+            [-71.069397, 42.348749],
+            [-71.06937, 42.34869],
+            [-71.069354, 42.348626],
+            [-71.069342, 42.348549]
+          ]
+        },
+        "properties": {
+          "osmId": 1333372332,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 31.464997966136174,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 1333372332,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/830619409",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069859, 42.349984],
+            [-71.069732, 42.349655],
+            [-71.069713, 42.349602],
+            [-71.069654, 42.349434],
+            [-71.069625, 42.349351],
+            [-71.069569, 42.349196],
+            [-71.069485, 42.348952],
+            [-71.069439, 42.348821]
+          ]
+        },
+        "properties": {
+          "osmId": 830619409,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 133.9220881342694,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 830619409,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8641171",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072214, 42.355524],
+            [-71.07233, 42.355451],
+            [-71.07235, 42.355426],
+            [-71.072358, 42.355401],
+            [-71.07236, 42.355376],
+            [-71.072353, 42.355255]
+          ]
+        },
+        "properties": {
+          "osmId": 8641171,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 1,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 34.86281644258651,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8641171,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/846620949",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070292, 42.351068],
+            [-71.070268, 42.351011],
+            [-71.070073, 42.350516]
+          ]
+        },
+        "properties": {
+          "osmId": 846620949,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 4,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 63.97928102193871,
+          "lts": 1,
+          "cycleway": {
+            "wayOsmId": 846620949,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/822078648",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072063, 42.354655],
+            [-71.071884, 42.35428],
+            [-71.071727, 42.353975],
+            [-71.071696, 42.353917],
+            [-71.071662, 42.353849]
+          ]
+        },
+        "properties": {
+          "osmId": 822078648,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 95.51356973431125,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 822078648,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/801839131",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.07091, 42.352305],
+            [-71.070858, 42.352198],
+            [-71.070845, 42.35217]
+          ]
+        },
+        "properties": {
+          "osmId": 801839131,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 15.931127111726544,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 801839131,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8648766",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071662, 42.353849],
+            [-71.071551, 42.353616],
+            [-71.071541, 42.353592],
+            [-71.071529, 42.353569],
+            [-71.071495, 42.353503]
+          ]
+        },
+        "properties": {
+          "osmId": 8648766,
+          "cityId": 1,
+          "name": "Arlington Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 40.872159402117056,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 8648766,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/970427243",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.068017, 42.347999],
+            [-71.06814, 42.348005],
+            [-71.068195, 42.348008],
+            [-71.068211, 42.348009],
+            [-71.0683, 42.348018],
+            [-71.068662, 42.34805],
+            [-71.069012, 42.348078],
+            [-71.069052, 42.348081],
+            [-71.06918, 42.348086]
+          ]
+        },
+        "properties": {
+          "osmId": 970427243,
+          "cityId": 1,
+          "name": "Marginal Road",
+          "highway": "secondary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "fair",
+          "surface": "asphalt",
+          "length": 96.0933042502877,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 970427243,
+            "leftType": "track",
+            "leftBuffer": 1,
+            "leftSeparation": "flex_post",
+            "leftReversed": 1,
+            "rightType": "no"
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/8691837",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.069826, 42.345277],
+            [-71.069951, 42.345305],
+            [-71.070029, 42.345336],
+            [-71.070188, 42.345415],
+            [-71.070204, 42.345426],
+            [-71.070217, 42.345438],
+            [-71.070227, 42.345451],
+            [-71.070235, 42.345464]
+          ]
+        },
+        "properties": {
+          "osmId": 8691837,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": false,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 40.52109518150484,
+          "lts": 3,
+          "cycleway": {
+            "wayOsmId": 8691837,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/32575491",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.070235, 42.345464],
+            [-71.070271, 42.345537],
+            [-71.07043, 42.345864],
+            [-71.070572, 42.346156],
+            [-71.070586, 42.346188],
+            [-71.070619, 42.346251],
+            [-71.070656, 42.346328],
+            [-71.070686, 42.346389],
+            [-71.070827, 42.346678],
+            [-71.070934, 42.346895],
+            [-71.070972, 42.346975],
+            [-71.071015, 42.347062],
+            [-71.071259, 42.347579]
+          ]
+        },
+        "properties": {
+          "osmId": 32575491,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 249.79674022789814,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 32575491,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/36835948",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071259, 42.347579],
+            [-71.071494, 42.348075]
+          ]
+        },
+        "properties": {
+          "osmId": 36835948,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 58.386161396774625,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 36835948,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/1285816844",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071494, 42.348075],
+            [-71.071532, 42.348152],
+            [-71.071608, 42.348284]
+          ]
+        },
+        "properties": {
+          "osmId": 1285816844,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 25.079904032098348,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 1285816844,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/383058041",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071608, 42.348284],
+            [-71.071697, 42.348466],
+            [-71.071741, 42.348556],
+            [-71.071762, 42.348598],
+            [-71.071792, 42.348659]
+          ]
+        },
+        "properties": {
+          "osmId": 383058041,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 44.318273508366964,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 383058041,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/579272019",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.071792, 42.348659],
+            [-71.071822, 42.348721],
+            [-71.07184, 42.348757],
+            [-71.071997, 42.349092],
+            [-71.072172, 42.349444],
+            [-71.072184, 42.34947],
+            [-71.072213, 42.34953],
+            [-71.072248, 42.3496],
+            [-71.072615, 42.350339],
+            [-71.072628, 42.350365],
+            [-71.072661, 42.350431]
+          ]
+        },
+        "properties": {
+          "osmId": 579272019,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 209.6386299084229,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 579272019,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/579272015",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.072661, 42.350431],
+            [-71.072694, 42.350503],
+            [-71.072821, 42.350772],
+            [-71.073013, 42.351149],
+            [-71.073025, 42.351174],
+            [-71.073062, 42.35125]
+          ]
+        },
+        "properties": {
+          "osmId": 579272015,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 96.8166285467664,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 579272015,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/825263837",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073062, 42.35125],
+            [-71.073094, 42.351318],
+            [-71.073106, 42.351345],
+            [-71.073255, 42.35166],
+            [-71.073396, 42.351955],
+            [-71.07341, 42.35198],
+            [-71.073449, 42.35206]
+          ]
+        },
+        "properties": {
+          "osmId": 825263837,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 3,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 95.53646470285193,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 825263837,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "way/604252821",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-71.073449, 42.35206],
+            [-71.07348, 42.352125],
+            [-71.073635, 42.352438],
+            [-71.073802, 42.352781],
+            [-71.073814, 42.352808],
+            [-71.073844, 42.352868]
+          ]
+        },
+        "properties": {
+          "osmId": 604252821,
+          "cityId": 1,
+          "name": "Berkeley Street",
+          "highway": "primary",
+          "speed": 25,
+          "speedSource": "Signed speed limit",
+          "lanes": 2,
+          "lanesSource": "OSM",
+          "oneWay": true,
+          "condition": "good",
+          "surface": "asphalt",
+          "length": 95.50469836910192,
+          "lts": 2,
+          "cycleway": {
+            "wayOsmId": 604252821,
+            "rightType": "track",
+            "rightBuffer": 1,
+            "rightSeparation": "flex_post",
+            "rightReversed": 1
+          },
+          "trafficCalmed": false
+        }
       }
     ]
   }
