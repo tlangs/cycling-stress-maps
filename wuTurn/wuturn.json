@@ -127,6 +127,202 @@
       "name": "Berkeley Street",
       "fromId": 8691837,
       "toId": 604252821
+    },
+    {
+      "type": "way_fill",
+      "name": "Charles Street",
+      "startId": 8651355
+    },
+    {
+      "type": "way",
+      "name": "Charles Street South",
+      "id": 533515521
+    },
+    {
+      "type": "way_fill",
+      "name": "Beacon Street",
+      "startId": 1364167643,
+      "noGoes": [485277827, 1088901292]
+    },
+    {
+      "type": "way",
+      "name": "Massachusetts Avenue",
+      "id": 426462240
+    },
+    {
+      "type": "way",
+      "name": "Massachusetts Avenue",
+      "id": 426462252,
+      "nodesSubset": [61353574, 7746125733]
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "fromId": 1452174856,
+      "toId": 8645337
+    },
+    {
+      "type": "way",
+      "name": "Massachusetts Avenue",
+      "id": 422510002
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "fromId": 426462219,
+      "toId": 426470886
+    },
+    {
+      "type": "way_range",
+      "name": "Massachusetts Avenue",
+      "fromId": 8651567,
+      "toId": 426462233
+    },
+    {
+      "type": "ways",
+      "name": "Columbia Road",
+      "ids": [503384979, 1289726725]
+    },
+    {
+      "type": "way",
+      "name": "Hancock Street",
+      "id": 1176626832
+    },
+    {
+      "type": "way",
+      "name": "Columbus Avenue",
+      "id": 301736990
+    },
+    {
+      "type": "way",
+      "name": "Tremont Street",
+      "id": 426462292
+    },
+    {
+      "type": "way",
+      "name": "Tremont Street",
+      "id": 1323803043,
+      "nodesSubset": [4257774237, 7735849263, 61353671]
+    },
+    {
+      "type": "way_range",
+      "name": "Brookline Avenue",
+      "fromId": 1088867223,
+      "toId": 426642614
+    },
+    {
+      "type": "way_range",
+      "name": "Brookline Avenue",
+      "fromId": 426645903,
+      "toId": 426645901
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "fromId": 426493444,
+      "toId": 533595683
+    },
+    {
+      "type": "way_range",
+      "name": "Boylston Street",
+      "fromId": 426493444,
+      "toId": 533595683
+    },
+    {
+      "type": "way_range",
+      "name": "Commonwealth Avenue",
+      "fromId": 436643920,
+      "toId": 421279232
+    },
+    {
+      "type": "way_range",
+      "name": "South Huntington Avenue",
+      "fromId": 1364221316,
+      "toId": 8651790
+    },
+    {
+      "type": "way_range",
+      "name": "Green Street",
+      "fromId": 8651862,
+      "toId": 327596891
+    },
+    {
+      "type": "way",
+      "name": "Seaverns Avenue",
+      "id": 8646829,
+      "nodesSubset": [61341172, 5549069634, 61363302]
+    },
+    {
+      "type": "way_range",
+      "name": "American Legion Highway",
+      "highway": "cycleway",
+      "fromId": 1288106344,
+      "toId": 1288106346
+    },
+    {
+      "type": "way_range",
+      "name": "American Legion Highway",
+      "highway": "cycleway",
+      "fromId": 1288106342,
+      "toId": 1288106339
+    },
+    {
+      "type": "way_range",
+      "name": "Cummins Highway",
+      "fromId": 1087278021,
+      "toId": 1413408882
+    },
+    {
+      "type": "way_range",
+      "name": "Washington Street",
+      "fromId": 1033100081,
+      "toId": 1288190830
+    },
+    {
+      "type": "way_range",
+      "name": "Centre Street",
+      "fromId": 312345596,
+      "toId": 310310952
+    },
+    {
+      "type": "way_fill",
+      "name": "North Beacon Street",
+      "startId": 426492035,
+      "noGoes": [8642286, 1475392634]
+    },
+    {
+      "type": "way_range",
+      "name": "Western Avenue",
+      "highway": "secondary",
+      "fromId": 426484632,
+      "toId": 426611254
+    },
+    {
+      "type": "way_fill",
+      "name": "Western Avenue",
+      "highway": "secondary",
+      "startId": 828022580,
+      "noGoes": [508842802]
+    },
+    {
+      "type": "way_fill",
+      "name": "Cambridge Street",
+      "highway": "primary",
+      "startId": 1327129635,
+      "noGoes": [1292989837, 426490567, 426625718]
+    },
+    {
+      "type": "way_fill",
+      "name": "Cambridge Street",
+      "highway": "primary",
+      "startId": 44558794,
+      "noGoes": [261606376, 1292989838, 1327129633]
+    },
+    {
+      "type": "way_range",
+      "name": "Winship Street",
+      "fromId": 8646136,
+      "toId": 1338770585
     }
   ]
 }
